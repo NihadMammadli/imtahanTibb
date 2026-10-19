@@ -1,0 +1,4700 @@
+[
+  {
+    "question": "Tibbi etika və deontologiyanın normal və prinsipləri qarşılıqlı münasibətlərin hansı sahəsinə aiddir?",
+    "answer_a": "Tibb işçiləri ilə cəmiyyətin qarşılıqlı münasibətlərində",
+    "answer_b": "Həkimin və xəstənin qohumları ilə qarşılıqlı münasibətlərinə",
+    "answer_c": "Tibb kollektivinədə münasibətlərə",
+    "answer_d": "Bütün sadalananlar",
+    "answer_e": "Həkim və paseyentin qarşılıqlı münasibətlərinə",
+    "right_answer": "d"
+  },
+  {
+    "question": "\"Tibbi deontologiya\" anlayışı özündə nəyi cəmləşdirir?",
+    "answer_a": "Xəstənin qohumları ilə qarşılıqlı",
+    "answer_b": "Tibb işçilərinin optimal fəaliyyət şərtləri haqqında təsəvvürlər",
+    "answer_c": "Xəstənin tibb işçilərinin qarşısında öhdəlik",
+    "answer_d": "Tibb işçilərinin fəaliyyətində işə borcu haqqında təlim münasibətlərin qurulması",
+    "answer_e": "Mentalitet, milli prinsiplər",
+    "right_answer": "d"
+  },
+  {
+    "question": "Radioaktiv I-131 (yod-131) müalicəsi qəbul etmiş xəstədə bütün bədən sintiqrafiyası müayinəsini aparmaq üçün hansı kolimator istifadə edilir?",
+    "answer_a": "Yüksək enerjili",
+    "answer_b": "Orta enerjili",
+    "answer_c": "Aşağı enerjili",
+    "answer_d": "Hamısı bu məsədlə istifadə olunan bilər",
+    "answer_e": "Heç biri",
+    "right_answer": "a"
+  },
+  {
+    "question": "Paratireoid vəzilərinin adenomasının aparıcı şüa diaqnostika üçün üsulu hansıdır?",
+    "answer_a": "KT",
+    "answer_b": "USM və dopler",
+    "answer_c": "Bir fotonlu Emission KT/KT (SPECT/CT)",
+    "answer_d": "Planar sintiqrafiya",
+    "answer_e": "Termoqrafiya",
+    "right_answer": "d"
+  },
+  {
+    "question": "\"Carsinoma in situ\" sinonimi hansıdır?",
+    "answer_a": "Erkən invaziv xərçəng",
+    "answer_b": "İnvaziyaönü (epitel daxili) xərçəng",
+    "answer_c": "Fakultativ (şərt) xərçəngönü",
+    "answer_d": "Mikrokarsinoma",
+    "answer_e": "Obliqat (mütləq) xərçəngönü",
+    "right_answer": "b"
+  },
+  {
+    "question": "Limforma zamanı hansı diaqnostika üsullarından, dəqiqliyinə görə, seçilməsi məqsədə uyğundur?",
+    "answer_a": "KT",
+    "answer_b": "Pozitron emission tomoqrafiya",
+    "answer_c": "Rəqəmsal rentgenoqrafiya",
+    "answer_d": "MRT",
+    "answer_e": "Dopler USM",
+    "right_answer": "b"
+  },
+  {
+    "question": "Miokard sintiqrafiyasına texnetium Tc-99m MİBİ (metilen izopropilen butilo izonitril) və ya talium-xlorid Tl-201 ilə əks göstəriş hansıdır?",
+    "answer_a": "Yüksək bədən temperaturası",
+    "answer_b": "Yüksək arterial təzyiq",
+    "answer_c": "Reproduktiv yaşda olan qadınlar, hamiləlik və 16 yaşa qədər uşaqlar",
+    "answer_d": "Ürək nahiyəsində ağrılar, taxikardiya, ürək bulanma",
+    "answer_e": "Əks göstəriş yoxdur",
+    "right_answer": "c"
+  },
+  {
+    "question": "Sağ tac arteriyanın davamı necə adlanır?",
+    "answer_a": "R.interventricularis posterior",
+    "answer_b": "R.interventricularis anterior",
+    "answer_c": "R.circumflexus",
+    "answer_d": "R.interventricularis septalis",
+    "answer_e": "R.septalis",
+    "right_answer": "a"
+  },
+  {
+    "question": "Sol tac arteriyanın aid olan şaxələrinə hansıdır?",
+    "answer_a": "R.medialis",
+    "answer_b": "R.interventricularis posterior",
+    "answer_c": "R.circumflexus",
+    "answer_d": "R.lateralis",
+    "answer_e": "R.septalis",
+    "right_answer": "c"
+  },
+  {
+    "question": "Tiroid xəstələrinin ilkin diaqnostikasında hansı müayinə mütləq deyil?",
+    "answer_a": "Radioizotop müayinə",
+    "answer_b": "Klinik müayinə",
+    "answer_c": "USM",
+    "answer_d": "Tiroid hormonları analizi",
+    "answer_e": "Düyünlü ur zamanı YSM birgə iynə biopsiyası",
+    "right_answer": "a"
+  },
+  {
+    "question": "Qalxanabənzər vəzinin müayinəsində hansı əsas ölçülər müəyyənləşdirilir?",
+    "answer_a": "Qalxanabənzər vəzi payların köndələn kəsiklərin sahəsi",
+    "answer_b": "Hər payın qalınlığı və boğazın qalınlığı, uzunluğu",
+    "answer_c": "Heç biri düz deyil",
+    "answer_d": "Hər payın qalınlığı və boğazın hündürlüyü",
+    "answer_e": "Payların çəp ölçüsü",
+    "right_answer": "c"
+  },
+  {
+    "question": "Qalxanabənzər vəzini müayinəsində hansı parametrlərin nəzərə alınır?",
+    "answer_a": "Həcmi",
+    "answer_b": "Yerləşməsi",
+    "answer_c": "Qalxanabənzər vəzinin konturu",
+    "answer_d": "Bütün cavablar düzdür",
+    "answer_e": "Exostrukturu",
+    "right_answer": "d"
+  },
+  {
+    "question": "Qalxanabənzər vəzinin aid yerləşməsində exoqramda vəzini necə görmək olar?",
+    "answer_a": "Dilaltı sahəsində",
+    "answer_b": "Boyunun ön sahəsində qalxanabənzər qığırdağdan körpücüküstü sahəsinə qədər",
+    "answer_c": "Vidaci oyma sahəsində",
+    "answer_d": "Döş sümüyü arxasında",
+    "answer_e": "Körpücük və döş sümüyü üzərində",
+    "right_answer": "b"
+  },
+  {
+    "question": "Normal qalxanabənzər vəzinin exoşəkili necədir?",
+    "answer_a": "Xırdadənəli exostrukturda, orta exogenliyi",
+    "answer_b": "Xırdadənəli exostrukturda, yüksək exogenliyi",
+    "answer_c": "Ortadənəli exostrukturda, aşağı exogenliyi",
+    "answer_d": "Ortadənəli exostrukturda, orta exogenliyi",
+    "answer_e": "Xırdadənəli exostrukturda, yüksək exogenliyi",
+    "right_answer": "a"
+  },
+  {
+    "question": "Qalxanabənzər vəzinin müayinəsində hansı parametrlər nəzərə alınır?",
+    "answer_a": "Ölçülər",
+    "answer_b": "Parenximanın exogenliyi",
+    "answer_c": "Diffuz və ocaqlı dəyişikliklərin olması",
+    "answer_d": "Bütün cavablar düzdür",
+    "answer_e": "Forma",
+    "right_answer": "d"
+  },
+  {
+    "question": "Hansı xüsusiyyətlər qalxanabənzər vəzi şişin xoşxassəli etiologiyasının göstərir?",
+    "answer_a": "Heterogen, bərk düyün",
+    "answer_b": "Çoxlu, ekrana çıxmayan, exogen ocaqlarla ocaqlı pozulma",
+    "answer_c": "Daxili vaskulyarizasiya ilə hipoexogen düyün",
+    "answer_d": "Rif artefaktla nöqtəli, yüksək exogenli fokusu daxil edən ocaqlı pozulma",
+    "answer_e": "Bütün cavablar düzdür",
+    "right_answer": "d"
+  },
+  {
+    "question": "Qalxanabənzər vəzinin xərçəng üçün səciyyəvi olan USM əlamətlər hansıdır?",
+    "answer_a": "Bütün cavablar düzdür",
+    "answer_b": "Çox düyünlü struktur",
+    "answer_c": "Törəmənin qeyri düz forması",
+    "answer_d": "US-sıqnalın dorsal zəifləmə",
+    "answer_e": "Şişidə mikrokalsinatların olması",
+    "right_answer": "a"
+  },
+  {
+    "question": "USM-in qalxanabənzər vəzin bədxassəli şişlərin aşkar edilməsində dəqiqliyi neçə %-ə qədərdir?",
+    "answer_a": "95",
+    "answer_b": "50",
+    "answer_c": "75",
+    "answer_d": "100",
+    "answer_e": "85",
+    "right_answer": "c"
+  },
+  {
+    "question": "Qalxanabənzər vəzinin xərçəng üçün hansı USM əlamətlər səciyyəvidir?",
+    "answer_a": "Bütün cavablar düzdür",
+    "answer_b": "Vəzinin bir və ya iki payının deformasiyası",
+    "answer_c": "Aşağı exogenlik",
+    "answer_d": "Reqionar limfo düyünlərin böyüməsi",
+    "answer_e": "Vəzinin hipervaskularizasiyası qan damarlarının patoloji şəbəkəsinin olması ilə",
+    "right_answer": "a"
+  },
+  {
+    "question": "Qalxanabənzər vəzinin kistoz sahələrdə USM zamanı nə görünür?",
+    "answer_a": "İrinlə dolmuş məhdudlaşmış boşluqlar",
+    "answer_b": "İzoexogen sıxlığı",
+    "answer_c": "Kalsifikatlar",
+    "answer_d": "Seroz maye və ya kolloid",
+    "answer_e": "Müxtəlif dərəcədə",
+    "right_answer": "d"
+  },
+  {
+    "question": "Kliniki normal qalxanabənzər vəzidə düyüncüklərin nəzərdə tutulan faiz hansıdır?",
+    "answer_a": "10%",
+    "answer_b": "1%",
+    "answer_c": "50%",
+    "answer_d": "90%",
+    "answer_e": "35%",
+    "right_answer": "c"
+  },
+  {
+    "question": "Qalxanabənzər vəzi xərçənginin inkişaf riskinə daha çox hansı amil aiddir?",
+    "answer_a": "Qalxanabənzər vəzinin dil toxumasının olmaması",
+    "answer_b": "Siqaret çəkmə",
+    "answer_c": "Boyun travması",
+    "answer_d": "Baş və boyun xarici şüalanma, xüsusilə körpəlik dövründə",
+    "answer_e": "Piramidayabənzər əlavə pay olması",
+    "right_answer": "b"
+  },
+  {
+    "question": "Qalxanabənzər vəzinin ən yayılmış bədxassəli yenitörəmə hansıdır?",
+    "answer_a": "Anaplastik",
+    "answer_b": "Papillyar",
+    "answer_c": "Medullyar",
+    "answer_d": "Follikulyar",
+    "answer_e": "Digərləri",
+    "right_answer": "b"
+  },
+  {
+    "question": "Qalxanabənzər vəzinin papillər xərçəngin ən spesifik sonoqrafik əlaməti hansıdır?",
+    "answer_a": "Mikrokalsinatlar",
+    "answer_b": "Hipoexogen düyüncüklər",
+    "answer_c": "İzoexogen",
+    "answer_d": "Hiperexogen düyüncüklər",
+    "answer_e": "Qeyri düzgün sərhədlər",
+    "right_answer": "a"
+  },
+  {
+    "question": "Sonqrafik əlamətlərdən hansı qalxanabənzər vəzi üçün ən təhlükəlidir?",
+    "answer_a": "Kobud, mərkəzi kalsifikatlar",
+    "answer_b": "Çoxlu kistalar",
+    "answer_c": "Əlaqəli strukturların müdaxiləsi",
+    "answer_d": "Mikroyığıntılar",
+    "answer_e": "Atipik yerləşməsi",
+    "right_answer": "c"
+  },
+  {
+    "question": "Mediastinit zamanı əsas dianostika üsulu hansıdır?",
+    "answer_a": "KT",
+    "answer_b": "Polipozision rentgenoqrafiya",
+    "answer_c": "USM",
+    "answer_d": "Bronxoskopiya",
+    "answer_e": "MRT",
+    "right_answer": "a"
+  },
+  {
+    "question": "Soltərfli plevrit zamanı hansı xəstəliyin differensial diaqnostikasının aparılmalıdır?",
+    "answer_a": "Appendajit",
+    "answer_b": "Kəskin pankreatit",
+    "answer_c": "Öd daşı xəstəliyi",
+    "answer_d": "Xroniki duodenit",
+    "answer_e": "Dalaq infaktı",
+    "right_answer": "b"
+  },
+  {
+    "question": "Aşağıdakılardan hansı həm anadangəlmə həm də qazanılmış patologiyası ola bilər?",
+    "answer_a": "Kaudal regresion sindromu",
+    "answer_b": "Epidermoid kist",
+    "answer_c": "Spina bifida totalis",
+    "answer_d": "Dermal sinus",
+    "answer_e": "Kartagener sindromu",
+    "right_answer": "b"
+  },
+  {
+    "question": "Ağciyər xırdahüceyrəli xərçəngi olan xəstənin sümüklərində hansı paraneoplastik sindrom mövcud olur?",
+    "answer_a": "Mari-Bamberqeri sindromu",
+    "answer_b": "Meloreostoz (Leri sindromu)",
+    "answer_c": "Mazabraud sindromu",
+    "answer_d": "Mak Kune Olbrayit sindromu",
+    "answer_e": "Morqaniy sindromu",
+    "right_answer": "a"
+  },
+  {
+    "question": "Ağciyər xərçəngi zamanı hipertrofik osteoartropatiya daha çox harada müşahidə olur?",
+    "answer_a": "Bud-çanaq oynaqlarda",
+    "answer_b": "Çənə-gicgah oynaqlarda",
+    "answer_c": "Diz və dirsək oynaqlarda",
+    "answer_d": "Əl barmaqlar falanqaarası oynaqlarda",
+    "answer_e": "Aşıq-baldır və mil-bilək oynaqlarda",
+    "right_answer": "e"
+  },
+  {
+    "question": "Eyni zamanda pnevmonitə və qlomerulonefritə aid olan patologiya hansıdır?",
+    "answer_a": "Ştrumpel-Mari xəstəliyi",
+    "answer_b": "Suayr-James-Makleod sindromu",
+    "answer_c": "Kartagener sindromu",
+    "answer_d": "Gudpasture sindromu",
+    "answer_e": "Markiafava-Biganami patologiyası",
+    "right_answer": "d"
+  },
+  {
+    "question": "Sağ ağciyər yuxarı pay atelektazının radioloji sindrom hansıdır?",
+    "answer_a": "Golden S-sign",
+    "answer_b": "Eskudero-Nemenov",
+    "answer_c": "Kartagener",
+    "answer_d": "Suayr-James-Makleod",
+    "answer_e": "Riqler",
+    "right_answer": "a"
+  },
+  {
+    "question": "Suayr-James-Makleod sindromunun yaranmasında əsas səciyyəvi etiopatogenetik fakror hansıdır?",
+    "answer_a": "Keçirilmiş ağciyər vərəmidir",
+    "answer_b": "Siqaretçəkmədir",
+    "answer_c": "Postinfeksion obliterativ bronxiolitidir",
+    "answer_d": "Ağciyər yuxarı payın mərkəzi xərçəngidir",
+    "answer_e": "Ağciyər yuxarı payın preferik xərçəngidir",
+    "right_answer": "c"
+  },
+  {
+    "question": "Ağciyərlərarası şəffaflıq və perfuziyasının asimmetriyasına aid olan radioloji sindrom hansıdır?",
+    "answer_a": "Golgen S",
+    "answer_b": "Eskudero-Nemenov",
+    "answer_c": "Kartagener",
+    "answer_d": "Suayr-James-Makleod",
+    "answer_e": "Riqler",
+    "right_answer": "d"
+  },
+  {
+    "question": "Döş qəfəsi orqanların rengenoqrammasında olan radioloji sindrom hansıdır?",
+    "answer_a": "Mounier-Kuhn",
+    "answer_b": "Kartagener",
+    "answer_c": "Suayr-James-Makleod",
+    "answer_d": "GolgenS-sign",
+    "answer_e": "Chilaiditi",
+    "right_answer": "e"
+  },
+  {
+    "question": "Döş qəfəsi orqanların rengenoqrammasında olan radioloji sindrom hansıdır?",
+    "answer_a": "Kartagener",
+    "answer_b": "Chilaiditi",
+    "answer_c": "Suayr-James-Makleod",
+    "answer_d": "GolgenS-sign",
+    "answer_e": "Mounier-Kuhn",
+    "right_answer": "b"
+  },
+  {
+    "question": "Döş qəfəsi orqanların rengenoqrammasında \"holly leaf sign\" (pırkal yarpağı sindromu) hansı patologiyaya aiddir?",
+    "answer_a": "Ağciyər interstihal ödəmi",
+    "answer_b": "Fibrozlaşan alveolit",
+    "answer_c": "Xroniki pnevmoniyası",
+    "answer_d": "Ağciyər alveolyar ödəmi",
+    "answer_e": "Plevranın kalsifikasiyası",
+    "right_answer": "e"
+  },
+  {
+    "question": "Rentgenoqrammda ağciyərin \"butterfly sign\" (kəpənək qanadın sindromu) hansı patologiyaya aiddir?",
+    "answer_a": "Ağciyərinin alveolyar ödəmi",
+    "answer_b": "Kəskin pnevmoniyası",
+    "answer_c": "Ağciyər arterial hipertenziyası",
+    "answer_d": "Ağciyər arteriyasının tromboemboliyası",
+    "answer_e": "Ağciyərlərinin interstisial ödəmi",
+    "right_answer": "a"
+  },
+  {
+    "question": "Ağciyər xəstəliklərinin rentgen və KT simptomları hansı aid deyil?",
+    "answer_a": "Şəffaflıq fenomeni",
+    "answer_b": "Ağciyər şəklinin dəyişməsi",
+    "answer_c": "Kölgələnməsi",
+    "answer_d": "Dolma defekti",
+    "answer_e": "Köklərin dəyişilməsi",
+    "right_answer": "d"
+  },
+  {
+    "question": "Ağciyərlərin Rentgen şəklində kölgəliyə aid olan səbəb nədir?",
+    "answer_a": "Ağciyərin sıxılması",
+    "answer_b": "Alveolalarda iltihabi eksudat və yz durğunluq mayenin toplanması",
+    "answer_c": "Bronxların keçiriciliyin pozulması",
+    "answer_d": "Bütün cavablar düzdür",
+    "answer_e": "Ağciyər parenximanın patolji toxuma ilə əvəzolunması",
+    "right_answer": "d"
+  },
+  {
+    "question": "Rentgenoqrammda ağciyər girdə kölgəlik fenominə aid olmayan ağciyər daxili proses hansıdır?",
+    "answer_a": "Ağciyərin periferik xərçəngi",
+    "answer_b": "Mezotelioma",
+    "answer_c": "Kistalar",
+    "answer_d": "Tuberkuloma",
+    "answer_e": "Ağciyərin absesi",
+    "right_answer": "b"
+  },
+  {
+    "question": "Rentgenoqrammda ağciyərin üzükvarı kölgəlik fenomininə aid olan ağciyər daxili proses hansıdır?",
+    "answer_a": "Ocaqlı vərəmi",
+    "answer_b": "Xroniki pnevmoniya",
+    "answer_c": "Pnevmatoraks",
+    "answer_d": "Tuberkuloma",
+    "answer_e": "Kavernoz vərəm",
+    "right_answer": "e"
+  },
+  {
+    "question": "Aşkarlanan triadası: endokrin statusu, dəridə \"cafe-au-lait\" (südlü qəhvə) ləkələri və poliostal fibroz displaziyası – hansı patologiyaya xarakterikdir?",
+    "answer_a": "Mc Cune Albright sindromu",
+    "answer_b": "Pecet xəstəliyi",
+    "answer_c": "Morqaniy sindromu",
+    "answer_d": "Mazabraud patologiyası",
+    "answer_e": "Leri xəstəliyi",
+    "right_answer": "a"
+  },
+  {
+    "question": "Mari-Bamberqerin sindromu zamanı hansı sümüklər ən çox zərər çəkir?",
+    "answer_a": "Qadırqalar",
+    "answer_b": "Baldır və said sümükləri",
+    "answer_c": "Yastı sümükləri",
+    "answer_d": "Kəllə sümükləri",
+    "answer_e": "Qısa borulu sümükləri",
+    "right_answer": "b"
+  },
+  {
+    "question": "Adamantinomanın uzun borulu sümüklərdə yerləşməsini necə adlanır?",
+    "answer_a": "Fişer tumoru",
+    "answer_b": "Kodmen tumoru",
+    "answer_c": "Askin tumoru",
+    "answer_d": "Braun tumoru",
+    "answer_e": "Pecet sarkoma",
+    "right_answer": "a"
+  },
+  {
+    "question": "Epifizar xondroblastomanın sinonimi hansıdır?",
+    "answer_a": "Kodmen şişi",
+    "answer_b": "Fişer şişi",
+    "answer_c": "Askin şişi",
+    "answer_d": "Braun şişi",
+    "answer_e": "Pecet şiş",
+    "right_answer": "a"
+  },
+  {
+    "question": "Hiperparatireoid osteodistrofiya zamanı sümüklərində əmələ gələn sistlərinin şərhi hansıdır?",
+    "answer_a": "Sistlər uzun şümüklərin osteoporoz fonunda metadiafizar zonasında yerləşir",
+    "answer_b": "Aşağı ətrafların uzun borulu sümükləri yuxarı ətrafların uzun borulu sümüklərinə nisbətən 3 dəfə çox zədələnir",
+    "answer_c": "Sislər uzun borulu sümüklərin metaepifizar zonasında yerləşir",
+    "answer_d": "Sistlər maliqnizasiyasıyaya meyillidir",
+    "answer_e": "Şüa müalicəsinə həsssaslığı yüksəkdir",
+    "right_answer": "a"
+  },
+  {
+    "question": "Hansı halda patoloji sınıqlar \"banan\" tipli olur?",
+    "answer_a": "Osteoblastik sarkoma",
+    "answer_b": "Sümük solitar sist",
+    "answer_c": "Osteolitik sarkoma",
+    "answer_d": "Osteopetroz-mərmər",
+    "answer_e": "Adamantioma",
+    "right_answer": "d"
+  },
+  {
+    "question": "Onurğa sütünun degenerativ distrofik xəstəliyinin müayinəsində rentgenoqrafiyanın əhəmiyyəti üçün hansı aid deyil?",
+    "answer_a": "Onurga ağrılarının səbəbi müəyyənləşdirmək",
+    "answer_b": "Onurğanın inkişaf anomaliyalarının aşkarlanması",
+    "answer_c": "Fəqərəarası diskogen yırtıqların aşkarlanması",
+    "answer_d": "Desrtuktiv prosesləri inkar etmək",
+    "answer_e": "Spondilolistez əlamətlərinin müəyyən edilməsi",
+    "right_answer": "c"
+  },
+  {
+    "question": "Fəqərəarası disklərin yırtıqlarında aid olan hansı müddəa dəqiqdir? 1.KT-də dural kisə ilə əlaqəsi olan aşağı sıxlıqla xarakterizə, 2.KT-də dural kisə ilə əlaqəsi olan yüksəksıxlıqla xarakterizə, 3.Sudaroknoid boşluğa nisbətən T1-rejimdə siqnal intensivliyi azalır, 4.T2-rejimdə siqnalın intensivliyi subaraxnoid boşluğu müqayisədə azaldılı, 5.T1-rejimdə siqnal intensivliyi subaraxnoid boşluqla müqayisədə artmışdır",
+    "answer_a": "2,4,5",
+    "answer_b": "1,4,5",
+    "answer_c": "2,3",
+    "answer_d": "2,5",
+    "answer_e": "1,4",
+    "right_answer": "a"
+  },
+  {
+    "question": "Deformasiyaedici spondiloz zamanı Rengenoqramda nəyi nəzərə çarpır?",
+    "answer_a": "Sudxondral skleroz və vertebral cisimlərin osteoporozu xarakteriktik",
+    "answer_b": "İntervertebral disklərin hündürlüyündəki azalma",
+    "answer_c": "Ön uzunsov bağın kalsifikasiyaları",
+    "answer_d": "Fəqərə cisminin kənarı osteofitlər tamamlayıcı lövhələrin müvafiqdir",
+    "answer_e": "Fəqərə cisminin kənarı osteofitlər tamamlayıcı lövhələrin müvafiq deyil",
+    "right_answer": "d"
+  },
+  {
+    "question": "Vərəmli spondilit üçün aid olan müddəa hansı doğru deyil?",
+    "answer_a": "İntervertebral diskin spesifik infeksion iltihabı xarakterik deyil",
+    "answer_b": "Osteoporozu meydana gəlməsi tipikdir",
+    "answer_c": "Vertebra cismi və qövsunun zədəlnməsi xarakterikdir",
+    "answer_d": "Perifokal infiltrativ abses ilə xarakterizə edir",
+    "answer_e": "Fəqərə cismində destruksiyaya xarakter zədələnmə",
+    "right_answer": "a"
+  },
+  {
+    "question": "Xordoma şişi zamanı spinal şüa diaqnostikasının daha dəqiq metodu hansıdır?",
+    "answer_a": "Osteodensitometriya",
+    "answer_b": "Rentgenoqrafiya",
+    "answer_c": "Osteosintiqrafiya",
+    "answer_d": "MRT",
+    "answer_e": "KT və PET",
+    "right_answer": "d"
+  },
+  {
+    "question": "Oynaqda sümük uclarının natamam uyğunsuzluğu necə adlanır?",
+    "answer_a": "Yarımçıxıq",
+    "answer_b": "Luksasion çıxıq",
+    "answer_c": "Çıxıq",
+    "answer_d": "Adəti edilmiş çıxıq",
+    "answer_e": "Yalançı oynaq",
+    "right_answer": "a"
+  },
+  {
+    "question": "Adəti edilmiş çıxıqlardan hansı tiplik lokalizasiyası aid deyil?",
+    "answer_a": "Çənə-gicgah oynağının çıxığı",
+    "answer_b": "Diz qapağının çıxığı",
+    "answer_c": "Bazu oynağının çıxığı",
+    "answer_d": "Mil-bilək oynağının çıxığı",
+    "answer_e": "Böyrək əl barmağının çıxığı",
+    "right_answer": "d"
+  },
+  {
+    "question": "Tipik yerdə olan sınıqlardan hansı lokalizasiyası aid deyil?",
+    "answer_a": "Bazu sümüyünün cərrahi boyun hissəsinin sınığı",
+    "answer_b": "Mil sümüyünün distal metafizində sınığı",
+    "answer_c": "Bud sümüyünün boyun nahiyəsində sınığı",
+    "answer_d": "Dirsək sümüyün proksimal metafizində sınığı",
+    "answer_e": "Lateral və medial topuqların sınığı",
+    "right_answer": "d"
+  },
+  {
+    "question": "Diz qapağının travmatik çıxığı zamanı hansı yerdəyişmə baş verir?",
+    "answer_a": "Bayıra",
+    "answer_b": "Yuxarıya",
+    "answer_c": "Aşağıya",
+    "answer_d": "Arxaya",
+    "answer_e": "İçəriyə",
+    "right_answer": "a"
+  },
+  {
+    "question": "Əlin böyük barmağı proksimal falanqanın əsasında necə adlanır?",
+    "answer_a": "Dyupyuitren",
+    "answer_b": "Kollez",
+    "answer_c": "Qaleassi",
+    "answer_d": "Bennet",
+    "answer_e": "Monteci",
+    "right_answer": "d"
+  },
+  {
+    "question": "Mil sümüyün proksimal ucunun çıxığı ilə birlikdə dirsək sümüyünün sınığı olduqda zədələnməsi necə adlanır?",
+    "answer_a": "Monteci",
+    "answer_b": "Kollez",
+    "answer_c": "Qaleassi",
+    "answer_d": "Dyupyuitren",
+    "answer_e": "Bennet",
+    "right_answer": "a"
+  },
+  {
+    "question": "Mil sümüyünün sınığı dirsək sümüyün distal ucunun çıxığı ilə birgə necə adlanır?",
+    "answer_a": "Monteci",
+    "answer_b": "Kollez",
+    "answer_c": "Qaleassi",
+    "answer_d": "Bennet",
+    "answer_e": "Monteci",
+    "right_answer": "c"
+  },
+  {
+    "question": "Uşaqlarda pəncənin boylama tağ bucağı normada nə qədər təşkil edir?",
+    "answer_a": "135°",
+    "answer_b": "30-45°",
+    "answer_c": "90°",
+    "answer_d": "100°-yə qədər",
+    "answer_e": "150°",
+    "right_answer": "a"
+  },
+  {
+    "question": "Qrizel xəstəliyinə nə aiddir?",
+    "answer_a": "Boyun limfa düyünlərinin iltihabı fonunda I boyun fəqərəsinin yarımçıxığı",
+    "answer_b": "Əlin bilək sümüklərinin inkişaf qüsuru",
+    "answer_c": "Fəqərənin apofizinin osteoxondropatiyası",
+    "answer_d": "Daban sümüyünün sınığı",
+    "answer_e": "Pəncə sümüklərinin \"Loozer\" zonası",
+    "right_answer": "a"
+  },
+  {
+    "question": "Vilson-Konovalov xəstəliyinə aid olmayan müddəa hansıdır?",
+    "answer_a": "İrsi xəstəliyidir",
+    "answer_b": "Limbik ensefalit yaranması",
+    "answer_c": "MR müayinəsində subkortikal nüvələrin bilateral T2 hiperintens və T1 hipointens siqnalları",
+    "answer_d": "Əsasən baş beyin və qaraciyərində mis toplanma ilə zədələnmələri bağlıdır",
+    "answer_e": "MRT-də orta beyinin dorsal hissəsi \"Panda sifəti\" adlanan spesifik haldır",
+    "right_answer": "b"
+  },
+  {
+    "question": "Uşaqlarda fəqərələrin kompressiyon sınığına ən çox hansı hissədə rast gəlinir?",
+    "answer_a": "Bel hissədə",
+    "answer_b": "Yuxarı-döş hissədə",
+    "answer_c": "Aşağı-döş hissədə",
+    "answer_d": "Orta-döş hissədə",
+    "answer_e": "Boyun hissədə",
+    "right_answer": "d"
+  },
+  {
+    "question": "Kürək sümüyünün tam sümükləşməsi nə vaxt baş verir?",
+    "answer_a": "7-8 yaşa qədər",
+    "answer_b": "16-18 yaşa qədər",
+    "answer_c": "1-3 yaşa qədər",
+    "answer_d": "20-25 yaşa qədər",
+    "answer_e": "13-17 yaşa qədər",
+    "right_answer": "d"
+  },
+  {
+    "question": "Sümüyün struktur renrgenoqrammasını almaq üçün mərkəzi şüa kasset müstəvisinə münasibətdə hansı bucaq altında olmalıdır?",
+    "answer_a": "45 dərəcə bucaq altında",
+    "answer_b": "60 dərəcə bucaq altında",
+    "answer_c": "30 dərəcə bucaq altında",
+    "answer_d": "100 dərəcə bucaq altında",
+    "answer_e": "Perpendikulyar istiqamətlənməlidir",
+    "right_answer": "e"
+  },
+  {
+    "question": "Hansı şiş epitel hüceyrələrindən ibarətdir?",
+    "answer_a": "Xordoma",
+    "answer_b": "Adamantinoma",
+    "answer_c": "Yuinq sarkoma",
+    "answer_d": "Osteoxondroma",
+    "answer_e": "Pecet sarkoma",
+    "right_answer": "b"
+  },
+  {
+    "question": "Qaraciyərin sağ payın çəp şaquli ölçüsü hansıdır?",
+    "answer_a": "170mm",
+    "answer_b": "160mm",
+    "answer_c": "165mm",
+    "answer_d": "159mm-dən az",
+    "answer_e": "166mm",
+    "right_answer": "d"
+  },
+  {
+    "question": "Qaraciyər venaların eni neçədir?",
+    "answer_a": "6mm-dən 10mm-ə qədər",
+    "answer_b": "12mm",
+    "answer_c": "5mm-dən 10mm-ə qədər",
+    "answer_d": "8mm-dən 10mm-ə qədər",
+    "answer_e": "10mm-ə qədər",
+    "right_answer": "c"
+  },
+  {
+    "question": "Qaraciyərin sol payın qalınlığı neçədir?",
+    "answer_a": "60mm-dən az",
+    "answer_b": "65mm",
+    "answer_c": "70mm",
+    "answer_d": "75mm",
+    "answer_e": "66mm",
+    "right_answer": "a"
+  },
+  {
+    "question": "Qaraciyərin sağ payını sağ vena neçə seqmentə bölünür?",
+    "answer_a": "2",
+    "answer_b": "3",
+    "answer_c": "4",
+    "answer_d": "5",
+    "answer_e": "1",
+    "right_answer": "c"
+  },
+  {
+    "question": "Qaraciyərin sol payın alt küncün buçağı necə olmalıdır?",
+    "answer_a": "50°",
+    "answer_b": "45°-dən yuxarı",
+    "answer_c": "50°- və yuxarı",
+    "answer_d": "45°- dən aşağı",
+    "answer_e": "75°",
+    "right_answer": ""
+  },
+  {
+    "question": "Qaraciyər arteriyanın qalınlığı necədir?",
+    "answer_a": "4mm-dən - 6mm-ə qədər",
+    "answer_b": "7mm-dən - 9mm-ə qədər",
+    "answer_c": "8mm-dən - 10mm-ə qədər",
+    "answer_d": "6mm-dən - 7mm-ə qədər",
+    "answer_e": "8-9mm",
+    "right_answer": "a"
+  },
+  {
+    "question": "Aşağı boş venanın eni hansıdır?",
+    "answer_a": "20mm-dən 25mm-ə qədər",
+    "answer_b": "20mm-dən aşağı",
+    "answer_c": "25mm-dən çox",
+    "answer_d": "18mm-dən 20mm-ə qədər",
+    "answer_e": "20mm-dən 22mm-ə qədər",
+    "right_answer": "a"
+  },
+  {
+    "question": "Qaraciyər USM hansı hallarda təyin edirlər?",
+    "answer_a": "Bütün cavablar düzdür",
+    "answer_b": "Xəstənin şikayətlərinin olması, kliniki əlamətlər və ya qaraciyərin zədələnmə ehtimalını göstərən laboratoriya məlumatları",
+    "answer_c": "Dəri, selikli qişaların və göz zülaların sarığı",
+    "answer_d": "Sidiyin sapsarı rəngə boyanması",
+    "answer_e": "Qanda biliribinin artması",
+    "right_answer": ""
+  },
+  {
+    "question": "USM-si zamanı dəyişilməmiş qaraciyər parenximanın strukturu necədir?",
+    "answer_a": "Zəif exogenli sahələr",
+    "answer_b": "Böyük ocaqlı",
+    "answer_c": "Çoxlu yüksək exogenli sahələr",
+    "answer_d": "Xırda dənəvəli",
+    "answer_e": "Orta exogenli sahələr",
+    "right_answer": ""
+  },
+  {
+    "question": "Qaraciyər daxili ödçıxarıcı axarlara nə aid edilir?",
+    "answer_a": "Paylı, seqmentar və subseqmentar axarlar",
+    "answer_b": "Ümumi öd axarıçığı",
+    "answer_c": "Ümumi qaraciyər axarçığı",
+    "answer_d": "Seqmentar, subseqmentar, paylı axarlır, öd kisənin axarıcığı",
+    "answer_e": "Ümumi öd axarı, öd kisənin axarıcığı",
+    "right_answer": ""
+  },
+  {
+    "question": "Qaraciyərin USM-ə göstərişlər hansıdır?",
+    "answer_a": "Bütün cavablar düzdür",
+    "answer_b": "Sağ qabırğa altı nahiyəsində küt ağrı, ağırlıq, diskomfort",
+    "answer_c": "Ürək bulanma, qusma və s.",
+    "answer_d": "Digər diaqnostik üsullarının nəticələrinin dəqiqləşdirilməsi",
+    "answer_e": "Yenitörəməyə şübhə",
+    "right_answer": ""
+  },
+  {
+    "question": "Qaraciyər USM-ə göstərişlər hansıdır?",
+    "answer_a": "Qaraciyərin və öd kisəsinin diaqnoz qoyulmuş kəskin və xronik xəstəliklər",
+    "answer_b": "Qaraciyərdə metastazlarının aşkarlanması və onların yerləşməsi (lokalizasiyası) və sayının müəyyənləşdirilməsi",
+    "answer_c": "Dərmanların uzun müddətli qəbulu və ya alkoqolla sui-istifadə",
+    "answer_d": "Bütün cavablar düzdür",
+    "answer_e": "Qarın boşluğu travmaları və onların ağırlığının qiymətləndirilməsi",
+    "right_answer": "d"
+  },
+  {
+    "question": "Qaraciyər USM-ə göstərişlər hansıdır?",
+    "answer_a": "Bütün cavablar düzdür",
+    "answer_b": "Cərrahi müdaxilə zamanı USM-nəzarəti",
+    "answer_c": "Dispanser profilaktik baxış",
+    "answer_d": "Cərrahi müalicənin effektivliyinin nəzarəti",
+    "answer_e": "Konservativ müalicənin effektivliyinin nəzarəti",
+    "right_answer": "a"
+  },
+  {
+    "question": "Xoledoxdakı daşı aşkar etmək üçün ilkin müayinə üsulu hansıdır?",
+    "answer_a": "KT",
+    "answer_b": "Xolanqioqrafiya",
+    "answer_c": "Transabdominal USM",
+    "answer_d": "MRT",
+    "answer_e": "Laborator müayinə",
+    "right_answer": "d"
+  },
+  {
+    "question": "Sağ qabırğaaltı nahiyədə ağrı, ürək bulanma, qusma şikayətləri ilə gələn 60 yaşındakı qadın xəstəyə ilk olaraq aşağıdakılardan hansı edilməlidir?",
+    "answer_a": "Qastroskopiya",
+    "answer_b": "İcmal rentgenoqrafiya",
+    "answer_c": "KT",
+    "answer_d": "USM və laborator analizi",
+    "answer_e": "MRT",
+    "right_answer": "d"
+  },
+  {
+    "question": "Mirizzi sindromu hansı patologiyalarda yaranır?",
+    "answer_a": "Mədəaltı vəzin şişi",
+    "answer_b": "Öd yolları şişi",
+    "answer_c": "Appendajit",
+    "answer_d": "Öd kisəsi daşı",
+    "answer_e": "Öd yollarının kənardan sıxılması",
+    "right_answer": "d"
+  },
+  {
+    "question": "Qaraciyər törəmələrindən hansı USM-də hiperexogen görünür?",
+    "answer_a": "Kiçik ölçülü hemangioma",
+    "answer_b": "Fokal nodulyar hiperplaziya",
+    "answer_c": "Hepatik adenoma",
+    "answer_d": "Sistlər",
+    "answer_e": "Fibrolamellyar karsinoma",
+    "right_answer": "a"
+  },
+  {
+    "question": "Qaraciyər hemangiomasının ən spesifik diaqnostik əlaməti hansıdır?",
+    "answer_a": "Arterial fazada periferik düyünşəkili kontrastlaşma",
+    "answer_b": "USM-də hiperexogen görünmə",
+    "answer_c": "Dopler sonoqrafik axının görünməməsi",
+    "answer_d": "MRT-də T1-də siqnalın hipointens/T2-də siqnalın hiperintens olması",
+    "answer_e": "KT-də trombotik kütlələrin təyini",
+    "right_answer": "d"
+  },
+  {
+    "question": "Vizualizasion əlamətlərdən hansı qaraciyərin yağlı dəyişiklikləri üçün daha spesifikdir?",
+    "answer_a": "MRT-də yağın supressiya rejimində siqnalın itməsi",
+    "answer_b": "USM-də hiperexogen görünmə",
+    "answer_c": "KT-də hiperdens görünmə",
+    "answer_d": "MRT zamanı T1-də hiperintens görünmə",
+    "answer_e": "KT-də kontrastdan erkən azad olma fenomeni",
+    "right_answer": "d"
+  },
+  {
+    "question": "USM-də xoledox genişlənməsi olan sarılıq bir xəstədə sonrakı tətbiq olunan müayinə metodu aşağıdakılardan hansıdır?",
+    "answer_a": "Oral xolesistoqrafiya",
+    "answer_b": "KT",
+    "answer_c": "Venadaxili xolanqioqrafiya",
+    "answer_d": "MRT",
+    "answer_e": "Perkutan transhepatik xolanqioqrafiya",
+    "right_answer": "d"
+  },
+  {
+    "question": "Xolesistoektomiya zamanı ən çox yaralana bilən damar hansıdır?",
+    "answer_a": "Qastroduodenal arteriyası",
+    "answer_b": "Qapı venası",
+    "answer_c": "Vena cava inferior",
+    "answer_d": "Sağ qaraciyər arteriyası",
+    "answer_e": "Sol qaraciyər arteriyası",
+    "right_answer": "d"
+  },
+  {
+    "question": "Aşağıdakı əlamətlərdən hansısı kəskin xolesistitə şübhəni azaldır?",
+    "answer_a": "Üç saatdan az davam edən öd sancısı",
+    "answer_b": "Merfi simptomu",
+    "answer_c": "Sağ qabırğa altında ağrılı kötlə",
+    "answer_d": "Qan analizində leykositoz",
+    "answer_e": "Ortner əlaməti",
+    "right_answer": "a"
+  },
+  {
+    "question": "Mədənin anatomik hissələrinin ardıcılığı necədir?",
+    "answer_a": "Kardial hissə-mədənin tağı-cisim-sinus-antral hissəsi-pilorik hissəsi",
+    "answer_b": "Mədənin tağı-kardial hissə-mədənin cismi-mədənin dibi-antral hissə",
+    "answer_c": "Mədənin tağı-kardinal hissəsi-mədənin cismi-mədənin dibi-pilorik hissə",
+    "answer_d": "Mədənin tağı-kardinal hissə-mədənin cismi-antral hissəsi-pilorik hissəsi",
+    "answer_e": "Kardial hissə-mədənin tağı-cisim-sinus-pilorik hissəsi-antral hissəsi",
+    "right_answer": "b"
+  },
+  {
+    "question": "Hamiləliyin hansı müddətində əməliyyatdan sonrakı çapıq proyeksiyasında miometrinin USM aparılır?",
+    "answer_a": "26-27 həftə",
+    "answer_b": "22-24 həftə",
+    "answer_c": "24-26 həftə",
+    "answer_d": "20-24 həftə",
+    "answer_e": "18-20 həftə",
+    "right_answer": "d"
+  },
+  {
+    "question": "Əməliyyatın sonrakı uzaq dövründə uşaqlıq çapığının həyat qabiliyyətinin meyarları hansıdır?",
+    "answer_a": "Çapığı tipik vəziyyəti",
+    "answer_b": "Çapığı tipik vəziyyəti, deformasiyaların və \"taxçaların\" olmaması",
+    "answer_c": "Deformasiyaların olmaması",
+    "answer_d": "\"Taxçaların\" olmaması",
+    "answer_e": "Heç biri düz deyil",
+    "right_answer": "b"
+  },
+  {
+    "question": "Əməliyyatın sonrakı uzaq dövründə uşaqlıq çapığının həyat qabiliyyətinin meyarları hansıdır?",
+    "answer_a": "Bütün cavablar düzdür",
+    "answer_b": "Uşaqlığın aşağı seqmenti nahiyəsində miometriumun qalığı",
+    "answer_c": "Çapıq strukturasında hematomların olmaması",
+    "answer_d": "Birləşdirici toxumalı əlavələrin olmaması",
+    "answer_e": "Maye strukturların olmaması",
+    "right_answer": "a"
+  },
+  {
+    "question": "Miomektomiyadan sonrakı uzaq dövrdə (əməliyyatdan 6 ay sonra) çapığın həyat qabiliyyətinin US əlamətləri hansıdır?",
+    "answer_a": "Bütün cavablar düzdür",
+    "answer_b": "Uşaqlıq konturlarının düzlüyü və aydınlığı",
+    "answer_c": "İdeal çapıq",
+    "answer_d": "Uşaqlıq divarlarının taxçalar və deformasiyalarının olmaması",
+    "answer_e": "Miometriumda liqaturaların olmaması və ya tək-tək liqaturalar",
+    "right_answer": "a"
+  },
+  {
+    "question": "Miomektomiyadan sonrakı uzaq dövrdə (əməliyyatdan 6 ay sonra) çapığın həyat qabiliyyətinin US əlamətləri hansıdır?",
+    "answer_a": "Çapıq proyeksiyasında miometriumun qalınlığı dəyişilməmiş miometriumun qalınlığına bərabərdir",
+    "answer_b": "Heç biri düz deyil",
+    "answer_c": "Seroz örtüyün geri çəkilməsi",
+    "answer_d": "Miometriumun kəskin nazikləşməsi",
+    "answer_e": "Miometriumda çoxlu boşluqların olması",
+    "right_answer": "a"
+  },
+  {
+    "question": "Qeyri-qənaətbəxş köndələn çapığın exoqrafik əlamətləri hansıdır?",
+    "answer_a": "Bütün cavablar düzdür",
+    "answer_b": "Uşaqlığın aşağı seqmentinin balon və ya konusvari forması",
+    "answer_c": "Aşağı seqmentinin qalınlığı 3mm az",
+    "answer_d": "Normal qalınlığı fonunda aşağı seqmentinin lokal nazikləşməsi (3mm az)",
+    "answer_e": "Uşaqlarda əvvəlki kəsik bölgəsi boyunca artmış akustik sıxlıq",
+    "right_answer": "a"
+  },
+  {
+    "question": "Hamiləlik kənar çapığın qeyri-qənaətbəxş exoqrafik əlamətləri hansıdır?",
+    "answer_a": "Miometriumda çoxlu boşluqların olması",
+    "answer_b": "Çapıq bölgəsinin destruktiv dəyişiklikləri",
+    "answer_c": "Seroz örtüyün geri çəkilməsi",
+    "answer_d": "Bütün sadalanan göstəricilər",
+    "answer_e": "Aşağı seqmentdə uşaqlığın xarici konturun deformasiyası",
+    "right_answer": "d"
+  },
+  {
+    "question": "Histeroektomiyadan sonra USM zaman tez-tez nəyə rast gəlinir?",
+    "answer_a": "Retension kistaları",
+    "answer_b": "Hidrosalpinks",
+    "answer_c": "Peritoneal kistalar",
+    "answer_d": "Endometrioid kistalar",
+    "answer_e": "Sistadenomalar",
+    "right_answer": "b"
+  },
+  {
+    "question": "Hamiləlikdə kənar çapığın qeyri-qənaətbəxş əlamətlərə nə aid edilir?",
+    "answer_a": "Miometriumda liqaturaların olmaması və ya tək-tək liqaturalar",
+    "answer_b": "Uşaqlıq divarlarının taxçalar və deformasiyalarının olmaması",
+    "answer_c": "Aşağı seqmentdə uşaqlığın xarici konturun deformasiyası və boğaz səviyyəsində deformasiya",
+    "answer_d": "Aşağı seqmentdə uşaqlığın xarici konturun deformasiyası",
+    "answer_e": "Boğaz səviyyəsində deformasiya",
+    "right_answer": "c"
+  },
+  {
+    "question": "Uşaqlığın aşağı seqmentinin tam sağalma akustik meyarları hansıdır?",
+    "answer_a": "Normal akustik sıxlığı fonunda azalmış səs keçiriciliyinin lokal sahələri",
+    "answer_b": "4mm qalınlığı az olması zamanı onun U-şəkildə forması",
+    "answer_c": "5mm qalınlığı az olması zamanı U-şəkildə forması",
+    "answer_d": "Aşağı seqmentinin normal exogenliyi, uşaqlığın digər hissələrində olduğu kimi",
+    "answer_e": "Bütün cavablar düzgündür",
+    "right_answer": "d"
+  },
+  {
+    "question": "Retension kistalarının US-əlamətləri hansıdır?",
+    "answer_a": "Bütün cavablar düzdür",
+    "answer_b": "Girdə forma",
+    "answer_c": "Nazik divarlar",
+    "answer_d": "Aydın düz konturlar",
+    "answer_e": "Divarayaxın exopozitiv strukturların və arakəsmələrinin olmaması",
+    "right_answer": "a"
+  },
+  {
+    "question": "Hidrosalpinksin US-əlamətlərinə hansı aid deyil?",
+    "answer_a": "Kaudal daralma simptomu",
+    "answer_b": "Uzanan gərmələr ilə, uzununa ölçüsü eninə üstünlüyü ilə",
+    "answer_c": "S-formalı gərmələr ilə uzununa ölçüsü eninə üstünlüyü ilə",
+    "answer_d": "Nazik divarlar",
+    "answer_e": "Natamam arakəsmələrin olması",
+    "right_answer": "a"
+  },
+  {
+    "question": "Uşaqlıq güdülün subseroz miomanın exoqrafik göstəriciləri hansıdır?",
+    "answer_a": "Aydın konturlar",
+    "answer_b": "Qeyri düz təpəlik forma",
+    "answer_c": "Bütün cavablar düzdür",
+    "answer_d": "Qeyri düz konturlar",
+    "answer_e": "Heterogen azalmış exogenlik",
+    "right_answer": "a"
+  },
+  {
+    "question": "Peritoneal kistaların US əlamətlərinə hansı aid deyil?",
+    "answer_a": "Düz konturlar",
+    "answer_b": "Yumurtalığın periferiyasında yerləşməsi",
+    "answer_c": "Qeyri düz forma",
+    "answer_d": "Aydın qeyri düz konturları",
+    "answer_e": "Aydın konturlar",
+    "right_answer": "a"
+  },
+  {
+    "question": "Endometrioid kistaların qeyri-spesifik exoqrafik əlamət hansıdır?",
+    "answer_a": "Kista divarının vaskulyarizasiyası",
+    "answer_b": "Qeyri-bərabər qalınlaşmış divarlar",
+    "answer_c": "Aydın olmayan daxili konturlar",
+    "answer_d": "Girdə forma",
+    "answer_e": "Heç biri düz deyil",
+    "right_answer": "a"
+  },
+  {
+    "question": "Hansı göstəricilər əsasında transvaqinal USM aparılır?",
+    "answer_a": "Bütün cavablar düzdür",
+    "answer_b": "Qarın abdominal nahiyəsində ağrı",
+    "answer_c": "Sonsuzluğun səbəblərini araşdırmaq",
+    "answer_d": "Yumurtalıqlarda follikulların yetişməsinin müşahidəsi",
+    "answer_e": "Menstrual siklin müxtəlif pozulmaları",
+    "right_answer": "d"
+  },
+  {
+    "question": "Transvaqinal USM hansı göstəricilər əsasında aparılır?",
+    "answer_a": "Artımların iltihabı",
+    "answer_b": "Bütün cavablar düzdür",
+    "answer_c": "Uşaqlıq borularının keçilməzliyi",
+    "answer_d": "Yumurtalıqların kistası",
+    "answer_e": "Uşaqlıqdan kənar hamiləliyə şübhə",
+    "right_answer": "b"
+  },
+  {
+    "question": "Hansı göstəricilər əsasında transvaqinal USM aparılır?",
+    "answer_a": "Diaqnozun təsdiqlənməsi",
+    "answer_b": "Qeyri normal ifrazatlar",
+    "answer_c": "Qanaxmalar",
+    "answer_d": "Endometrioz",
+    "answer_e": "Bütün cavablar düzdür",
+    "right_answer": "e"
+  },
+  {
+    "question": "Transvaqinal USM hansı göstəricilər əsasında aparılır?",
+    "answer_a": "Mioma və digər xoşxassəli törəmələr",
+    "answer_b": "Bütün cavablar düzdür",
+    "answer_c": "EKM sonra hamiləliyin nəzarəti",
+    "answer_d": "Sidik-cinsiyyət sisteminin patologiyaları",
+    "answer_e": "Bədxassəli şişlər (uşaqlıq boynu xərçəngi)",
+    "right_answer": "a"
+  },
+  {
+    "question": "Hamiləliyin hansı müddətdə transvaqinal USM-si məqsədə uyğundur?",
+    "answer_a": "20 həftəyə qədər",
+    "answer_b": "15 həftəyə qədər",
+    "answer_c": "12 həftəyə qədər",
+    "answer_d": "22 həftəyə qədər",
+    "answer_e": "14 həftəyə qədər",
+    "right_answer": "c"
+  },
+  {
+    "question": "USM zamanı mikrosefaliyanın exoqrafik kriteriyalarına nə daxildir?",
+    "answer_a": "Heç biri variant doğru deyil",
+    "answer_b": "Başın biparietal ölçüsünün kiçik olması",
+    "answer_c": "Başın dairəvi ölçüsünün qarın dairəsinə olan nisbətinin böyük olması",
+    "answer_d": "Sefalik indeksin 75% az olması",
+    "answer_e": "Bud sümüyünün uzunluğunun başın dairəsinə olan nisbətinin çox olması",
+    "right_answer": "e"
+  },
+  {
+    "question": "Transabdominal müayinə zamanı döldə böyrəklər hansı həftəlikdən görsənir?",
+    "answer_a": "24",
+    "answer_b": "12",
+    "answer_c": "20",
+    "answer_d": "16",
+    "answer_e": "28",
+    "right_answer": "b"
+  },
+  {
+    "question": "Dölün mədəciklərarası çəpərin defektinin US diaqnostikası mümkündürmü?",
+    "answer_a": "Mümkündür",
+    "answer_b": "Mümkündür, lakin sağ kameralar genişlənibsə",
+    "answer_c": "Mümkündür, ancaq rəngli Dopler müayinəsi ilə",
+    "answer_d": "Mümkün deyil",
+    "answer_e": "Mümkündür, əgər hər iki mədəciyin dilatasiyası varsa",
+    "right_answer": "a"
+  },
+  {
+    "question": "Transvaqinal USM-in üstünlükləri hansıdır?",
+    "answer_a": "Əsaslı hazırlanma tələb etmir",
+    "answer_b": "Mövcudluğu",
+    "answer_c": "Ziyansızlıq və təhlükəsizlik",
+    "answer_d": "Bütün cavablar düzdür",
+    "answer_e": "Şəklin detallaşmasının yüksək səviyyəsi",
+    "right_answer": "d"
+  },
+  {
+    "question": "Nə transvaqinal USM-in üstünlüklərə aid edilir?",
+    "answer_a": "Bütün sadalananlar",
+    "answer_b": "Sidik kisəsi doldurmadan yerinə yetirilir",
+    "answer_c": "Piylənmədən əziyyət çəkən qadınlarda istifadə edilir",
+    "answer_d": "Uşaqlıq boynunu ətraflı nəzərdən keçirtməyə malikdir",
+    "answer_e": "Heç biri",
+    "right_answer": "a"
+  },
+  {
+    "question": "Vaqinal USM nə göstərir?",
+    "answer_a": "Bütün cavablar düzdür",
+    "answer_b": "Reproduktiv orqanlarının bəd və xoş xassəli şişləri",
+    "answer_c": "Uşaqlıq mioması",
+    "answer_d": "Kiçik çanaq nahiyəsində maye",
+    "answer_e": "Endometriozu",
+    "right_answer": "a"
+  },
+  {
+    "question": "Vaqinal USM nə göstərir?",
+    "answer_a": "Bütün cavablar düzdür",
+    "answer_b": "Tam və ya qismət",
+    "answer_c": "Qanı",
+    "answer_d": "Uşaqlıq borularında irinli törəmələr",
+    "answer_e": "İltihab prosesləri",
+    "right_answer": "a"
+  },
+  {
+    "question": "Qadınlarda kiçik çanaq US müayinəsinə göstərişlərə nə aiddir?",
+    "answer_a": "Bütün cavablar düzdür",
+    "answer_b": "Follikul ehtiyatının müəyyənləşdirilməsi",
+    "answer_c": "Ovulyasiyanın izlənməsi",
+    "answer_d": "Döllənmənin planlaşması - daxili cinsiyyət orqanların vəziyyətinin qiymətləndirilməsi üçün",
+    "answer_e": "Uşaqlıq daxili vasitələrin qoyulması üçün hazırlaşma",
+    "right_answer": ""
+  },
+  {
+    "question": "Yumurtalıqların USM müəyyən etməyə nə imkan verir?",
+    "answer_a": "Polikistozu",
+    "answer_b": "Kistaları",
+    "answer_c": "Bütün cavablar düzdür",
+    "answer_d": "Salpinqiti",
+    "answer_e": "Bəd xassəli yeni törəmələr",
+    "right_answer": "c"
+  },
+  {
+    "question": "Reproduktiv yaş dövründə uşaqlıq cisminin uzunluğunun normal exoqrafik ölçüsü nə qədər olmalıdır?",
+    "answer_a": "70-90mm",
+    "answer_b": "30-39mm",
+    "answer_c": "20-40mm",
+    "answer_d": "40-60mm",
+    "answer_e": "60-70mm",
+    "right_answer": "e"
+  },
+  {
+    "question": "Yumurtalıqların funksionallığını müəyyənləşməsi üçün USM aybaşı sikli ərzində neçə dəfə olunmalıdır?",
+    "answer_a": "3 dəfə",
+    "answer_b": "1 dəfə",
+    "answer_c": "5 dəfə",
+    "answer_d": "4 dəfə",
+    "answer_e": "2 dəfə",
+    "right_answer": ""
+  },
+  {
+    "question": "Aybaşı siklin hansı günlərdə yumurtalıqların funksionallığını müəyyənləşməsi üçün USM aparılmır?",
+    "answer_a": "12-13 gün",
+    "answer_b": "14-15 gün",
+    "answer_c": "8-9 gün",
+    "answer_d": "10-11 gün",
+    "answer_e": "22-23 gün",
+    "right_answer": "b"
+  },
+  {
+    "question": "Aybaşı siklin hansı gündə sərbəst mayenin olması norma sayılır?",
+    "answer_a": "13-15",
+    "answer_b": "10-12",
+    "answer_c": "18-20",
+    "answer_d": "16-17",
+    "answer_e": "21-22",
+    "right_answer": "a"
+  },
+  {
+    "question": "USM zamanı böyrək sinusu proyeksiyasında dəqiq akustik kölgəlik verməyən 2-3mm diametrində hiperexogen törəmə müşahidə olunur. Aşağıdakılardan düzgün olanı hansıdır?",
+    "answer_a": "Qeyd olunan exoqrafik əlamət hər hansı nozologiya üçün patoqnomonik əlamət deyil",
+    "answer_b": "Kasa-ləyən sistemində kiçik konkrementlər",
+    "answer_c": "Kasa-ləyən strukturunun bərkiməsi",
+    "answer_d": "Piramid məməciyinin kalsinozu",
+    "answer_e": "Kasa-ləyən sistemində qumun olması",
+    "right_answer": "d"
+  },
+  {
+    "question": "Böyrəyin xoş xassəli törəmələri arasında USM vasitəsilə daha çox aşkar olunanı hansıdır?",
+    "answer_a": "Onkositoma",
+    "answer_b": "Angiomiolipoma",
+    "answer_c": "Fibroma",
+    "answer_d": "Hemangioma",
+    "answer_e": "Leymioma",
+    "right_answer": "b"
+  },
+  {
+    "question": "USM zamanı böyrək angiolipomanın exoqrafik əlamətləri hansıdır?",
+    "answer_a": "Böyrək parenximası və sinusu proyeksiyasında dəqiq kənarları olan hiperexogen solid törəmə",
+    "answer_b": "Böyrək parenximasında anexogen kənarları olan izoexogen solid törəmə",
+    "answer_c": "Qeyri homogen struktura malik çox saylı nekrotik boşluqları olan solid törəmə",
+    "answer_d": "Böyrək sinusu proyeksiyasında hiperexogen solid törəmə",
+    "answer_e": "Distal güclənmə ilə müşahidə olunan anexogen törəmə",
+    "right_answer": "a"
+  },
+  {
+    "question": "Normada böyrəklərin qabıq maddəsinin exogenliyi necədir?",
+    "answer_a": "Exogenliyi beyin maddə ilə müqayisədə aşağıdır",
+    "answer_b": "Beyin maddənin exogenliyi ilə eynidir",
+    "answer_c": "Exogenliyi yüksəkdir",
+    "answer_d": "Sinus hüceyrələrin exogenliyi ilə eynidir",
+    "answer_e": "Exogenliyi mülayim aşağıdır",
+    "right_answer": "b"
+  },
+  {
+    "question": "Böyrək transplantasiyasından sonra ilkin qopma USM zamanı hansı simptomla özünü büruzə verir?",
+    "answer_a": "Böyrəyin ön-arxa ölçüsünün artması",
+    "answer_b": "Parenximanın exogenliyinin azalması",
+    "answer_c": "Qabıq maddənin exogenliyinin yüksəlməsi",
+    "answer_d": "Piramid exogenliyinin yüksəlməsi",
+    "answer_e": "Sinus hüceyrələrin exogenliyi azalması",
+    "right_answer": "d"
+  },
+  {
+    "question": "Prostat vəzinin adenomasında daha çox rast gəlinən exoqrafik dəyişiklik hansıdır?",
+    "answer_a": "Periferik sahədə düyünlü törəmə",
+    "answer_b": "Parauretral fibroz",
+    "answer_c": "Uretra boyunca petrifikatlar",
+    "answer_d": "Vəzinin daxilində düyünlü və diffuz dəyişiklik",
+    "answer_e": "Mərkəz və periferik sahədə retension kista",
+    "right_answer": "d"
+  },
+  {
+    "question": "Sidik kisəsinin USM-si üçün göstərişlər hansıdır?",
+    "answer_a": "Bütün cavablar düzdür",
+    "answer_b": "Tez-tez sidik ifrazı və ya onun gecikməsi",
+    "answer_c": "Sidikdə qan və eritrositlərin olması",
+    "answer_d": "Sistit olması",
+    "answer_e": "Orqanın müxtəlif travmaları",
+    "right_answer": "e"
+  },
+  {
+    "question": "İkincili büzüşmüş böyrək və ya hipoplaziyalaşmış böyrək diaqnozunun qoymağa aşağıdakılardan hansı imkan verir?",
+    "answer_a": "Dinamikada radioizotop müayinə",
+    "answer_b": "Ekskretor uroqrafiya",
+    "answer_c": "Kompüter tomoqrafiya",
+    "answer_d": "Böyrəyin biopsiyası",
+    "answer_e": "Böyrək angioqrafiyası",
+    "right_answer": "e"
+  },
+  {
+    "question": "Rentgenoloji \"ağ böyrək\" fenomeni (ekskresiyanın kəskin ləngiməsi ilə müşayiət olunan nefroqrammanın davamlı fazası) aşağıdakılardan hansının nəticəsidir?",
+    "answer_a": "Sidik axarının daşla obturasiyasının",
+    "answer_b": "İkincili büzüşmüş böyrəyin",
+    "answer_c": "Böyrək şişinin",
+    "answer_d": "Kəskin qeyri-obstruktiv pielonefritin",
+    "answer_e": "Böyrək travmasının",
+    "right_answer": "a"
+  },
+  {
+    "question": "Aşağıdakı xəstəliklərin hansında ekskretor uroqrafiya ən informativ müayinə üsuludur?",
+    "answer_a": "Sidik kisəsi-sidik axarı reflüksü",
+    "answer_b": "Enurez",
+    "answer_c": "Hidronefroz",
+    "answer_d": "Kəskin sidik ləngiməsi",
+    "answer_e": "Neyrogen sidik kisəsi",
+    "right_answer": "c"
+  },
+  {
+    "question": "Diaqnozunun qoyulmasına ekskretor uroqrafiyanın kömək edə bilmədiyi xəstəlik hansıdır?",
+    "answer_a": "Hidronefroz",
+    "answer_b": "Böyrəklərin torakal distopiyası",
+    "answer_c": "Nalşəkilli böyrək",
+    "answer_d": "Arxa uretral qapaq",
+    "answer_e": "Yuxarı sidik yollarının ikiləşməsi",
+    "right_answer": "b"
+  },
+  {
+    "question": "Aşağıdakılardan hansının aşkar edilməsi üçün anteqrad pieloqrafiya aparılır?",
+    "answer_a": "Hidronefroz zamanı pielouretral anastomozun keçiriciliyi",
+    "answer_b": "Böyrəyin şişi",
+    "answer_c": "Böyrəyin sisti",
+    "answer_d": "Sidik kisəsinin divertikulu",
+    "answer_e": "Sidik kisəsi-sidik axarı reflüksünün olması",
+    "right_answer": ""
+  },
+  {
+    "question": "Təbii radioaktivlik ilk dəfə kim tərəfindən kəşf edilmişdir?",
+    "answer_a": "Ernst Rezerford",
+    "answer_b": "Mariya Küri və Pyer Küri",
+    "answer_c": "Anri Bekkerel",
+    "answer_d": "Fridrix Soddi",
+    "answer_e": "Vilhelm Konrad Rentgen",
+    "right_answer": "c"
+  },
+  {
+    "question": "İyonizasiya hadisəsi aşağıdakı hansı cavabda düzgün ifadə olunmuşdur?",
+    "answer_a": "Atomdan bir elektronun xaricə atılması",
+    "answer_b": "Atomdan bir protonun xaricə atılması",
+    "answer_c": "Nüvədən bir elektronun xaricə atılması",
+    "answer_d": "Nüvədən bir protonun xaricə atılması",
+    "answer_e": "Nüvədən bir neytronun xaricə atılması",
+    "right_answer": "a"
+  },
+  {
+    "question": "Annihilyasiya hadisəsini aşağıdakı cümlələrdən hansı təsvir edir?",
+    "answer_a": "Pozitron və elektronun toqquşması nəticəsində kütlənin enerjiyə çevrilməsi baş verir",
+    "answer_b": "Annihilyasiyanın sonunda bir-birinə əks qütbə gedən iki elektron ortaya çıxır",
+    "answer_c": "Ortaya çıxan elektronların enerjisi 140keV-dur",
+    "answer_d": "Elektronları yüksək enerjili qamma kameralarla aşkarlamaq mümkündür",
+    "answer_e": "",
+    "right_answer": "a"
+  },
+  {
+    "question": "Radioizotop nədir?",
+    "answer_a": "Atom sayları bir-biriylə eyni olan elementlərdir",
+    "answer_b": "Elektron sayları bir-biriylə eyni olan elementlərdir",
+    "answer_c": "Proton sayları bir-biriylə eyni olan elementlərdir",
+    "answer_d": "Neytron sayları bir-biriylə eyni olan elementlərdir",
+    "answer_e": "Ölçüləri bir-biriylə eyni olan elementlərdir",
+    "right_answer": "c"
+  },
+  {
+    "question": "Texnesium 99m Tc-pertexnetat izotopunun anası hansıdır?",
+    "answer_a": "Molibden 99Mo",
+    "answer_b": "Texnesium 103Tc",
+    "answer_c": "İndiy 111In",
+    "answer_d": "Kobalt 60Co",
+    "answer_e": "Qızıl 198Au",
+    "right_answer": "a"
+  },
+  {
+    "question": "Texnetium Tc-99m yarımparçalanma dövrü (T1/2 ömrü) nə qədərdir?",
+    "answer_a": "6,08 saat",
+    "answer_b": "8 saat",
+    "answer_c": "13,2 saat",
+    "answer_d": "8,04 gün",
+    "answer_e": "24 saat",
+    "right_answer": "a"
+  },
+  {
+    "question": "Texnetium Tc-99m optimal (E) neçə keV-dir?",
+    "answer_a": "140 keV",
+    "answer_b": "93 keV",
+    "answer_c": "364 keV",
+    "answer_d": "500 keV",
+    "answer_e": "400 keV",
+    "right_answer": "a"
+  },
+  {
+    "question": "Miokard infarktlı xəstələr üçün ürək sintiqrafiyasının aparılmasının optimal zamanı hansıdır?",
+    "answer_a": "Xəstəlik başlayandan 2-7 gün ərzində",
+    "answer_b": "Xəstəlik başlayandan 6 saat ərzində",
+    "answer_c": "Xəstəlik başlayandan 7-15 saat ərzində",
+    "answer_d": "Xəstəlik başlayandan 7-15 saat ərzində",
+    "answer_e": "1-ci gün ərzində",
+    "right_answer": "a"
+  },
+  {
+    "question": "Kəskin miokard infarktlı olan xəstələrə Bir Fotonlu Emission KT (SPECT) zamanı texnetium Tc-99m pirofosfatın yeridilmə radioaktivliyi hansıdır?",
+    "answer_a": "2-3mq pirofosfatın miqdarı ilə 370-740MBk",
+    "answer_b": "",
+    "answer_c": "3-10mq pirofosfatın miqdarı ilə 74-180 MBk",
+    "answer_d": "0,5-1 mq pirofosfatın miqdarı 20-30MBk",
+    "answer_e": "5-7mq pirofosfatın miqdarı ilə 74-180 MBk",
+    "right_answer": "a"
+  },
+  {
+    "question": "Miokard sintiqrafiyası venadaxili texnesium Tc-99m pirofosfat yeridildikdən 1,5-2 saat sonra hansı 3 standart proyeksiyada müayinə aparılır?",
+    "answer_a": "Ön düz, 45° sol çəp, 60° sol ön çəp",
+    "answer_b": "Ön düz, 90° sol yan, 180° arxa düz",
+    "answer_c": "Ön düz, 90° sol yan və 270° sağ yan",
+    "answer_d": "Ön düz, 45° sol ön çəp, 45° sağ ön çəp",
+    "answer_e": "Ön düz, 45° sol ön çəp, 90° sol yan",
+    "right_answer": "a"
+  },
+  {
+    "question": "Sol mədəciyin hipertrofiyası zamanı ürək sintiqrafiya görüntüsü hansıdır?",
+    "answer_a": "Miokard divarının sol hissəsinin \"qalınlaşması\", ürək boşluğu ya pis ya da ümumiyyətlə differensasiya olunmur",
+    "answer_b": "Yaxşı differensasiya olunmuş ürək boşluğu fonunda miokard divarının görünən hissəsinin \"qalınlaşması\"",
+    "answer_c": "Miokardın divarı dəyişilmir",
+    "answer_d": "Sağ və sol mədəciklərin divarları \"qalınlaşması\" bərabər olması",
+    "answer_e": "Miokard divarının görünən hissəsinin nazikləşməsi, ürək boşluğu yaxşı differensasiya olunur",
+    "right_answer": "a"
+  },
+  {
+    "question": "Sol mədəciyin asimmetrik hipertrofiyasının sintiqrafik görüntüsü hansıdır?",
+    "answer_a": "Sol mədəciyin bütün şöbələrində nazikləşmə",
+    "answer_b": "Sol mədəciyin bütün şöbələrində qalınlaşma",
+    "answer_c": "Sol mədəciyin şöbələrindən birində qalınlaşma",
+    "answer_d": "Sol mədəciyin bütün şöbələrində nazikləşmə qalınlaşma ilə əvəz olunur",
+    "answer_e": "Sağ və sol mədəciklərin divarları eyni bərabər olması",
+    "right_answer": ""
+  },
+  {
+    "question": "Kəskin miokard infarkt ocağın nahiyəsində Tc-99m MİBİ (metilen izopropilen butilo izonitril) ilə sintiqrafik görüntüsü necədir?",
+    "answer_a": "Kəskin yüksəlmiş yığıntı",
+    "answer_b": "Toplanması yüksəlməsi",
+    "answer_c": "Kəskin azalmış yığıntı",
+    "answer_d": "Bərabər paylanma",
+    "answer_e": "Qeyri bərabər paylanma",
+    "right_answer": "c"
+  },
+  {
+    "question": "Ürəyin işemik xəstəliyinin bir dəfəlik müayinəsində yükaltı (stress) və sakit vəziyyətdəki (rest) müayinə müqayisədə aşağıdakı sintiqrafiya şəkli necə olur?",
+    "answer_a": "Mövcud defektlər",
+    "answer_b": "Defektlərin sayı dəyişmir",
+    "answer_c": "Yeni defekt yaranır, mövcud olanlar genişlənir",
+    "answer_d": "Mövcud defektlər itir",
+    "answer_e": "Defektlərin ölçüsü dəyişmir",
+    "right_answer": "c"
+  },
+  {
+    "question": "Miokard sintiqrafiyasının məsləhətli fiziki yüklənməsi aşağıdakı kimi necə olur?",
+    "answer_a": "Veloerqometrdə",
+    "answer_b": "Piyada gəzmək",
+    "answer_c": "Yerində qaçmaq",
+    "answer_d": "Aşağı oturub qalxmaq",
+    "answer_e": "Aşağı uzanmaq qalxmaq",
+    "right_answer": "a"
+  },
+  {
+    "question": "Mekkel divertikulumla əlaqəli halında diaqnostikası necə başlamalıdır?",
+    "answer_a": "99m-Tc pertexnetat ilə radioizotop müayinə",
+    "answer_b": "Laborator müayinə",
+    "answer_c": "Kolonoskopiya",
+    "answer_d": "Angioqrafiya",
+    "answer_e": "Barium məhlulu ilə mədə-bağırsaq traktının rentgenoqrafiyası",
+    "right_answer": "a"
+  },
+  {
+    "question": "Ağciyərin perfuzion sintiqrafiyası hansı vəziyyətlərdə aparılır?",
+    "answer_a": "Ön-arxa, arxa-ön, və sol çəp vəziyyətdə",
+    "answer_b": "Ön-arxa, sağ və sol yan",
+    "answer_c": "Ön-arxa, arxa-ön",
+    "answer_d": "Əhəmiyyət kəsb etmir",
+    "answer_e": "Arxa-ön, sağ və sol çəpinə",
+    "right_answer": "a"
+  },
+  {
+    "question": "Ağciyərin perfuzion sintiqrafiyası zamanı istifadə olunan nişanlanmış hissəciklərin optimal ölçüsü aşağıdakılardan necədir?",
+    "answer_a": "15-45 mkm",
+    "answer_b": "80-90 mkm",
+    "answer_c": "5-10 mkm",
+    "answer_d": "100 mkm",
+    "answer_e": "66-76 mkm",
+    "right_answer": "a"
+  },
+  {
+    "question": "Texnesium Tc-99m nişanlanmış mikrosfer yeridildikdən sonra hansı vaxt ərzində ağciyərlərin perfuzion sintiqrafiyası aparılır?",
+    "answer_a": "Məhlul yeridildikdə",
+    "answer_b": "24 saat sonra",
+    "answer_c": "15-30 dəqiqə sonra",
+    "answer_d": "1,5-2 saat sonra",
+    "answer_e": "5-10 dəqiqə sonra",
+    "right_answer": "a"
+  },
+  {
+    "question": "Alveolların kapilyar qan dövranı pozğunluğu perfuzion sintiqrammda aşağıdakı şəkildə necə olur?",
+    "answer_a": "REP məhlulu bərabər paylanması azalmış və ya heç olmayan toplanma fonunda",
+    "answer_b": "REP məhlul toplanması dəyişilmir",
+    "answer_c": "Normal ağciyər şəklinin olmaması fonunda yüksəlmiş sahə",
+    "answer_d": "REP məhlulun bərabər paylanması fonunda yüksəlmiş sahə",
+    "answer_e": "Normal ağciyər şəklinin olması fonunda hipoaktiv sahə",
+    "right_answer": "a"
+  },
+  {
+    "question": "Ağciyərin ventilyasion sintiqrafiyası üçün zərdab albumininin həll olunmuş radioaktiv texnesium (İZA Tc-99m) preparatının dozası hansıdır?",
+    "answer_a": "250-350 MBk",
+    "answer_b": "74-148 MBk",
+    "answer_c": "200-300 MBk",
+    "answer_d": "20-30 MBk",
+    "answer_e": "150-200 MBk",
+    "right_answer": "b"
+  },
+  {
+    "question": "Tc-99m DTPA (dietilen triamin penta asetat) ilə dinamik böyrək sintiqrafiyada renoqramm əyrisinin təkrar artımı nə olduğunu göstərir?",
+    "answer_a": "Sidik kisəsi-sidik axarı reflyuksu",
+    "answer_b": "Sidik axarının obstruksiyası",
+    "answer_c": "Böyrək parenximasının sklerozu",
+    "answer_d": "Böyrəkdə iltihab prosesi",
+    "answer_e": "Diuretik testi reaksiyası",
+    "right_answer": "a"
+  },
+  {
+    "question": "Hansı müayinə üsulu hər bir böyrəyin hissəvi funksiyasını tam qiymətləndirə bilər?",
+    "answer_a": "Dinamik böyrək sintiqrafiyası",
+    "answer_b": "İcmal uroqrafiya",
+    "answer_c": "Ultrasəs müayinəsi",
+    "answer_d": "Retroqrad pieloqrafiya",
+    "answer_e": "Termoqrafiya",
+    "right_answer": "a"
+  },
+  {
+    "question": "Böyrək sintiqrafiyasına əks göstəriş nədir?",
+    "answer_a": "Böyrək çatışmamazlığı",
+    "answer_b": "Südəmər analara məhdudiyyətdir",
+    "answer_c": "Hamilələrə əks göstərişdir",
+    "answer_d": "Əks göstəriş və məhdudiyyət yoxdur",
+    "answer_e": "Ürək çatışmazlığı",
+    "right_answer": "d"
+  },
+  {
+    "question": "Dinamik renosintiqrafiya nəyi müəyyənləşdirir?",
+    "answer_a": "Böyrəklərin anatomo-topoqrafik vəziyyəti və böyrəklərin sekretor-ekskretor funksiyasını",
+    "answer_b": "Böyrəklərin anatomo-topoqrafik vəziyyəti",
+    "answer_c": "Böyrəklərin ocaqlı dəyişikliyi (çapıqları) aşkarlanır",
+    "answer_d": "Böyrəklərin sekretor-ekskretor funksiyasını",
+    "answer_e": "Böyrək şişi aşkarlanır",
+    "right_answer": "a"
+  },
+  {
+    "question": "Dinamik renosintiqrafiyanın göstəriciləri əsas nəyi müəyyənləşdirir?",
+    "answer_a": "Tmax – sekretor funksiyası və T1/2 – ekskretor funksiyası",
+    "answer_b": "Anatomik-topoqrafik vəziyyəti",
+    "answer_c": "Tmax – ekskretor funksiyası və T1/2 – sekretor funksiyası",
+    "answer_d": "Böyrəklərin fotopenik skar (çapıqları) aşkarlanır",
+    "answer_e": "Hər iki göstərici böyrəklərin perfuziyası müəyyənləşdirilir",
+    "right_answer": "a"
+  },
+  {
+    "question": "99mTc-DMSA (dimerkapto suksin asetat) yeridildikdən sonra statik nefrosintiqrafiyanın aparılmasının optimal müddəti hansıdır?",
+    "answer_a": "Radioaktiv maddənin yeridiləndən 2-4 saat sonra",
+    "answer_b": "Radioaktiv maddənin yeridiləndən 1 saat ərzində",
+    "answer_c": "24 saat sonra",
+    "answer_d": "Birdəfəlik venadaxili yeridilmə ilə başlamaq",
+    "answer_e": "Əhəmiyyət kəsb etmir",
+    "right_answer": "a"
+  },
+  {
+    "question": "Radioaktiv yod 131-İ maddənin yarımparçalanma ömrü nə qədərdir?",
+    "answer_a": "8,04 gün",
+    "answer_b": "8 saat",
+    "answer_c": "24 saat",
+    "answer_d": "13,2 saat",
+    "answer_e": "6,08 saat",
+    "right_answer": "a"
+  },
+  {
+    "question": "Radioaktiv yod İ-131 qamma şüalanmanın optimal enerjisi neçə keV-dir?",
+    "answer_a": "511 keV",
+    "answer_b": "159 keV",
+    "answer_c": "140 keV",
+    "answer_d": "364 keV",
+    "answer_e": "120 keV",
+    "right_answer": "d"
+  },
+  {
+    "question": "Pasiyent İ-131 maddəsini nə zaman \"per os\" qəbul etməlidir?",
+    "answer_a": "Ac qarına və 2 saat ərzində aclıq rejiminə riayət etməklə",
+    "answer_b": "Səhər yeməkdən sonra",
+    "answer_c": "Hazırlıq tələb olunmur",
+    "answer_d": "Axşam şam yeməyindən sonra",
+    "answer_e": "Ac qarına olmaz",
+    "right_answer": "a"
+  },
+  {
+    "question": "Pasiyent klinikaya quru öskürək, təngnəfəslik şikayəti ilə daxil olub. Klinik diaqnoz: bronxial astma. Pasiyentə ventilyasion sintiqrafiyası təyin olunmuşdur. Ağciyərdə radioaktiv izotopun fəaliyyət mexanizmi necədir?",
+    "answer_a": "Bronxial ağac və alveolyar şaxələrin səthində incə dispers radioaktiv aerozolun qısa müddətli çökməsi",
+    "answer_b": "Alveolyar kapilyarlarında keçici mikroembolizasiyası",
+    "answer_c": "Bronxial ağacda incə dispers radioaktiv aerozolun müvəqqəti çökməsi",
+    "answer_d": "Alveolyar şaxələrin səthində incə dispers radioaktiv aerozolun müvəqqəti çökməsi",
+    "answer_e": "Alveolyar kapilyarda daimi mikroembolizasiyası",
+    "right_answer": "a"
+  },
+  {
+    "question": "Hepatobilisintiqrammada \"təcrid olunmuş\" öd kisəsini nə xarakterizə edir?",
+    "answer_a": "Öd kisəsinin motor funksiyasının olmaması",
+    "answer_b": "Öd kisəsinin konsentrasion funksiyasının olmaması",
+    "answer_c": "Öd kisəsinin vizualizasiyasının olmaması",
+    "answer_d": "Öd kisəsinin konsentrasion funksiyasının olması",
+    "answer_e": "Öd kisəsinin motor funksiyasının olması",
+    "right_answer": "c"
+  },
+  {
+    "question": "Hepatobilisintiqrafiyada göstəricilərdən hansı aid deyil?",
+    "answer_a": "Böyrəklərin konsentrasion funksiyasının göstəriciləri",
+    "answer_b": "Qaraciyər ifraz funksiyasının göstəriciləri",
+    "answer_c": "Öd kisəsinin motor funksiyasının göstəriciləri",
+    "answer_d": "Qaraciyərin toplamaq funksiyasının göstəriciləri",
+    "answer_e": "Anatomo-topoqrafik məlumat",
+    "right_answer": "a"
+  },
+  {
+    "question": "Hepatobilisintiqrammada öd qovucunun nahardan qabaq bağırsaqda RFP izlənməsi nəyin əlamətidir?",
+    "answer_a": "Təcrid olunmuş öd kisəsi",
+    "answer_b": "Hipertonik Oddi sfinktoru",
+    "answer_c": "Oddi sfinkter çatışmamazlığı",
+    "answer_d": "Daşlı xolesistit",
+    "answer_e": "Akalkulyoz xolesistit",
+    "right_answer": "c"
+  },
+  {
+    "question": "İ-123 (Yod-123) izotopunun enerjisi neçə keV-dir?",
+    "answer_a": "159 keV",
+    "answer_b": "140 keV",
+    "answer_c": "364 keV",
+    "answer_d": "394 keV",
+    "answer_e": "511 keV",
+    "right_answer": "a"
+  },
+  {
+    "question": "I-123 (Yod-123) izotopunun yarımparçalanma ömrü nə qədərdir?",
+    "answer_a": "6 saat",
+    "answer_b": "8 saat",
+    "answer_c": "13,2 saat",
+    "answer_d": "2 saat",
+    "answer_e": "8,04 gün",
+    "right_answer": "c"
+  },
+  {
+    "question": "Qalxanvari vəzin sintiqrafiyası üçün xəstəyə ac qarına nə qədər 131-İ verilir?",
+    "answer_a": "2 MBk",
+    "answer_b": "10 MBk",
+    "answer_c": "20 MBk",
+    "answer_d": "15 MBk",
+    "answer_e": "100 MBk",
+    "right_answer": "a"
+  },
+  {
+    "question": "131-İ \"per os\" qəbuldan sonra qalxanabənzər vəzin sintiqrafiyasının optimal vaxtı hansıdır?",
+    "answer_a": "4 saat",
+    "answer_b": "2 saat",
+    "answer_c": "20 dəqiqə",
+    "answer_d": "24 saat",
+    "answer_e": "48 saat",
+    "right_answer": "d"
+  },
+  {
+    "question": "Qalxanvari vəzin dinamik sintiqrafiyasının nəticələrin qeydiyyatı nə zaman aparılır?",
+    "answer_a": "99m-Tc yeridildikdən birbaşa və 20 dəqiqə davamı",
+    "answer_b": "99m-Tc yeridildikdən 20 dəqiqə sonra",
+    "answer_c": "99m-Tc yeridildikdən 24 saatdan sonra",
+    "answer_d": "48 saatdan sonra",
+    "answer_e": "99m-Tc yeridildikdən birbaşa və 5 dəqiqə davamı",
+    "right_answer": "a"
+  },
+  {
+    "question": "Qalxanvari vəzin 131-İ absorbsiya göstəriciləri nə vaxt normal olur?",
+    "answer_a": "Eutireoz",
+    "answer_b": "Hipertireoz",
+    "answer_c": "Hipotireoz",
+    "answer_d": "Subklinik hipotireoz",
+    "answer_e": "Subklinik hipertireoz",
+    "right_answer": "a"
+  },
+  {
+    "question": "Qalxanvari vəzin 99m-Tc toplanmasının zəifliyi nə zaman baş verir?",
+    "answer_a": "Hipertireoz",
+    "answer_b": "Eutireoz",
+    "answer_c": "Hipotireoz",
+    "answer_d": "Həmişə",
+    "answer_e": "Patologiyasız zamanı",
+    "right_answer": "c"
+  },
+  {
+    "question": "Qalxanvari vəzin statik sintiqrafiyası üçün 99mTc-pertexnetatın dozası neçədir?",
+    "answer_a": "298 MBk",
+    "answer_b": "10 MBk",
+    "answer_c": "74 MBk",
+    "answer_d": "148 MBk",
+    "answer_e": "20 MBk",
+    "right_answer": "c"
+  },
+  {
+    "question": "Qalxanvari vəzin statik sintiqrafiyasının nəticələrin qeydiyyatı nə zaman aparılır?",
+    "answer_a": "Yeridildikdən 20 dəqiqə sonra",
+    "answer_b": "99m-Tc yeridildikdən birbaşa",
+    "answer_c": "Yeridildikdən 5 dəqiqə sonra",
+    "answer_d": "24 saat sonra",
+    "answer_e": "48 saat sonra",
+    "right_answer": "a"
+  },
+  {
+    "question": "Qalxanvari vəzin sintiqrafiya görünüşündə norması necədir?",
+    "answer_a": "Sternumun üzərində tipik yerləşməsi, dəqiq və hamar konturlu və radioaktivliyin bərabər paylanması",
+    "answer_b": "Hiperaktiv və hipoaktiv sahələrin mozaika şəkildə radioaktivliyin paylanması",
+    "answer_c": "Sternumun arxasında yerləşməsi, nahamar konturlu və radioaktivliyin qeyri-bərabər paylanması",
+    "answer_d": "Nalvari forması olan sistik düyünləri əlavələri ilə",
+    "answer_e": "Dəqiq kənar və hamar konturlu, qeyri homogen həmcins qalxanvari vəzin parenximası",
+    "right_answer": "a"
+  },
+  {
+    "question": "Qalxanvari vəzin patologiyasının diaqnostikasında \"in vitro\" radioimmun analizi necə aparılır?",
+    "answer_a": "Xüsusi hazırlıq tələb olunmur",
+    "answer_b": "Yeməkdən sonra",
+    "answer_c": "Ac qarına",
+    "answer_d": "Yeməkdən 2 saatdan sonra",
+    "answer_e": "Mineral suyu 1 stəkan qəbulundan sonra",
+    "right_answer": "c"
+  },
+  {
+    "question": "Qalxanvari vəzinin hormonlarının qan analizi necə aparılır?",
+    "answer_a": "Yeməkdən sonra",
+    "answer_b": "Ac qarına",
+    "answer_c": "Xüsusi hazırlıq tələb olunmur",
+    "answer_d": "Yeməkdən 2 saatdan sonra",
+    "answer_e": "Mineral suyu 1 stəkan qəbulundan sonra",
+    "right_answer": "b"
+  },
+  {
+    "question": "Normada tiroksin T4 hormonu nə qədərdir?",
+    "answer_a": "55-160 nmol/l",
+    "answer_b": "1-3 nmol/l",
+    "answer_c": "200-300 nmol/l",
+    "answer_d": "1-8 med/l",
+    "answer_e": "0-0,5 med/l",
+    "right_answer": "a"
+  },
+  {
+    "question": "Normada triyod-tironin T3 hormonu nə qədərdir?",
+    "answer_a": "1-8 med/l",
+    "answer_b": "55-160 nmol/l",
+    "answer_c": "200-300 nmol/l",
+    "answer_d": "1-3 nmol/l",
+    "answer_e": "0-0,5 med/l",
+    "right_answer": "d"
+  },
+  {
+    "question": "TSH tirotrop hormonun normal səviyyəsi hansıdır?",
+    "answer_a": "1-8 med/l",
+    "answer_b": "55-160 nmol/l",
+    "answer_c": "1-3 nmol/l",
+    "answer_d": "0-0,5 med/l",
+    "answer_e": "200-300 nmol/l",
+    "right_answer": "a"
+  },
+  {
+    "question": "Hipertireoz zamanı tiroksin T4 hormonu necədir?",
+    "answer_a": "> 160 nmol/l",
+    "answer_b": "> 8 med/l",
+    "answer_c": "> 3 nmol/l",
+    "answer_d": "> 500 nmol/l",
+    "answer_e": "> 300 nmol/l",
+    "right_answer": "a"
+  },
+  {
+    "question": "Hipotireoz zamanı TSH hormon səviyyəsi nə qədərdir?",
+    "answer_a": "> 8 med/l",
+    "answer_b": "> 160 nmol/l",
+    "answer_c": "> 3 nmol/l",
+    "answer_d": "> 500 nmol/l",
+    "answer_e": "> 300 nmol/l",
+    "right_answer": "a"
+  },
+  {
+    "question": "Aşağıdakı radioaktiv maddələrdən hansı siklotrondan əldə edilir?",
+    "answer_a": "F-18 FDG (Flor-18 florodeoksiqlükoza)",
+    "answer_b": "I-131 (Yod-131)",
+    "answer_c": "Tc-99m (texnesium 99m)",
+    "answer_d": "Rb-82 (rubidium 82)",
+    "answer_e": "Mo-99 (molibden 99)",
+    "right_answer": "a"
+  },
+  {
+    "question": "Dinamik beyin sintiqrafiyası zamanı vena daxili yeridilən radioaktiv 99mTc-pertexnetat, 99mTc-DTPA və ya 99mTc-HMPAO dozası nə qədərdir?",
+    "answer_a": "74-100 MBk",
+    "answer_b": "100-150 MBk",
+    "answer_c": "185-740 MBk",
+    "answer_d": "10-20 MBk",
+    "answer_e": "1000 MBk",
+    "right_answer": "c"
+  },
+  {
+    "question": "Beyin qan dövranının pozulması sintiqrafiyada özünü necə göstərir?",
+    "answer_a": "Beyin qan dövranın orta həcmi və asimmetriya indeksi azalır",
+    "answer_b": "Beyin qan dövranın orta həcmi dəyişmir",
+    "answer_c": "Beyin qan dövranın orta həcmi və asimmetriya indeksi dəyişmir",
+    "answer_d": "Beyin qan dövranın orta həcmi və asimmetriya indeksi artır",
+    "answer_e": "Asimmetriya indeksi dəyişmir",
+    "right_answer": "a"
+  },
+  {
+    "question": "SPECT və planar beyin sintiqrafiyası üçün aşağıdakı maddələrdən hansına üstünlük verilir?",
+    "answer_a": "99m-Tc-HMPAO",
+    "answer_b": "99m-Tc-pertexnetat",
+    "answer_c": "99m-Tc-DTPA",
+    "answer_d": "99m-Tc-MAG3",
+    "answer_e": "99m-Tc-DTPA və 99m-Tc-MAG3",
+    "right_answer": "a"
+  },
+  {
+    "question": "Baş beyinin radionuklid müayinəsində vena daxili radiofarm preparatının yeridilməsindən nə qədər sonra BFEKT (SPECT) çəkilməlidir?",
+    "answer_a": "10-30 dəq",
+    "answer_b": "2 saat",
+    "answer_c": "1 saat",
+    "answer_d": "6 saat",
+    "answer_e": "Birdəfəlik vena daxili yeridilmə ilə başlamaq",
+    "right_answer": "a"
+  },
+  {
+    "question": "Beyin sintiqrafiyasının keyfiyyət göstəricisi hansıdır?",
+    "answer_a": "Uptake indeksi",
+    "answer_b": "İndeks işarəti",
+    "answer_c": "Asimmetriya indeksi",
+    "answer_d": "Perfuziya indeksi",
+    "answer_e": "Klirens göstərici",
+    "right_answer": "c"
+  },
+  {
+    "question": "Asimmetriya indeksinin göstəricisi istirahət və farmakoloji yük şəraitində serebral perfuziyanın funksional rezervinin azalmasında özünü necə göstərir?",
+    "answer_a": "Beyin yarımkürələrinin asimmetrik paylanmasının 7%-dən çox olması",
+    "answer_b": "Beyin yarımkürələrinin asimmetrik paylanmasının azad olması",
+    "answer_c": "Beyin yarımkürələrinin asimmetrik paylanmasının 7%-ə qədər",
+    "answer_d": "Beyində olan asimmetrik paylanmasının azalması",
+    "answer_e": "Dəyişiklik təyin olunmur",
+    "right_answer": "a"
+  },
+  {
+    "question": "Hansı xəstəliklərdə baş beyinin maddələr mübadiləsinin pozulmasının erkən diaqnostikasında PET aparılır?",
+    "answer_a": "Hettinqton xəstəliyi",
+    "answer_b": "Parkinson xəstəliyi",
+    "answer_c": "Alzheymer xəstəliyi",
+    "answer_d": "Hamısı düzdür",
+    "answer_e": "",
+    "right_answer": "d"
+  },
+  {
+    "question": "Beyin perfuziyasının qiymətləndirilməsində ATF və REP-in yeridilməsi necədir?",
+    "answer_a": "REP-dən sonra ATF yeridilməsi",
+    "answer_b": "ATF və REP birlikdə",
+    "answer_c": "ATF birbaşa əvvəl və REP sonra",
+    "answer_d": "Ardıcıllığın əhəmiyyəti yoxdur",
+    "answer_e": "ATF bir saat əvvəl və REP sonra",
+    "right_answer": "c"
+  },
+  {
+    "question": "Süd vəzi şişlərinin və regionar limfa düyünləri limfaadenopatiyasının diaqnostikasında şişətrop (həssas) REP hansıdır?",
+    "answer_a": "99m-Tc-MİBİ",
+    "answer_b": "99m-Tc-kolloid",
+    "answer_c": "99m-Tc-pertexnetat",
+    "answer_d": "111-İn-kolloid",
+    "answer_e": "133Xe",
+    "right_answer": "a"
+  },
+  {
+    "question": "Hansı osteotrop REP birincili və metastatik şişlərin sümük sintiqrafiyasında istifadə edilir?",
+    "answer_a": "Fosfat kompleksi: 99m-Tc metilendifosfonat, pirofosfat",
+    "answer_b": "Nişanlı kolloidlər: 99m-Tc texnefit, fiton və s.",
+    "answer_c": "Şişləri hədəf alan REP: 67Ga-sitrat, 99m-Tc-MİBİ, 111-İn-bleomisin",
+    "answer_d": "99m-Tc-MİBİ",
+    "answer_e": "123-Yod",
+    "right_answer": "a"
+  },
+  {
+    "question": "Radioaktiv I-131 (yod-131) müalicə qəbul etmiş xəstədə bütün bədən sintiqrafiyası müayinəsini aparmaq üçün hansı kolimator istifadə edilir?",
+    "answer_a": "Yüksək enerjili",
+    "answer_b": "Orta enerjili",
+    "answer_c": "Aşağı enerjili",
+    "answer_d": "Hamısı bu məqsədlə",
+    "answer_e": "Heç biri",
+    "right_answer": "a"
+  },
+  {
+    "question": "Paratireoid vəzin adenomasının aparıcı şüa diaqnostika üsulu hansıdır?",
+    "answer_a": "KT",
+    "answer_b": "USM və dopler",
+    "answer_c": "Bir Fotonlu Emission KT/KT (SPECT/CT)",
+    "answer_d": "Planar sintiqrafiya",
+    "answer_e": "Termoqrafiya",
+    "right_answer": "d"
+  },
+  {
+    "question": "Rentgen şüalanmanın sahəsi hansı intervalda yerləşir?",
+    "answer_a": "Ultrabənövşəyi və qamma-şüalanma arasında",
+    "answer_b": "İnfraqırmızı və ultrabənövşəyi şüalanma arasında",
+    "answer_c": "Radiodalğalar və maqnit sahəsi arasında",
+    "answer_d": "Ultrabənövşəyi şüalanma və maqnit sahəsi arasında",
+    "answer_e": "Radiodalğalar və infraqırmızı şüalar arasında",
+    "right_answer": "a"
+  },
+  {
+    "question": "Hansı toxuma ionizasiya şüalanmasına qarşı daha həssasdır?",
+    "answer_a": "Qanyaradıcı toxumalar",
+    "answer_b": "Əzələ toxuması",
+    "answer_c": "Epitel toxuması",
+    "answer_d": "Miokard toxuması",
+    "answer_e": "Dəri toxuması",
+    "right_answer": "a"
+  },
+  {
+    "question": "Kompüter tomoqrafiyası (KT) zamanı hansı detektorlardan istifadə olunur?",
+    "answer_a": "Ancaq ksenon detektorlardan",
+    "answer_b": "Gücləndirilmiş rentgen ekranlarda",
+    "answer_c": "Ancaq yarımkeçirici elementlərdən",
+    "answer_d": "Adi rentgen ekranlarında",
+    "answer_e": "Yarımkeçirici element və ksenon detektorlardan",
+    "right_answer": "e"
+  },
+  {
+    "question": "İlk növbədə pasiyentin hansı orqan və toxumaları rentgen şüalanmadan qorunmalıdır?",
+    "answer_a": "Süd vəziləri",
+    "answer_b": "Sümük iliyi və cinsiyyət vəziləri",
+    "answer_c": "Dəri",
+    "answer_d": "Qalxanabənzər vəzi",
+    "answer_e": "Miokard",
+    "right_answer": "b"
+  },
+  {
+    "question": "Ən çox şüalanmanı nə verir?",
+    "answer_a": "Klassik rentgenoqrafiya",
+    "answer_b": "Lyuminessent ekranlı rentgenoqrafiya",
+    "answer_c": "Elektrorentgenoqrafiya",
+    "answer_d": "Rəqəmsal rentgenoqrafiya",
+    "answer_e": "Rentgenoteleskopiya",
+    "right_answer": "b"
+  },
+  {
+    "question": "Maqnit Rezonans Tomoqraf cihazlarının maqnit gərginliyi nə ilə ölçülür?",
+    "answer_a": "Tesla",
+    "answer_b": "Volt",
+    "answer_c": "Gauss",
+    "answer_d": "Watt",
+    "answer_e": "Qrey",
+    "right_answer": "a"
+  },
+  {
+    "question": "Radionuklid aktivliyin ölçü vahidi nədir?",
+    "answer_a": "Rentgen",
+    "answer_b": "Qrey",
+    "answer_c": "Bekkerel",
+    "answer_d": "Zivert",
+    "answer_e": "Rad",
+    "right_answer": "c"
+  },
+  {
+    "question": "Üz sümüklərinin vəziyyəti haqqında hansı proyeksiyalı rentgenoqram əsas məlumata malikdir?",
+    "answer_a": "Burun-çənə proyeksiyası",
+    "answer_b": "Yan proyeksiya",
+    "answer_c": "Şüller proyeksiyası",
+    "answer_d": "Düz arxa proyeksiya",
+    "answer_e": "Düz ön proyeksiya",
+    "right_answer": "a"
+  },
+  {
+    "question": "Göz yuvasında yad cismi təyin etmək üçün hansı proyeksiyalı rentgenoqramlar çəkilməlidir?",
+    "answer_a": "Burun-alın, arxa və yan proyeksiyalar",
+    "answer_b": "Düz arxa proyeksiya",
+    "answer_c": "Reze üsulu ilə çəp proyeksiya",
+    "answer_d": "Burun-çənə proyeksiyası",
+    "answer_e": "Şüller proyeksiyası",
+    "right_answer": "a"
+  },
+  {
+    "question": "Kəllə qapağı sümüklərinə hansı sınıqlar aiddir?",
+    "answer_a": "Çəp sınıq",
+    "answer_b": "Basılmış",
+    "answer_c": "Luksasion",
+    "answer_d": "\"Yaşıl budağın\" sınığı",
+    "answer_e": "Köndələn",
+    "right_answer": "b"
+  },
+  {
+    "question": "Mielom xəstəliyi zamanı kəllə sümüklərində destruktiv ocaqların xarakterik xüsusiyyəti hansıdır?",
+    "answer_a": "Qeyri-dəqiq konturları",
+    "answer_b": "Yumşaq toxuma komponentinin olması",
+    "answer_c": "Destruktiv ocaqlarının ayrı-ayrı yerləşməsi",
+    "answer_d": "Birləşməyə meyillik",
+    "answer_e": "Diffuz hiperostoz",
+    "right_answer": "c"
+  },
+  {
+    "question": "Hansı xəstəlik zamanı kəllə qapağı sümüklərində periostal dəyişikliklər müşahidə olunur?",
+    "answer_a": "Epidermoid",
+    "answer_b": "Ateroma",
+    "answer_c": "Osteosarkoma",
+    "answer_d": "Eozinofil qranuloma",
+    "answer_e": "Osteoma",
+    "right_answer": "c"
+  },
+  {
+    "question": "Kəllə sümüklərində osteoskleroz hansı xəstəlik üçün xarakterikdir?",
+    "answer_a": "Osteomiyelit üçün",
+    "answer_b": "Mielom xəstəliyi üçün",
+    "answer_c": "Vərəmli ostit üçün",
+    "answer_d": "Fibroz displaziya üçün",
+    "answer_e": "Hiperparatireoid osteodistrofiya üçün",
+    "right_answer": "d"
+  },
+  {
+    "question": "Kəllə qapağı sümüklərinin hemangiomasına hansı rentgenoloji əlamətlər xarakterikdir?",
+    "answer_a": "Hiperostoz",
+    "answer_b": "İriyuvalı strukturlu lokal osteoporoz sahəsi",
+    "answer_c": "Kifayətlənmiş osteoskleroz",
+    "answer_d": "Nekrotik sahəli osteoliz",
+    "answer_e": "Yayılmış hücrələr",
+    "right_answer": "b"
+  },
+  {
+    "question": "Kəllə sümüklərinin epidermoidlərinə xarakterik olan nədir?",
+    "answer_a": "Konturların qeyri-dəqiqliyi",
+    "answer_b": "Yeyilmiş konturlar",
+    "answer_c": "Dəqiq sklerotik konturlar",
+    "answer_d": "Qalınlaşmış konturlar",
+    "answer_e": "Osteoporotik konturlar",
+    "right_answer": "c"
+  },
+  {
+    "question": "Hansı xəstəliklər zamanı kəllə rentgenoqrammasında kirəcləşmə daha çox xarakterikdir?",
+    "answer_a": "Eozinofil adenoma",
+    "answer_b": "Qulaq xolesteatoması",
+    "answer_c": "Kraniofaringioma",
+    "answer_d": "III mədəciyin dibinin qlioması",
+    "answer_e": "Xromofob adenoma",
+    "right_answer": "c"
+  },
+  {
+    "question": "Kraniostenozun əsas əlaməti hansıdır?",
+    "answer_a": "Kəllə qapağı sümüklərinin incəlmələri",
+    "answer_b": "Kəllə tikişləri vaxtından tez bitişir",
+    "answer_c": "Kəllənin deformasiyası",
+    "answer_d": "Barmaq basıqlarının izləri",
+    "answer_e": "Kəllənin asimmetrik forması",
+    "right_answer": "b"
+  },
+  {
+    "question": "Görmə siniri şişinin rentgenoloji əlamətlərinə nə aiddir?",
+    "answer_a": "Kəllə əsası sümüklərinin destruksiyası",
+    "answer_b": "Görmə siniri dəliyinin ətrafındakı sümüklərin destruksiyası",
+    "answer_c": "Birtərəfli ekzoftalm",
+    "answer_d": "Göz yuvasının destruksiyası",
+    "answer_e": "Yumşaq toxuma komponenti",
+    "right_answer": "b"
+  },
+  {
+    "question": "Kəllə sümüklərində osteomanın əsasən lokalizasiyası haradır?",
+    "answer_a": "Xəlbir labirintin hüceyrələri",
+    "answer_b": "Ənsə sümüyü",
+    "answer_c": "Alın cibi",
+    "answer_d": "Əsas cib",
+    "answer_e": "Haymor cibi",
+    "right_answer": "c"
+  },
+  {
+    "question": "Xroniki irinli otit əsasən hansı hal ilə fəsadlaşır?",
+    "answer_a": "Sinusit",
+    "answer_b": "Nevrinoma",
+    "answer_c": "Xolesteatoma yaranması ilə",
+    "answer_d": "Rinit",
+    "answer_e": "Yevstaxit",
+    "right_answer": "c"
+  },
+  {
+    "question": "Haymor cibinin sürətli rentgenoloji dinamikası nə zaman qısa ödemdə rast gəlinir?",
+    "answer_a": "Xroniki haymoritin kəskinləşməsi zamanı",
+    "answer_b": "Xroniki haymorit zamanı",
+    "answer_c": "Qeyri-kəskin haymorit zamanı",
+    "answer_d": "Kəskin haymorit zamanı",
+    "answer_e": "Vazomotor rinosinusopatiya zamanı",
+    "right_answer": "e"
+  },
+  {
+    "question": "Burun ətrafı ciblərin bədxassəli şişlərinin əsas əlaməti nədir?",
+    "answer_a": "Cibdə tündləşmə",
+    "answer_b": "Cib ölçüsünün dəyişməsi",
+    "answer_c": "Cib formasının dəyişməsi",
+    "answer_d": "Sümükdə destruksiya",
+    "answer_e": "Cib fonunda əlavə kölgəlik",
+    "right_answer": "d"
+  },
+  {
+    "question": "Adenoidlərin rentgenoloji əlamətlərinə nə aiddir?",
+    "answer_a": "Burun boşluğunda əlavə kölgəlik",
+    "answer_b": "Burun-udlaq hissəsinin əlavə kölgəliyi",
+    "answer_c": "Ağız-udlaq hissəsində əlavə kölgəlik",
+    "answer_d": "Udlaq-qırtlaq hissədə əlavə kölgəlik",
+    "answer_e": "Qırtlaq hissəsində əlavə kölgəlik",
+    "right_answer": "b"
+  },
+  {
+    "question": "Kəllə sümüklərində adamantinoma lokalizasiyası haradadır?",
+    "answer_a": "Haymor cibi",
+    "answer_b": "Alt çənənin cismi və bucaq nahiyəsidir",
+    "answer_c": "Ənsə sümüyü",
+    "answer_d": "Hamısı aiddir",
+    "answer_e": "Üst çənə",
+    "right_answer": "b"
+  },
+  {
+    "question": "USM zamanı qalxanvari vəzinin sist əlaməti hansıdır?",
+    "answer_a": "Müxtəlif əlamətlər olur",
+    "answer_b": "Qeyri-dəqiq konturlu qeyri-düzgün girdəvari forma",
+    "answer_c": "Dəqiq konturlu qeyri-düzgün girdəvari forma",
+    "answer_d": "Qeyri-dəqiq konturlu düzgün girdəvari forma",
+    "answer_e": "Dəqiq konturlu düzgün girdəvari forma",
+    "right_answer": "e"
+  },
+  {
+    "question": "Zirvədə ağciyər şəkli hansı xüsusiyyətə malikdir?",
+    "answer_a": "Torvarı strukturlu şəkil",
+    "answer_b": "İlgəkvarı strukturlu şəkil",
+    "answer_c": "Ağciyər şəklinin olmaması",
+    "answer_d": "Xətvarı strukturlu şəkil",
+    "answer_e": "Tutqun şəkil",
+    "right_answer": "c"
+  },
+  {
+    "question": "Bifurkasion traxeya limfa vəzilərin böyüməsini nə xarakterizə edir?",
+    "answer_a": "Bucaqların dəyişməməsi",
+    "answer_b": "Traxeo-bronxial bucağın kiçilməsi",
+    "answer_c": "Traxeo-bronxial bucağın böyüməsi",
+    "answer_d": "Bifurkasion bucağın böyüməsi",
+    "answer_e": "Bifurkasion bucağın kiçilməsi",
+    "right_answer": "d"
+  },
+  {
+    "question": "Müller sınağı zamanı ağciyərin qanla dolması necə olur?",
+    "answer_a": "Deformasiyalaşır",
+    "answer_b": "Azalır",
+    "answer_c": "Zənginləşir",
+    "answer_d": "Artır",
+    "answer_e": "Dəyişmir",
+    "right_answer": "d"
+  },
+  {
+    "question": "Ağciyər toxumasını qidalandıran bronxial arteriyalar öz başlanğıcını haradan götürür?",
+    "answer_a": "Aortanın qarın hissəsindən",
+    "answer_b": "Ağciyər arteriyalarından",
+    "answer_c": "Qabırğaarası arteriyalar və aortanın döş hissəsindən",
+    "answer_d": "Ağciyər venalarından",
+    "answer_e": "Qabırğaarası venalardan",
+    "right_answer": "c"
+  },
+  {
+    "question": "Arxa zonaya hansı seqment aiddir?",
+    "answer_a": "Altıncı",
+    "answer_b": "Doqquzuncu və onuncu",
+    "answer_c": "Onuncu",
+    "answer_d": "Beşinci",
+    "answer_e": "Altıncı və doqquzuncu",
+    "right_answer": "a"
+  },
+  {
+    "question": "Kerli-B xətləri əsasən ağciyərin hansı hissələrində müşahidə olunur?",
+    "answer_a": "Bazal hissələrdə",
+    "answer_b": "Zirvə hissədə",
+    "answer_c": "Kök ətrafı hissədə",
+    "answer_d": "Hamısında",
+    "answer_e": "Orta hissədə",
+    "right_answer": "a"
+  },
+  {
+    "question": "Struktursuz ağciyər kökü nə zaman müşahidə olunur?",
+    "answer_a": "Ağciyərin mərkəzi xərçəngində",
+    "answer_b": "Traxeyanın şişində",
+    "answer_c": "Divararalığın bronxo-enterogen kistasında",
+    "answer_d": "Xroniki bronxitdə",
+    "answer_e": "Kəskin bronxitdə",
+    "right_answer": "a"
+  },
+  {
+    "question": "Tənəffüs zamanı ağciyərdə kölgəliyin yerdəyişmə istiqaməti nədən asılıdır?",
+    "answer_a": "Formasından",
+    "answer_b": "Ölçülərdən",
+    "answer_c": "Anatomik substratdan",
+    "answer_d": "Lokalizasiyasından asılı olur",
+    "answer_e": "Ağciyər kökü ilə əlaqədən",
+    "right_answer": "d"
+  },
+  {
+    "question": "Ağciyər payının atelektazının dəqiq əlaməti hansıdır?",
+    "answer_a": "Payarası plevranın enməsi",
+    "answer_b": "Payın homogen kölgəsi",
+    "answer_c": "Payarası plevranın yerləşməsi",
+    "answer_d": "Payın intensiv kölgəsi",
+    "answer_e": "Diafraqmanın günbəzinin yüksək yerləşməsi",
+    "right_answer": "e"
+  },
+  {
+    "question": "Döş daxili limfatik düyünlər anatomik olaraq harada yerləşir?",
+    "answer_a": "Mərkəzi və arxa divararası",
+    "answer_b": "Ön divararası",
+    "answer_c": "Ağciyər kökündə",
+    "answer_d": "Divararası və ağciyər kökündə",
+    "answer_e": "Ön və arxa divararası",
+    "right_answer": "d"
+  },
+  {
+    "question": "Rentgenoqrammada ağciyərin patoloji törəmələrinin kölgəsində intensivliyi nədən asılıdır?",
+    "answer_a": "Lokalizasiyadan",
+    "answer_b": "Morfoloji substratdan",
+    "answer_c": "Formasından",
+    "answer_d": "Ölçülərdən",
+    "answer_e": "Ölçü və lokalizasiyadan",
+    "right_answer": "b"
+  },
+  {
+    "question": "Ağciyər arteriyasının hipoplaziyası hansı üsulla müəyyənləşir?",
+    "answer_a": "Rentgenoskopiyada",
+    "answer_b": "Angiopulmonoqrafiyada",
+    "answer_c": "Rentgenoqrafiyada",
+    "answer_d": "Tomoqrafiyada",
+    "answer_e": "Bronxoqrafiyada",
+    "right_answer": "b"
+  },
+  {
+    "question": "Ağciyər sekvestrasiyasının ən xarakterik simptomu hansıdır?",
+    "answer_a": "Ağciyər şəklinin deformasiyası",
+    "answer_b": "Bazal sahələrdə məhdudlaşmış kölgə",
+    "answer_c": "Ağciyər şəklinin güclənməsi",
+    "answer_d": "Diafraqma günbəzinin elevasiyası",
+    "answer_e": "Ağciyər kökünün deformasiyası",
+    "right_answer": "b"
+  },
+  {
+    "question": "Ağciyər sekvestrasiyasına şübhə olduqda hansı müayinə məqsədə uyğundur?",
+    "answer_a": "Qida borusunun kontrastlaşması",
+    "answer_b": "Aortoqrafiya",
+    "answer_c": "Tomoqrafiya",
+    "answer_d": "Bronxoqrafiya",
+    "answer_e": "Rentgenoqrafiya",
+    "right_answer": "b"
+  },
+  {
+    "question": "\"Pankost xərçəngi\" termini hansı şişlərə aid olunur?",
+    "answer_a": "Ağciyərin kortiko-plevral xərçəngi",
+    "answer_b": "Ağciyər xoşxassəli şişi",
+    "answer_c": "Divararalıq orqanların şişi",
+    "answer_d": "Plevra bədxassəli şişi",
+    "answer_e": "Mərkəzi ağciyər xərçəngi",
+    "right_answer": "a"
+  },
+  {
+    "question": "Ağciyər köklərinin strukturunun öyrənilməsində ən informativ üsul hansıdır?",
+    "answer_a": "Xətti tomoqrafiya",
+    "answer_b": "USM",
+    "answer_c": "Rentgenoskopiya",
+    "answer_d": "Rentgenoqrafiya",
+    "answer_e": "KT",
+    "right_answer": "e"
+  },
+  {
+    "question": "Paratraxeal limfadenopatiyalarda hansı müayinə metodu daha effektlidir?",
+    "answer_a": "USM",
+    "answer_b": "KT",
+    "answer_c": "İki standart proyeksiyada rentgenoqrafiya",
+    "answer_d": "Rentgenoskopiya",
+    "answer_e": "İki standart proyeksiyada tomoqrafiya və rentgenoqrafiya",
+    "right_answer": "b"
+  },
+  {
+    "question": "Deformasiyaedici artrozlara hansı əlamət xarakterikdir?",
+    "answer_a": "Oynaq yarığının genişlənməsi",
+    "answer_b": "Kənar osteofit",
+    "answer_c": "Regional osteoporoz",
+    "answer_d": "Oynaq səthinin eroziv dəyişikliyi",
+    "answer_e": "Kənar osteofitləri və oynaq yarığının daralması",
+    "right_answer": "e"
+  },
+  {
+    "question": "Hemofiliya xəstəliyində diz oynağının zədələnməsinin ən tipik rentgenoloji simptomu hansıdır?",
+    "answer_a": "Bud sümüyünün kondiluslararası çuxurunun genişlənməsi",
+    "answer_b": "Kənar osteofitlər",
+    "answer_c": "Osteoporoz",
+    "answer_d": "Oynaq yarığında daralmalar",
+    "answer_e": "Subxondral skleroz",
+    "right_answer": "a"
+  },
+  {
+    "question": "Ekskretor uroqrafiya zamanı böyrək sistinin nefroqrafik fazasına nə xarakterikdir?",
+    "answer_a": "Böyrək damarların vəziyyəti",
+    "answer_b": "Nefroqrafik fazanın olmaması",
+    "answer_c": "Parenximanın qeyri-bərabər kontrastlaşması",
+    "answer_d": "Parenximanın zəif kontrastlaşması",
+    "answer_e": "Parenximanın defekti",
+    "right_answer": "e"
+  },
+  {
+    "question": "Böyrək polikistozu zamanı böyrəkdə hansı dəyişikliklər baş verir?",
+    "answer_a": "Böyrək ölçülərinin artması və deformasiyası",
+    "answer_b": "Böyrək ölçülərinin kiçilməsi",
+    "answer_c": "Böyrək ölçülərinin böyüməsi",
+    "answer_d": "Böyrək ölçülərinin kiçilməsi və deformasiyası",
+    "answer_e": "Böyrəyin deformasiyası",
+    "right_answer": "a"
+  },
+  {
+    "question": "KT zamanı normada böyrəküstü vəzi hansı şəkildə görünür?",
+    "answer_a": "Böyrək yuxarı ucunu üst qatını örtən hipodens törəmə",
+    "answer_b": "Böyrəyin yuxarı ucunda üçbucaq şəkilli törəmə",
+    "answer_c": "İzodens dəqiq kapsullu böyrək parenximasına uyğun törəmə",
+    "answer_d": "Qeyri-homogen girdə şəkilli törəmə",
+    "answer_e": "Böyrəyin yuxarı və lateral sahələri yanında hiperdens strukturlu törəmə",
+    "right_answer": "b"
+  },
+  {
+    "question": "Sidik axarı intramural hissəsinin daşları sidik kisəsində olan daşdan nə ilə fərqlənir?",
+    "answer_a": "Xəstə yer dəyişəndə lokalizasiya dəyişmir",
+    "answer_b": "Formanın düz girdə şəklində və konturları dəqiqdir",
+    "answer_c": "Oval formalı və hamar konturlu törəməsi",
+    "answer_d": "Balaca ölçülərin və akustik kölgənin olmaması",
+    "answer_e": "Arxasında akustik kölgə ilə exopozitiv törəmənin olması",
+    "right_answer": "a"
+  },
+  {
+    "question": "USM zamanı böyrək polikistozunun fərqli əlaməti hansıdır?",
+    "answer_a": "Böyrək qabıq maddəsinin nazikləşməsi",
+    "answer_b": "Böyrək ölçülərinin kiçilməsi",
+    "answer_c": "Böyrəyin kasa-ləyən sisteminin deformasiya edən hər iki böyrəkdə çox saylı su törəmələri",
+    "answer_d": "Çox saylı su törəmələrinin mövcudluğu",
+    "answer_e": "Böyrək ölçülərinin böyüməsi",
+    "right_answer": "c"
+  },
+  {
+    "question": "Sağlam insanda böyrək uzunluq oxları necə yerləşirlər?",
+    "answer_a": "Onurğa sütununa paraleldir",
+    "answer_b": "Yuxarıdan açıq bucaq əmələ gəlir",
+    "answer_c": "Sağda onurğa sütununa paralel, solda bucaq altında",
+    "answer_d": "Aşağıdan açıq bucaq əmələ gəlir",
+    "answer_e": "Soldan onurğa sütununa paralel, sağdan bucaq altında",
+    "right_answer": "d"
+  },
+  {
+    "question": "Uşaqlarda uzun borulu sümüklərin sınıqlarından hansına daha çox rast gəlinir?",
+    "answer_a": "Oynaq daxili sınıqlar",
+    "answer_b": "İri qəlpəli sınıqlar",
+    "answer_c": "Sümük üstü altı sınıqlar, zədə epifiziolizi",
+    "answer_d": "Patoloji sınıqlar",
+    "answer_e": "Xırda qəlpəli sınıqlar",
+    "right_answer": "c"
+  },
+  {
+    "question": "Uşaqlarda baş beyinin USM zamanı hansı datçikdən istifadə olunur?",
+    "answer_a": "Sektoral",
+    "answer_b": "Xətti",
+    "answer_c": "Konveks",
+    "answer_d": "Sadalananların hamısı doğrudur",
+    "answer_e": "Mikrokonveks",
+    "right_answer": "a"
+  },
+  {
+    "question": "Hansı tipli tumor göz almasının tumorları sırasına daxil deyil?",
+    "answer_a": "Osteoma",
+    "answer_b": "Hemangioma",
+    "answer_c": "Limfoma",
+    "answer_d": "Retinoblastoma",
+    "answer_e": "Melanoma",
+    "right_answer": "c"
+  },
+  {
+    "question": "İntrakranial ekstraaksial tumor hansıdır?",
+    "answer_a": "Ependimoma",
+    "answer_b": "Multiformlu qlioblastoma",
+    "answer_c": "Pilositar astrositoma",
+    "answer_d": "Statoakustik sinirin nevrinoması",
+    "answer_e": "Hemangioblastoma",
+    "right_answer": "d"
+  },
+  {
+    "question": "Hansı intrakranial tumorlar subaraxnoidal boşluqlara və mərkəzi sinir sisteminə erkən metastazlar vermir?",
+    "answer_a": "Medulloblastoma",
+    "answer_b": "Germinoma",
+    "answer_c": "Ependimoma",
+    "answer_d": "Psammomatoz tipli meningioma",
+    "answer_e": "Heç biri",
+    "right_answer": "d"
+  },
+  {
+    "question": "Hansı tipli intrakranial tumor damar daxili kontrastlaşmadan sonra kontrast maddəni akkumulyasiya etmir?",
+    "answer_a": "Pleksus papilloma",
+    "answer_b": "Anaplastik ependimoma",
+    "answer_c": "Şvannoma",
+    "answer_d": "Aşağı differensiasiyalı astrositar tumor",
+    "answer_e": "Statoakustik nevrinoma",
+    "right_answer": "d"
+  },
+  {
+    "question": "Hansı anatomik struktur ostiomeatal kompleksə aid deyil?",
+    "answer_a": "Rozenmüller çuxurları",
+    "answer_b": "Onodi hüceyrəsi",
+    "answer_c": "İnfundibulum maxilla",
+    "answer_d": "Ön etmoidal kompleks",
+    "answer_e": "Qarmaqlı lövhələr",
+    "right_answer": "a"
+  },
+  {
+    "question": "Böyüklərdə normal qalxanabənzər vəzin exogenliyi nə ilə müqayisə olunur?",
+    "answer_a": "Paratiroid vəzilər ilə",
+    "answer_b": "Qalxanabənzər vəzin ətrafında yerləşən əzələlərlə",
+    "answer_c": "Tüpürcək vəzi ilə",
+    "answer_d": "Dilaltı əzələlərlə izoexogendir",
+    "answer_e": "Çənəaltı yumşaq toxumalarla bərabərdir",
+    "right_answer": "b"
+  },
+  {
+    "question": "Uşaqlarda qalxanabənzər vəzin exogenliyi hansı orqan və toxumaların exogenliyi ilə müqayisə olunur?",
+    "answer_a": "Paratiroid vəzilərlə",
+    "answer_b": "Dilaltı əzələlərlə",
+    "answer_c": "Çənəaltı yumşaq toxumalarla izoexogendir",
+    "answer_d": "Qalxanabənzər vəz ətrafı əzələlərlə exogenliyi eynidir",
+    "answer_e": "Tüpürcək vəziləri ilə",
+    "right_answer": "e"
+  },
+  {
+    "question": "Travmatik diafraqmal yırtıqlar adətən harada müşahidə olunur?",
+    "answer_a": "Diafraqmanın sağ ön hissəsində",
+    "answer_b": "Diafraqmanın sağ arxa hissəsində",
+    "answer_c": "Diafraqmanın mərkəzi hissəsində",
+    "answer_d": "Diafraqmanın hər iki hissəsində",
+    "answer_e": "Diafraqmanın sol hissəsində",
+    "right_answer": "e"
+  },
+  {
+    "question": "Diafraqma günbəzlərinin eyni səviyyədə bilateral elevasiyasının səbəbi hansıdır?",
+    "answer_a": "Meteorizm",
+    "answer_b": "Assit",
+    "answer_c": "Ağciyər atelektazı",
+    "answer_d": "Qarın şişləri",
+    "answer_e": "Diafraqmanın tam relaksasiyası",
+    "right_answer": "b"
+  },
+  {
+    "question": "Qida borusu normada harada yerləşir?",
+    "answer_a": "Yuxarı boş venanın önündə",
+    "answer_b": "Arxa sol divararalığında",
+    "answer_c": "Ön divararalığında",
+    "answer_d": "Orta divararalığında",
+    "answer_e": "Retroperitoneumda",
+    "right_answer": "b"
+  },
+  {
+    "question": "Qida borusunun mənfəzinin artıq dərəcədə genişlənməsi hansı xəstəliyə xasdır?",
+    "answer_a": "Xroniki ezofagitə",
+    "answer_b": "Xoraya",
+    "answer_c": "Axalaziyaya",
+    "answer_d": "Polipə",
+    "answer_e": "Xərçəngə",
+    "right_answer": "c"
+  },
+  {
+    "question": "Qida borusunun aşağı hissəsinin strikturasını adətən hansı xəstəlikdə müşahidə etmək olar?",
+    "answer_a": "Xroniki qastritdə",
+    "answer_b": "Sklerodermiyada",
+    "answer_c": "Xroniki pnevmoniyada",
+    "answer_d": "Kəskin qastritdə",
+    "answer_e": "Mədənin xora xəstəliyində",
+    "right_answer": "b"
+  },
+  {
+    "question": "Peptik xora əksər hallarda mədənin hansı hissəsində yerləşir?",
+    "answer_a": "Kiçik əyrilikdə",
+    "answer_b": "Kardial hissədə",
+    "answer_c": "Antral hissədə",
+    "answer_d": "Cisimin arxa divarında",
+    "answer_e": "Böyük əyrilikdə",
+    "right_answer": "a"
+  },
+  {
+    "question": "Mədənin giriş dəliyi necə adlanır?",
+    "answer_a": "Kardiya",
+    "answer_b": "Pilorik hissə",
+    "answer_c": "Sinus",
+    "answer_d": "Z-xətti",
+    "answer_e": "Antrum",
+    "right_answer": "a"
+  },
+  {
+    "question": "Sadalananlardan Kron xəstəliyinin sinonimlərinə hansı aid deyil?",
+    "answer_a": "Regional enterit",
+    "answer_b": "Terminal ileit",
+    "answer_c": "Xroniki kolit",
+    "answer_d": "Qranulematoz enterokolit",
+    "answer_e": "Stenozlu ileit",
+    "right_answer": "c"
+  },
+  {
+    "question": "Hirşprunq xəstəliyi üçün daha informativ diaqnostik üsul hansıdır?",
+    "answer_a": "Maqnit rezonans müayinəsi",
+    "answer_b": "Ultrasəs müayinəsi",
+    "answer_c": "Köndələn müayinəsi",
+    "answer_d": "Rentgenoloji yoxlama",
+    "answer_e": "Kolonofibroskopiya",
+    "right_answer": "d"
+  },
+  {
+    "question": "Yoğun bağırsağın divertikulyozu ən çox harada rast gəlir?",
+    "answer_a": "Qalxan çənbər bağırsaqda",
+    "answer_b": "Kor bağırsaqda",
+    "answer_c": "Köndələn çənbər bağırsaqda",
+    "answer_d": "Siqmayabənzər bağırsaqda",
+    "answer_e": "Düz bağırsaqda",
+    "right_answer": "d"
+  },
+  {
+    "question": "Yoğun bağırsağın hansı xəstəliklərində KT müayinəsi əlavə metod kimi istifadə oluna bilər?",
+    "answer_a": "Xroniki kolitlərdə",
+    "answer_b": "Hirşprunq xəstəliyində",
+    "answer_c": "Xoralı kolitlərdə",
+    "answer_d": "Şişlərdə",
+    "answer_e": "Hemoroidal düyünlərdə",
+    "right_answer": "d"
+  },
+  {
+    "question": "Dolixokolon nədir?",
+    "answer_a": "Bağırsağın qısalması",
+    "answer_b": "Bağırsağın genəlməsi",
+    "answer_c": "Bağırsağın deşilməsi",
+    "answer_d": "Bağırsağın uzanması",
+    "answer_e": "Bağırsağın daralması",
+    "right_answer": "d"
+  },
+  {
+    "question": "Kiçik piylik tərkibində aşağıdakı anatomik strukturlardan hansı olmur?",
+    "answer_a": "Ümumi öd axarı",
+    "answer_b": "Aşağı boş vena",
+    "answer_c": "Hepatik arteriyanın şaxələri",
+    "answer_d": "Limfa düyünləri",
+    "answer_e": "Portal vena",
+    "right_answer": "b"
+  },
+  {
+    "question": "Badd-Kiari sindromunda aşağıdakı əlamətlərdən hansı xarakterik sayılmır?",
+    "answer_a": "Qaraciyər venalarının mərkəzi və periferik səviyyəsində venoz axına maneə",
+    "answer_b": "Qaraciyər parenximasının ödemi",
+    "answer_c": "Assit və portal hipertenziya və aşağı ətrafların ödemi",
+    "answer_d": "Quyruqlu payın kompensator böyüməsi",
+    "answer_e": "Sağ mədəcik çatışmamazlığı və yuxarı boş venada endoflebit",
+    "right_answer": "e"
+  },
+  {
+    "question": "\"Ulduzlu səma\" USM simptomu qaraciyərin hansı morfostruktur dəyişiklikləri üçün xarakterik sayılır?",
+    "answer_a": "Kəskin hepatitdə portal triadların mövcudluğuna",
+    "answer_b": "Multilokal çox saylı intraparenximatoz hepatik metastazlara",
+    "answer_c": "Qaraciyərin sirrozunda regenerativ düyünlərin yaranmasına",
+    "answer_d": "Hepatik peliozlarda qaraciyərin sinusoidlərində lakunların dilatasiyasına",
+    "answer_e": "Çox saylı, diffuz yayılmış biliar hamartomlara",
+    "right_answer": "a"
+  },
+  {
+    "question": "Abdominal üzvlərin icmal diaqnostikasında hansı metod əsas \"standart\" sayılır?",
+    "answer_a": "Kompüter tomoqrafiya",
+    "answer_b": "Abdominal rentgenoqrafiya",
+    "answer_c": "Endovaginal USM",
+    "answer_d": "Abdominal laparoskopiya",
+    "answer_e": "Maqnit rezonans tomoqrafiya",
+    "right_answer": "a"
+  },
+  {
+    "question": "Qaraciyərin \"kistoz görüntülü\" intraparenximatoz törəmə şəkli hansı patologiya nəticəsində yarana bilər?",
+    "answer_a": "Regenerativ hiperplaziya nəticəsində",
+    "answer_b": "Biliar hamartoma səbəbinə",
+    "answer_c": "Qaraciyərin adenoması nəticəsində",
+    "answer_d": "Fibrolamellar hepatik karsinoma zamanı",
+    "answer_e": "Kavernoz hemangioma nəticəsində",
+    "right_answer": "b"
+  },
+  {
+    "question": "Hansı öd kisəsi və öd axarı xəstəliklərində KT müayinəsi informativ deyil?",
+    "answer_a": "\"Çini\" öd kisəsi hallarında",
+    "answer_b": "Öd kisəsinin diskineziyasının aşkarlanmasında",
+    "answer_c": "Mexaniki sarılıq hallarında",
+    "answer_d": "Öd kisəsinin xərçəngində",
+    "answer_e": "Xroniki xolesistitdə",
+    "right_answer": "b"
+  },
+  {
+    "question": "Mədəaltı vəzinin adenokarsinomasının ən çox rast gələn lokalizasiyası hansıdır?",
+    "answer_a": "Quyruq",
+    "answer_b": "Düzgün cavab yoxdur",
+    "answer_c": "Başı",
+    "answer_d": "Diffuz zədələnmə",
+    "answer_e": "Cisim",
+    "right_answer": "c"
+  },
+  {
+    "question": "Periampulyar xərçəng termininə nə aid deyil?",
+    "answer_a": "Mədənin piloroantral xərçəngi",
+    "answer_b": "Ümumi öd axacağın distal hissəsinin xərçəngi",
+    "answer_c": "Mədəaltı vəzi başının xərçəngi",
+    "answer_d": "12 barmaq bağırsaq xərçəngi",
+    "answer_e": "Fater məməciyinin xərçəngi",
+    "right_answer": "a"
+  },
+  {
+    "question": "Qaraciyərin polikistozu hansı digər üzvlərin polikistozu ilə müşayiət oluna bilər?",
+    "answer_a": "Ağciyərlərin",
+    "answer_b": "Yumurtalıqların",
+    "answer_c": "Böyrəklərin və mədəaltı vəzin",
+    "answer_d": "Dalağın",
+    "answer_e": "Mədəaltı və adrenal vəzilərin",
+    "right_answer": "c"
+  },
+  {
+    "question": "Hansı xəstəlikdə qaraciyər arxitektonikası USM-də pozulmur?",
+    "answer_a": "Qaraciyər sirrozu zamanı",
+    "answer_b": "Piyli hepatoza patoqnomonikdir",
+    "answer_c": "Qaraciyər xərçəngində pozulmur",
+    "answer_d": "Hemoxromatoza xasdır",
+    "answer_e": "Qaraciyər metastazları üçün xasdır",
+    "right_answer": "b"
+  },
+  {
+    "question": "Dalaq parenximasında kalsifikasiyaların yaranması hansı xəstəliyə xarakterik deyil?",
+    "answer_a": "Dalaq infarktının xroniki perioduna",
+    "answer_b": "Histoplazmoz mikotik infeksiyası",
+    "answer_c": "Sarkoidoza",
+    "answer_d": "Pneumocystis carinii infeksiyası",
+    "answer_e": "Vərəm infeksiyası fəsadına",
+    "right_answer": "c"
+  },
+  {
+    "question": "USM zamanı dalaq parenximasının diffuz bərkiməsi hansı xəstəliklərdə müəyyən edilir?",
+    "answer_a": "Sarkoidozda",
+    "answer_b": "Hemolitik anemiyada",
+    "answer_c": "Kəskin toksikoinfeksiyada",
+    "answer_d": "Kandidozda",
+    "answer_e": "Hemoxromatozlarda",
+    "right_answer": "e"
+  },
+  {
+    "question": "Qaraciyər parenximasının diffuz bərkiməsi hansı patologiyada aşkarlanmır?",
+    "answer_a": "Postximioterapevtik hepatitdə",
+    "answer_b": "Amiodaron mənşəli toksikozda",
+    "answer_c": "Birincili və ikincili hemoxromatozda",
+    "answer_d": "Vilson (Konovalov) xəstəliyində",
+    "answer_e": "Qlikogen konsentrasiyası xəstəliyində",
+    "right_answer": "a"
+  },
+  {
+    "question": "Portal venanın trombozu zamanı ümumi qaraciyər arteriyasında qan axınının sürəti necə dəyişir?",
+    "answer_a": "Nəfəsalmada artır",
+    "answer_b": "Sürətlənir",
+    "answer_c": "Nəfəsalmada azalır",
+    "answer_d": "Sabit qalır",
+    "answer_e": "Azalır",
+    "right_answer": "b"
+  },
+  {
+    "question": "Süd vəzinin hansı nahiyəsində piy toxuması olmur?",
+    "answer_a": "Yuxarı daxili kvadrant",
+    "answer_b": "Yuxarı xarici kvadrant",
+    "answer_c": "Areola sahəsində",
+    "answer_d": "Aşağı xarici kvadrant",
+    "answer_e": "Aşağı daxili kvadrant",
+    "right_answer": "c"
+  },
+  {
+    "question": "Süd vəzinin xərçəngönü dəyişikliklərinə aşağıdakılardan hansı aiddir?",
+    "answer_a": "Mastitin diffuz forması",
+    "answer_b": "Mastitin düyünlü forması",
+    "answer_c": "Fibroz-kistoz mastopatiyanın düyünlü tipi",
+    "answer_d": "Abses və xroniki qalaktoreya",
+    "answer_e": "Diffuz fibroz-kistoz mastopatiya",
+    "right_answer": "c"
+  },
+  {
+    "question": "Süd vəzilərinin həqiqi hipertrofiyasında böyümə hansı toxumanın hesabına yaranır?",
+    "answer_a": "Birləşdirici və piyli hipertrofiyası səbəbinə",
+    "answer_b": "Piyli toxumanın hipertrofiyası hesabına",
+    "answer_c": "Bütün toxumaların eyni halda bərabər artması ilə əlaqəlidir",
+    "answer_d": "Vəz toxuması hipertrofiyası səbəbinə",
+    "answer_e": "Birləşdirici toxuma artmasının nəticəsidir",
+    "right_answer": "d"
+  },
+  {
+    "question": "Normada periferik limfatik damarlar USM-də necə vizualizə olunur?",
+    "answer_a": "Yalnız kontrast yeridiləndən sonra (limfoqrafiya zamanı) bilinir",
+    "answer_b": "Hiperexogen görüntülüdür",
+    "answer_c": "Anexogen, güclənmiş sərhədlər kimi izlənilir",
+    "answer_d": "Anexogen görüntülüdür",
+    "answer_e": "Exoqrafik üsulla vizualizə olunmur",
+    "right_answer": "e"
+  },
+  {
+    "question": "Süd vəzilərinin yuxarı-xarici kvadrantının xərçəngində birinci olaraq hansı limfa düyünləri zədələnmir?",
+    "answer_a": "Körpücükaltı sahənin vəziləri qrupu",
+    "answer_b": "Körpücüküstü vəzilər qrupu",
+    "answer_c": "Ön və mərkəzi qoltuqaltı qrupların vəziləri",
+    "answer_d": "Həmin tərəfin boyun limfatik vəziləri",
+    "answer_e": "Ön mediastinal limfatik vəzilər",
+    "right_answer": "c"
+  },
+  {
+    "question": "Süd vəzilərinin yuxarı-daxili kvadrantının xərçəngində birinci olaraq hansı limfa düyünləri zədələnir?",
+    "answer_a": "Aşağı karotid limfa düyünləri",
+    "answer_b": "Əks tərəfdə qoltuqaltı limfa düyünləri",
+    "answer_c": "Həmin tərəfdə ön və mərkəzi qoltuqaltı vəzilər qrupları",
+    "answer_d": "Orta və arxa qoltuqaltı vəzilər qrupları",
+    "answer_e": "Ön divararalığı qrupun vəziləri",
+    "right_answer": "e"
+  },
+  {
+    "question": "Normada aşağı ətraf arteriyalarında hansı tip axın izlənir?",
+    "answer_a": "Magistral tipli axın",
+    "answer_b": "Bifazalı axın",
+    "answer_c": "Kollateral tipli",
+    "answer_d": "Magistral və kollateral tipli",
+    "answer_e": "Monofazalı axın",
+    "right_answer": "a"
+  },
+  {
+    "question": "Normada dopler US müayinəsi zamanı qaraciyərin portal venasında qan axınının istiqaməti necə olur?",
+    "answer_a": "Hepatopetal-hepatofugal",
+    "answer_b": "Hepatofugal",
+    "answer_c": "Ümumi qaraciyər arteriyasının qan axınının əks istiqamətində olur",
+    "answer_d": "Qaraciyər venalarının qan axınının istiqaməti ilə eyni olur",
+    "answer_e": "Hepatopetal",
+    "right_answer": "e"
+  },
+  {
+    "question": "Normada Dopler müayinəsi zamanı qaraciyər venalarında qan axınının istiqaməti və xarakteri necə olur?",
+    "answer_a": "Müxtəlif istiqamətli və turbulent axın",
+    "answer_b": "Müxtəlif istiqamətli və laminar axın",
+    "answer_c": "Bir istiqamətli və laminar",
+    "answer_d": "Heç biri doğru deyil",
+    "answer_e": "Bir istiqamətli və turbulent axın",
+    "right_answer": "c"
+  },
+  {
+    "question": "Aortanın koarktasiyası nə deməkdir?",
+    "answer_a": "Aorta divarının anevrizması",
+    "answer_b": "Aorta qövsünün genişlənməsi",
+    "answer_c": "Aorta qapaqlarının çatışmazlığı",
+    "answer_d": "Enən aortanın lokal daralması",
+    "answer_e": "Aortanın anadangəlmə uzanması",
+    "right_answer": "d"
+  },
+  {
+    "question": "Ankilozedici spondiloartritin əsas, erkən və zəruri zədələnməsi hansıdır?",
+    "answer_a": "Simfizit",
+    "answer_b": "Qonit",
+    "answer_c": "Birtərəfli koksartrit",
+    "answer_d": "Falanqit",
+    "answer_e": "Bilateral sakroileit",
+    "right_answer": "e"
+  },
+  {
+    "question": "Sadalananlardan Bexterev xəstəliyinin sinonimi hansıdır?",
+    "answer_a": "Ankilozedici spondiloartrit",
+    "answer_b": "Spondilolistez",
+    "answer_c": "Osteoxondroz",
+    "answer_d": "Deformasiyaedici spondiloz",
+    "answer_e": "Spondiloartroz",
+    "right_answer": "a"
+  },
+  {
+    "question": "Onurğanın hansı hissəsində unkovertebral artroz rast gəlinir?",
+    "answer_a": "Bel",
+    "answer_b": "Büzdüm",
+    "answer_c": "Döş",
+    "answer_d": "Boyun",
+    "answer_e": "Oma",
+    "right_answer": "d"
+  },
+  {
+    "question": "Hansı xəstəlikdə oynaq boşluğuna qansızma nəticəsində hemartroz yaranması tipikdir?",
+    "answer_a": "Villonodulyar sinovitlərdə",
+    "answer_b": "Revmatizmdə",
+    "answer_c": "Reyter xəstəliyində",
+    "answer_d": "Şenleyn-Henox xəstəliyində",
+    "answer_e": "Hemofiliya xəstəliyində",
+    "right_answer": "e"
+  },
+  {
+    "question": "Oma-büzdüm nahiyəsinin teratomasının exostrukturu hansı görüntüdə ola bilər?",
+    "answer_a": "Teratomanın görüntüsündə sadalanan formaların hamısı mövcuddur",
+    "answer_b": "Kistoz",
+    "answer_c": "Kistoz və yaxud solid",
+    "answer_d": "Qarışıq",
+    "answer_e": "Solid",
+    "right_answer": "a"
+  },
+  {
+    "question": "İkiləşmiş böyrək anomaliyalarının əsas fəsadı hansıdır?",
+    "answer_a": "Xərçəng",
+    "answer_b": "Nefrolitiaz",
+    "answer_c": "Pielonefrit",
+    "answer_d": "Hidronefroz",
+    "answer_e": "Nefroptoz",
+    "right_answer": "c"
+  },
+  {
+    "question": "Böyrək sancılarından sonrakı hematuriyanın səbəbi?",
+    "answer_a": "Konkrement",
+    "answer_b": "Pielonefrit",
+    "answer_c": "Xərçəng",
+    "answer_d": "Nefroptoz",
+    "answer_e": "Hidronefroz",
+    "right_answer": "a"
+  },
+  {
+    "question": "USM zamanı varikoseleni dəqiqləşdirmək üçün hansı sınaqdan istifadə olunur?",
+    "answer_a": "Trendelenburq sınağı",
+    "answer_b": "Pronasiya və supinasiya sınaqları",
+    "answer_c": "Qarın boşluğunun arteriyalarının kompressiyası və Reberq sınaqları",
+    "answer_d": "Zimnitski sınağı",
+    "answer_e": "Ortostatik vəziyyət və Valsalva manevri",
+    "right_answer": "e"
+  },
+  {
+    "question": "USM-də testikulyar şişin metastazları ilk növbədə hansı üzvdə axtarılmalıdır?",
+    "answer_a": "Böyrəküstü vəzilərdə",
+    "answer_b": "Prostat vəzidə",
+    "answer_c": "Qaraciyərdə",
+    "answer_d": "Retroperitoneal limfatik vəzilər qrupunda",
+    "answer_e": "Mədəaltı vəzidə",
+    "right_answer": "d"
+  },
+  {
+    "question": "Testisin ən çox rast gələn şişi aşağıdakılardan hansıdır?",
+    "answer_a": "Seminoma",
+    "answer_b": "Teratoma",
+    "answer_c": "Leydiqoma",
+    "answer_d": "Androblastoma",
+    "answer_e": "Testikulyar adenoma",
+    "right_answer": "a"
+  },
+  {
+    "question": "Nefrokalsinozlarda böyrəyin əsasən hansı strukturları zədələnir?",
+    "answer_a": "Kortikal qat, böyrək sinusu",
+    "answer_b": "Böyrəyin medulyar piramidaları",
+    "answer_c": "Kortikal qat",
+    "answer_d": "Medulyar və kortikal sahələr bərabər zədələnir",
+    "answer_e": "Böyrək sinusu",
+    "right_answer": "b"
+  },
+  {
+    "question": "Parapelvikal kistanın ən dəqiq USM simptomu hansıdır?",
+    "answer_a": "Kapsulasının xarici səthində xarakteristik kalsifikasiyalar yaranır",
+    "answer_b": "Dəqiq oval və dairəvi formalı olur",
+    "answer_c": "Kasa-ləyən sistemi ilə əlaqəsi mövcud deyil",
+    "answer_d": "Daxilində kalsifikasiyalar olmalıdır",
+    "answer_e": "Daxili kapilyar qanama və kalsium yarana bilər",
+    "right_answer": "c"
+  },
+  {
+    "question": "Berkitt limfomalarında əsasən hansı qadın pelvik üzvləri zədələnir?",
+    "answer_a": "Sidik kisəsi",
+    "answer_b": "Uşaqlıq endometriyası",
+    "answer_c": "Yumurtalıqlar",
+    "answer_d": "Uşaqlıq boruları",
+    "answer_e": "Parametrial limfatik vəzilər",
+    "right_answer": "c"
+  },
+  {
+    "question": "Aşerman sindromuna hansı morfostruktur patologiya kompleksi aiddir?",
+    "answer_a": "Polipoz ilə müşayiət olunan endometriumun hiperplaziyası",
+    "answer_b": "Vaginal hipoplaziya, uşaqlığın və uşaqlıq borularının disgeneziyası",
+    "answer_c": "Uşaqlıq borularının hipoplaziyası",
+    "answer_d": "Çox saylı ovarial kistalar və endometriumun atrofiyası",
+    "answer_e": "Uşaqlıq boşluğunun obliterasiyası və endometrial fibroz bitişmələrin aşkarlanması",
+    "right_answer": "e"
+  },
+  {
+    "question": "Ultrasəs müayinəsi zamanı saktosalpinksin differensiasiyası aşağıdakılardan hansı ilə aparılmalıdır?",
+    "answer_a": "Paraovarial kista",
+    "answer_b": "Peritubar kistoma",
+    "answer_c": "Seroz kistadenoma",
+    "answer_d": "Saktosalpinksin differensiasiyası bütün sadalanan patologiyalarla aparılmalıdır",
+    "answer_e": "Serozosele tipli kista",
+    "right_answer": "d"
+  },
+  {
+    "question": "Serozoseleyə xas olan və paraovarial kistadan fərqləndirən əsas differensial diaqnostik kriteri hansıdır?",
+    "answer_a": "Daxili möhtəviyyat",
+    "answer_b": "İntakt yumurtalığın strukturu",
+    "answer_c": "Kapsulanın mövcud olmaması",
+    "answer_d": "Divarönü əlavələr",
+    "answer_e": "Ölçüləri",
+    "right_answer": "c"
+  },
+  {
+    "question": "Transvaginal ultrasəs müayinəsi hansı halda az informativ sayılır?",
+    "answer_a": "Daxili endometrioz halında",
+    "answer_b": "Endometriumun hiperplastik proliferasiyası",
+    "answer_c": "Çox böyük ölçülü yumurtalıq tumorları zamanı",
+    "answer_d": "Uşaqlığın intramural düyünlərində",
+    "answer_e": "Uşaqlıqdan kənar hamiləlikdə",
+    "right_answer": "c"
+  },
+  {
+    "question": "Leyomiomaların xüsusiyyətlərinə aid ən doğru müddəa hansıdır?",
+    "answer_a": "Xoş xassəli leyomiomanın torakal metastazları mümkün deyil",
+    "answer_b": "Disseminasiya olunmuş peritoneal leyomiomalar ola bilməz",
+    "answer_c": "İntravenoz leyomiomatoz olmur",
+    "answer_d": "Yuxarıda sadalanan leyomiomaların formalarının hər tipi mümkündür",
+    "answer_e": "Parazitar leyomiomalar ola bilməz",
+    "right_answer": "d"
+  },
+  {
+    "question": "Transabdominal USM zamanı uşaqlıq boruları necə vizualizasiya olunur?",
+    "answer_a": "Hiperexogen boru şəkilli strukturlar kimi",
+    "answer_b": "İzoexogen boru şəkilli strukturlar şəklində",
+    "answer_c": "Hipoexogen boru şəkilli strukturlar kimi",
+    "answer_d": "Anexogen boru şəkilli strukturlar görüntüsündə",
+    "answer_e": "Normada uşaqlıq boruları vizualizasiya edilmir",
+    "right_answer": "e"
+  },
+  {
+    "question": "Hansı damarlar prenatal göbək damarlarının normal anatomik quruluşuna daxildir?",
+    "answer_a": "İki arteriya və iki vena",
+    "answer_b": "Bir vena iki arteriya",
+    "answer_c": "Bir arteriya və bir vena",
+    "answer_d": "Bir arteriya və çoxsaylı vena",
+    "answer_e": "Bir arteriya və iki vena",
+    "right_answer": "b"
+  },
+  {
+    "question": "Natamam abortun USM diaqnostikası aşağıdakılardan hansına əsaslanır?",
+    "answer_a": "Döl yumurtasında embrionun olmaması",
+    "answer_b": "Daxilində heterogen exostrukturlar olan genişlənmiş uşaqlıq boşluğu",
+    "answer_c": "Daxili dəliyin diametrinin həddən artıq dilatasiyası",
+    "answer_d": "Duqlas boşluğunda mayenin olması",
+    "answer_e": "Miometriyada periferik damarların genişlənməsi",
+    "right_answer": "b"
+  },
+  {
+    "question": "USM zamanı heterotopik hamiləliyə hansı tipli hamiləlik deyilir?",
+    "answer_a": "Uşaqlığın borularında yaranmış döl",
+    "answer_b": "Abdominal hamiləlik zamanı kalsifikasiya (mumifikasiya) olunmuş döl",
+    "answer_c": "Uşaqlıq daxili və uşaqlıq kənarında hamiləliyin eyni zamanda yaranması",
+    "answer_d": "Uşaqlıqdan kənarda yaranmış hər hansı bir hamiləlik",
+    "answer_e": "Uşaqlıq boynunda yaranmış hamiləlik",
+    "right_answer": "c"
+  },
+  {
+    "question": "Exoqrafik \"qarlı fırtına\" simptomu aşağıdakı patologiyalardan hansında patoqnomonik sayılır?",
+    "answer_a": "Böyük ölçülü retroxorional hematomalarda",
+    "answer_b": "Anembrioniyada",
+    "answer_c": "Beçəxor zamanı (qovuq yoluxması)",
+    "answer_d": "Uşaqlığın adenomiozunda",
+    "answer_e": "İnkişafdan qalmış hamiləlikdə",
+    "right_answer": "c"
+  },
+  {
+    "question": "Prenatal USM-də qarın çevrəsinin orta diametrinin ölçülməsində əsas oriyentir hansı strukturdur?",
+    "answer_a": "Dalaq və qaraciyər",
+    "answer_b": "Böyrəklər",
+    "answer_c": "Öd kisəsi",
+    "answer_d": "",
+    "answer_e": "",
+    "right_answer": ""
+  },
+  {
+    "question": "Diafraqmanın natamam relaksasiyası adətən harada müşahidə olunur?",
+    "answer_a": "Solda ön hissədə",
+    "answer_b": "Sağda arxa hissədə",
+    "answer_c": "Sağdan ön hissədə",
+    "answer_d": "Düzgün cavab yoxdur",
+    "answer_e": "Solda arxa hissədə",
+    "right_answer": "c"
+  },
+  {
+    "question": "Boş orqanın perforasiyasının rentgenoloji əlaməti hansıdır?",
+    "answer_a": "Meteorizm",
+    "answer_b": "Diafraqmanın funksiyasının və vəziyyətinin pozulması",
+    "answer_c": "Qarın nahiyəsində sərbəst maye",
+    "answer_d": "Bütün cavablar düzgündür",
+    "answer_e": "Qarın nahiyəsində sərbəst qaz",
+    "right_answer": "e"
+  },
+  {
+    "question": "Süd vəzi fibroadenomalarının hansı histoloji forması adətən kapsulaya malikdir?",
+    "answer_a": "İntrakanalikulyar",
+    "answer_b": "Qarışıq",
+    "answer_c": "Yarpaqvarı",
+    "answer_d": "Perikanalikulyar forması",
+    "answer_e": "Yuvenil",
+    "right_answer": "d"
+  },
+  {
+    "question": "Süd vəzi xərçənginin əsas patoqnomonik əlaməti hansıdır?",
+    "answer_a": "Kirəc əlavələrinin əmələ gəlməsi",
+    "answer_b": "Qeyri-həmcins strukturu olması",
+    "answer_c": "Törəmə kölgəsinin həmcins strukturlu olması",
+    "answer_d": "Törəmə kölgəsinin konturlarının dəqiq olması",
+    "answer_e": "Şüalı kontur",
+    "right_answer": "e"
+  },
+  {
+    "question": "Hansı müayinə metodu qarın aortasının daralmasının lokalizasiyasını dəqiqləşdirmək və kollateralların vəziyyətini öyrənmək üçün optimaldır?",
+    "answer_a": "KT",
+    "answer_b": "USM",
+    "answer_c": "Rentgenoqrafiya",
+    "answer_d": "Aortoqrafiya",
+    "answer_e": "Rentgenoskopiya",
+    "right_answer": "d"
+  },
+  {
+    "question": "Hansı xəstəlik zamanı kiçik qan dövranında prekapilyar təzyiqin artması müşahidə olunur?",
+    "answer_a": "Mitral qapaqların çatışmamazlığı",
+    "answer_b": "Fallo triadası",
+    "answer_c": "Fallo tetradası",
+    "answer_d": "Qulaqcıqlararası arakəsmənin defekti hallarında",
+    "answer_e": "Dilatasion kardiomiopatiya zamanı",
+    "right_answer": "d"
+  },
+  {
+    "question": "Hansı xəstəlik zamanı kiçik qan dövranında postkapilyar təzyiq artması müşahidə olunur?",
+    "answer_a": "Fallo tetradası",
+    "answer_b": "Fallo triadası",
+    "answer_c": "Açıq arterial axacaq zamanı",
+    "answer_d": "Mitral qapaqların çatışmamazlığında",
+    "answer_e": "Aorta dəliyinin stenozunda",
+    "right_answer": "c"
+  },
+  {
+    "question": "Kiçik qan dövranının arterial hipertenziyası hansı xəstəlik üçün xarakterikdir?",
+    "answer_a": "Aortanın koarktasiyası",
+    "answer_b": "Aorta dəliyinin stenozu",
+    "answer_c": "Ağciyər arteriyasının stenozu",
+    "answer_d": "Ağciyər arteriyasının tromboemboliyası üçün",
+    "answer_e": "Bütün cavablar düzgündür",
+    "right_answer": "d"
+  },
+  {
+    "question": "\"Ağciyər ürəyi\" hansı xəstəliyin ağırlaşmasıdır?",
+    "answer_a": "Hipertonik xəstəlik",
+    "answer_b": "Xroniki pnevmoniya",
+    "answer_c": "Ürək qüsurları",
+    "answer_d": "Hipertireoz",
+    "answer_e": "Miokardit",
+    "right_answer": "b"
+  },
+  {
+    "question": "Sirkə kasasının hansı hissəsi qığırdaq ilə örtülür?",
+    "answer_a": "Üstü və dibi",
+    "answer_b": "Üstü",
+    "answer_c": "Aypara səthi",
+    "answer_d": "Aşağı səthi",
+    "answer_e": "Dibi",
+    "right_answer": "c"
+  },
+  {
+    "question": "Bazu sümüyünün proksimal hissəsinin ən xarakterik sınığı hansıdır?",
+    "answer_a": "Başın",
+    "answer_b": "Kiçik qabarcığın sınığı",
+    "answer_c": "Anatomik boyunun sınığı",
+    "answer_d": "Böyük qabarcığın sınığı",
+    "answer_e": "Cərrahi boyunda xətti sınıq",
+    "right_answer": "e"
+  },
+  {
+    "question": "Bilək sümüklərinin ən çox yayılmış sınığı hansıdır?",
+    "answer_a": "Başlı sümüyün sınığı",
+    "answer_b": "Periayparayabənzər əl çıxığı",
+    "answer_c": "Qayıqyabənzər sümüyün sınığı",
+    "answer_d": "Ayparayabənzər sümüyün çıxığı",
+    "answer_e": "Üçüzlü sümüyün sınığı",
+    "right_answer": "c"
+  },
+  {
+    "question": "Xərçəngin osteoblastik metastazlarına oxşar rentgenoloji simptomlar hansı xəstəlikdə olur?",
+    "answer_a": "Diafizar hiperostoz",
+    "answer_b": "Fibroz displaziya",
+    "answer_c": "Epifizar displaziya",
+    "answer_d": "Osteopoykiliya xəstəliyində",
+    "answer_e": "Tamamlanmayan osteogenez",
+    "right_answer": "d"
+  },
+  {
+    "question": "Hansı xəstəliyin erkən stadiyasında oynaqlarda distrofik dəyişikliklər baş verir?",
+    "answer_a": "Meloreostoz xəstəliyi",
+    "answer_b": "Fibroz displaziya",
+    "answer_c": "Epifizar displaziya zamanı",
+    "answer_d": "Osteopoykiliya",
+    "answer_e": "Mərmər xəstəliyi",
+    "right_answer": "c"
+  },
+  {
+    "question": "Ülürülülmə simptomu hansı patologiyalarda rast gəlir?",
+    "answer_a": "Başa çatmamış osteogenez",
+    "answer_b": "Fibroz displaziya",
+    "answer_c": "Meloreostoz",
+    "answer_d": "Spondilo-epifizar displaziya",
+    "answer_e": "Araxnodaktiliya",
+    "right_answer": "b"
+  },
+  {
+    "question": "Uzun borulu sümüklərin hematogen irinli osteomieliti zamanı sümüyün əsasən hansı hissəsi zədələnir?",
+    "answer_a": "Diafiz və epifiz",
+    "answer_b": "Metafiz",
+    "answer_c": "Apofiz",
+    "answer_d": "Epifiz",
+    "answer_e": "Diafiz",
+    "right_answer": "b"
+  },
+  {
+    "question": "Hematogen osteomielitin erkən rentgenoloji əlaməti hansıdır?",
+    "answer_a": "Yanaşı yumşaq toxumaların dəyişməsi",
+    "answer_b": "Kortikal qatın xırda ocaqlı destruksiyası",
+    "answer_c": "Osteoskleroz",
+    "answer_d": "Fistula yaranması",
+    "answer_e": "Periostal reaksiya və skleroz",
+    "right_answer": "a"
+  },
+  {
+    "question": "Sümük vərəminə hansı sekvestrlər xarakterikdir?",
+    "answer_a": "Kortikal və total",
+    "answer_b": "Süngəri",
+    "answer_c": "Fərqi yoxdur",
+    "answer_d": "Kortikal",
+    "answer_e": "Total",
+    "right_answer": "b"
+  },
+  {
+    "question": "Sümük-qığırdaq ekzostozları uzun borulu sümüklərin hansı hissələrindən inkişaf edir?",
+    "answer_a": "Diafiz hissəsindən",
+    "answer_b": "Metadiafiz hissəsindən",
+    "answer_c": "Metafizlərdən",
+    "answer_d": "Epifiz və apofizdən",
+    "answer_e": "Apofiz hissəsindən",
+    "right_answer": "c"
+  },
+  {
+    "question": "Osteoblastoklastoma (hiqantoma) adətən harada lokalizasiya olunur?",
+    "answer_a": "Apofiz",
+    "answer_b": "Metafiz",
+    "answer_c": "Metaepifiz",
+    "answer_d": "Epifiz",
+    "answer_e": "Diafiz",
+    "right_answer": "c"
+  },
+  {
+    "question": "Skeletin hansı sümüklərində hemangiomaya nadir hallarda rast gəlinir?",
+    "answer_a": "Fəqərələr və qabırğalar",
+    "answer_b": "Fəqərələr",
+    "answer_c": "Qabırğalar",
+    "answer_d": "Uzun borulu sümüklər",
+    "answer_e": "Kəllə qapağı sümükləri",
+    "right_answer": "d"
+  },
+  {
+    "question": "Hansı bədxassəli sümük şişinin klinikası və rentgenoloji şəkli osteomieliti xatırladır?",
+    "answer_a": "Osteogen sarkoma",
+    "answer_b": "Xondrosarkoma",
+    "answer_c": "Ağciyər metastazları",
+    "answer_d": "Fibrokarsinoma",
+    "answer_e": "Yuinq sarkoma",
+    "right_answer": "e"
+  },
+  {
+    "question": "Fəqərələrin bədxassəli şişləri üçün hansı rentgenoloji əlamət xarakterik deyil?",
+    "answer_a": "Fəqərəarası diskin dağılması",
+    "answer_b": "Fəqərə cisminin destruksiyası",
+    "answer_c": "Paravertebral yumşaq toxumaların qalınlaşması",
+    "answer_d": "Fəqərə qövsünün destruksiyası",
+    "answer_e": "Fəqərə qövsü ayaqcıqlarının destruksiyası",
+    "right_answer": "a"
+  },
+  {
+    "question": "Osteoblastik metastazlar hansı üzvün xərçəngi üçün xarakterikdir?",
+    "answer_a": "Prostat vəzisinin",
+    "answer_b": "Ağciyər",
+    "answer_c": "Qalxanvari vəz",
+    "answer_d": "Böyrək",
+    "answer_e": "Mədə",
+    "right_answer": "a"
+  },
+  {
+    "question": "Uzun sümüklərin oxlarının əyilməsi hansı xəstəlikdə yaranır?",
+    "answer_a": "Osteoporoz zamanı",
+    "answer_b": "Atrofiya",
+    "answer_c": "Osteomalyasiya",
+    "answer_d": "Hiperparatireoid osteodistrofiya hallarında",
+    "answer_e": "Nefrogen osteodistrofiya zamanı",
+    "right_answer": "d"
+  },
+  {
+    "question": "Əsasən skeletin hansı hissəsi aseptik nekroza məruz qalır?",
+    "answer_a": "Uzun sümüklərin metafizləri",
+    "answer_b": "Qısa sümüklərin metafizləri",
+    "answer_c": "Oynaqların çuxurları",
+    "answer_d": "Oynaqların başları",
+    "answer_e": "Apofizlər",
+    "right_answer": "d"
+  },
+  {
+    "question": "Limfoqranulematozlarda sümük zədələnməsinin ən xarakterik rentgenoloji əlaməti hansıdır?",
+    "answer_a": "Destruksiya ocaqları",
+    "answer_b": "Osteonekroz ocaqları",
+    "answer_c": "Atrofiya sahəsi",
+    "answer_d": "Osteoskleroz",
+    "answer_e": "Osteoporoz sahəsi",
+    "right_answer": "d"
+  },
+  {
+    "question": "Drenajlaşan kəskin ağciyər absesi üçün daha çox nə xarakterikdir?",
+    "answer_a": "Kökə tərəf \"yolcuğ\"un olması",
+    "answer_b": "Halvalı boşluq",
+    "answer_c": "\"Sekvestr\"in olması",
+    "answer_d": "Formasının dəyişməsi",
+    "answer_e": "Mayenin horizontal səviyyəsi",
+    "right_answer": "e"
+  },
+  {
+    "question": "Abses boşluğunda ağciyər sekvestrinin əsas skialoji əlaməti hansıdır?",
+    "answer_a": "Maye möhtəviyyatının böyük miqdarı",
+    "answer_b": "Düz horizontal səviyyəsi",
+    "answer_c": "Əlavə kölgəlik",
+    "answer_d": "Parçalanma prosesi",
+    "answer_e": "Daxili divarın qeyri-bərabərliyi",
+    "right_answer": "c"
+  },
+  {
+    "question": "Ağciyər retension kistalarını daha dəqiq nə xarakterizə edir?",
+    "answer_a": "İntensivliyi",
+    "answer_b": "Divarları",
+    "answer_c": "Lokalizasiyası",
+    "answer_d": "Forması",
+    "answer_e": "Ölçüləri",
+    "right_answer": "d"
+  },
+  {
+    "question": "Arterial ağciyər hipertenziyası nə ilə xarakterizə olunur?",
+    "answer_a": "Ağciyər şəklinin deformasiyası ilə",
+    "answer_b": "Kök damarlarının pulsasiyası ilə",
+    "answer_c": "Kök damarlarının və ağciyər arteriyasının sütununun genişlənməsi ilə",
+    "answer_d": "Ağciyərdə durğunluq dəyişikliklər ilə",
+    "answer_e": "Ağciyər şəklinin güclənməsi ilə",
+    "right_answer": "c"
+  },
+  {
+    "question": "Kəskinləşmə fazasında tuberkuloma kölgəliyinin strukturu nə ilə xarakterizə olunur?",
+    "answer_a": "Homogen kölgəliyin olması və destruksiyası",
+    "answer_b": "Homogen kölgəliyin olması",
+    "answer_c": "Kirəcləşmə",
+    "answer_d": "Destruksiyanın olması",
+    "answer_e": "Kirəcləşmənin və destruksiyanın olması",
+    "right_answer": "e"
+  },
+  {
+    "question": "Vərəm infiltratı nə ilə xarakterizə olunur?",
+    "answer_a": "Mayenin səviyyəsi və dağılma ilə girdə fokuslu kölgəlik",
+    "answer_b": "Plevral boşluğunda maye ilə",
+    "answer_c": "Formasına görə seqmentin və ya ağciyər payının üçbucaqlı qeyri homogen kölgəliyi ilə",
+    "answer_d": "Seqmentin azalmış həcminin kölgəliyi ilə",
+    "answer_e": "Qeyri-dəqiq konturlu və səpələnmə ocaqların kölgəliyi ilə",
+    "right_answer": "e"
+  },
+  {
+    "question": "Kəskin bronxitin rentgenoloji simptomu hansıdır?",
+    "answer_a": "Köklərin durğunluğu və böyüməsi",
+    "answer_b": "Rentgenoloji əlamətlərin olmaması",
+    "answer_c": "Ağciyər şəklinin deformasiyası",
+    "answer_d": "Köklərinin quruluşunun itməsi",
+    "answer_e": "Ağciyər şəklinin güclənməsi",
+    "right_answer": "b"
+  },
+  {
+    "question": "Bronxdaxili adenoma üçün xarakterik rentgenoloji simptom hansıdır?",
+    "answer_a": "Qeyri-dəqiq konturlu bronx güdülü yaranması",
+    "answer_b": "Bronxun konik güdülü yaranması",
+    "answer_c": "Payının və seqmentinin həcminin kiçilməsi",
+    "answer_d": "Dəqiq konturlu bronx güdülü",
+    "answer_e": "Payının və seqmentinin həcminin artması",
+    "right_answer": "d"
+  },
+  {
+    "question": "Böyrək xərçənginin ağciyər metastazları üçün xarakterik olan hansıdır?",
+    "answer_a": "Limfangit",
+    "answer_b": "Ağciyər köklərinin genişlənməsi",
+    "answer_c": "Miliar karsinoz",
+    "answer_d": "Plevrit",
+    "answer_e": "Dairəvi çoxsaylı törəmələr",
+    "right_answer": "e"
+  },
+  {
+    "question": "Ölmüş exinokokun rentgenoqrammda xarakterik əlaməti hansıdır?",
+    "answer_a": "Kapsulanın kirəcləşməsi",
+    "answer_b": "Ölçülərin kiçilməsi",
+    "answer_c": "Ölçülərin böyüməsi",
+    "answer_d": "Formanın və ölçülərin kiçilməsi",
+    "answer_e": "Formasının dəyişməsi",
+    "right_answer": "a"
+  },
+  {
+    "question": "Qida borusunun distal hissəsinin şaquli vəziyyətdə öyrənilməsinin optimal rentgenoloji proyeksiyası hansıdır?",
+    "answer_a": "İkinci çəp proyeksiya",
+    "answer_b": "Birinci çəp proyeksiyadır",
+    "answer_c": "Hamısı doğrudur",
+    "answer_d": "Düz proyeksiya",
+    "answer_e": "Yan proyeksiya",
+    "right_answer": "b"
+  },
+  {
+    "question": "Udlaq və qida borusunun boyun nahiyəsinin yan proyeksiyasında kontrastsız rentgenoqrafiya hansı xəstəliyin diaqnostikasında tətbiq olunur?",
+    "answer_a": "Qalxanabənzər vəzinin şişləri",
+    "answer_b": "Udma aktının pozulması",
+    "answer_c": "Qida borusunun yad cisimlərində",
+    "answer_d": "Udlaq şişləri",
+    "answer_e": "Qida borusunun şişləri",
+    "right_answer": "c"
+  },
+  {
+    "question": "Öd yollarının əməliyyatından sonra xoledox drenajından uzun müddət axma zamanı hansı müayinə aparılmalıdır?",
+    "answer_a": "Daxili",
+    "answer_b": "Fistuloqrafiya",
+    "answer_c": "Laparoskopiya",
+    "answer_d": "Endoskopiya",
+    "answer_e": "Peroral xolesistoqrafiya",
+    "right_answer": "b"
+  },
+  {
+    "question": "Kontrastlaşmış qida borusunun normal yolunu nə dəyişmir?",
+    "answer_a": "Sol əsas bronx və qulaqcıq",
+    "answer_b": "Aorta",
+    "answer_c": "Sol əsas bronx",
+    "answer_d": "Sol qulaqcıq",
+    "answer_e": "Tək vena",
+    "right_answer": "e"
+  },
+  {
+    "question": "Selikli qişanın büküşləri hansı bağırsaqda daha aydın izlənir?",
+    "answer_a": "Acı və onikibarmaq bağırsaqlarda",
+    "answer_b": "Onikibarmaq bağırsaqlarda",
+    "answer_c": "Nazik bağırsaqda",
+    "answer_d": "Qalça bağırsaqda",
+    "answer_e": "Acı bağırsaqda",
+    "right_answer": "a"
+  },
+  {
+    "question": "Bağırsağın hansı hissəsinin mezenteriumu yoxdur?",
+    "answer_a": "Qalça bağırsaq",
+    "answer_b": "Kor bağırsaq",
+    "answer_c": "S-vari bağırsaq",
+    "answer_d": "Onikibarmaq bağırsaq",
+    "answer_e": "Acı bağırsaq",
+    "right_answer": "d"
+  },
+  {
+    "question": "Diafraqmanın sol günbəzi sağa nisbətən harada yerləşir?",
+    "answer_a": "Eyni səviyyədədir",
+    "answer_b": "Nəfəsvermə zamanı yuxarı qalxır",
+    "answer_c": "Bir qabırğa aşağı",
+    "answer_d": "Nəfəsalma zamanı aşağı enir",
+    "answer_e": "Bir qabırğa yuxarı",
+    "right_answer": "c"
+  },
+  {
+    "question": "Siçan quyruğu şəklində qida borusunun abdominal hissəsi nəyin əlamətidir?",
+    "answer_a": "Kardioezofageal xərçəng",
+    "answer_b": "Epifrenal divertikul",
+    "answer_c": "Qida borusunun diafraqma dəliyinin yırtığı",
+    "answer_d": "Sklerodermiya",
+    "answer_e": "Qida borusunun axalaziyası",
+    "right_answer": "e"
+  },
+  {
+    "question": "Kontrast maddənin traxeyaya aspirasiyası və udlağın funksiyasının pozulması hansı xəstəliklərdə müşahidə olunur?",
+    "answer_a": "Qida borusunun divertikulu",
+    "answer_b": "Udlağın iflicində",
+    "answer_c": "Qida borusunun yanığı",
+    "answer_d": "Qida borusunun diafraqma dəliyinin yırtığı",
+    "answer_e": "Ezofagit",
+    "right_answer": "b"
+  },
+  {
+    "question": "Senker divertikulu qida borusunun yuxarı hissəsinin hansı divarında yaranır?",
+    "answer_a": "Arxa və yan divarlarda",
+    "answer_b": "Yan divarlarda",
+    "answer_c": "Ön divarda",
+    "answer_d": "Ön və yan divarlarda",
+    "answer_e": "Arxa divarında",
+    "right_answer": "e"
+  },
+  {
+    "question": "Udlağın parezi hansı xəstəlik üçün xarakterikdir?",
+    "answer_a": "Ağciyərin mərkəzi xərçəngi",
+    "answer_b": "Ürək qüsurları",
+    "answer_c": "Aorta qövsünün sağda yerləşməsi",
+    "answer_d": "Qalxanabənzər vəzin şişi üçün",
+    "answer_e": "Ağciyərin periferik xərçəngi",
+    "right_answer": "d"
+  },
+  {
+    "question": "Ezofagobronxial fistulalar adətən harada yerləşir?",
+    "answer_a": "Traxeyanın bifurkasiya səviyyəsində",
+    "answer_b": "Qida borusunun distal hissəsi",
+    "answer_c": "Aortal seqmentdə",
+    "answer_d": "Retrokardial seqmentdə",
+    "answer_e": "Qida borusunun yuxarı hissəsi",
+    "right_answer": "a"
+  },
+  {
+    "question": "Erkən xərçəngin daha çox rast gəlinən morfoloji forması hansıdır?",
+    "answer_a": "İnfiltrativ formalı",
+    "answer_b": "Funqal formalı",
+    "answer_c": "Perforativ formalı",
+    "answer_d": "Eroziv-xoralı formalı",
+    "answer_e": "Cavabların hamısı doğrudur",
+    "right_answer": "d"
+  },
+  {
+    "question": "Nazik bağırsağın xovlarının atrofiyası nə vaxt müşahidə olunur?",
+    "answer_a": "Qeyri-tropik spru zamanı",
+    "answer_b": "Uippl xəstəliyində",
+    "answer_c": "Bağırsaq allergiyasında",
+    "answer_d": "Kron xəstəliyi",
+    "answer_e": "Enteropatiyalarda",
+    "right_answer": "e"
+  },
+  {
+    "question": "Qida borusu divarının qalınlaşmasını hansı müayinə metodu ilə müəyyənləşdirmək olar?",
+    "answer_a": "USM",
+    "answer_b": "Pnevmomediastinoskopiya",
+    "answer_c": "Kontrastlı rentgenoqrafiya",
+    "answer_d": "Radioizotop müayinəsi",
+    "answer_e": "KT",
+    "right_answer": "e"
+  },
+  {
+    "question": "Qaraciyərin bədxassəli şişləri əsasən hansı damardan qidalanır?",
+    "answer_a": "Qaraciyər venalarından",
+    "answer_b": "Qapı venasından",
+    "answer_c": "Aşağı boş venadan",
+    "answer_d": "Heç biri doğru deyil",
+    "answer_e": "Qaraciyər arteriyası",
+    "right_answer": "e"
+  },
+  {
+    "question": "Uşaq və gənclərin öd kisəsində yaranan rentgenokontrastlı daşlar nə ilə əlaqəlidir?",
+    "answer_a": "Kalsiumun metabolizminin pozulması ilə",
+    "answer_b": "Süddən çox istifadə etmək ilə",
+    "answer_c": "Xolesterin mübadiləsinin pozulması ilə",
+    "answer_d": "Laktazanın az olması ilə",
+    "answer_e": "Yemək rejiminin pozulması",
+    "right_answer": "a"
+  },
+  {
+    "question": "Emfizematoz xolesistitlər adətən böyüklərdə nə ilə müşahidə olunur?",
+    "answer_a": "Pis və ya heç müalicə edilməyən diabet ilə",
+    "answer_b": "Yağlı yeməklərdən",
+    "answer_c": "",
+    "answer_d": "",
+    "answer_e": "",
+    "right_answer": "a"
+  },
+  {
+    "question": "Prenatal USM zamanı dölün ağız boşluğundan və burun-udlaqdan inkişaf edən patoloji törəmə necə adlanır?",
+    "answer_a": "Dakriosistosele",
+    "answer_b": "Epiqnatus",
+    "answer_c": "Epikantus",
+    "answer_d": "Makroqlossiya",
+    "answer_e": "Proboscis",
+    "right_answer": "b"
+  },
+  {
+    "question": "Hamiləliyin II trimestrində dölün mədəsinin exoqrafik üsul ilə aşkarlanmaması hansı halda olur?",
+    "answer_a": "Diafraqmal yırtığında",
+    "answer_b": "Kardiosplenik sindromda",
+    "answer_c": "Videman-Bekvitt sindromunda",
+    "answer_d": "Qida borusunun atreziyasında",
+    "answer_e": "Yoğun bağırsağın atreziyası halında",
+    "right_answer": "d"
+  },
+  {
+    "question": "Beçəxor (qovuq yoluxması) zamanı yumurtalıqda əsasən hansı kista növü vizualizasiya olunur?",
+    "answer_a": "Paraovarial kista izlənilir",
+    "answer_b": "Endometrioid kistası",
+    "answer_c": "Bilateral teka-lütein kistaları mövcuddur",
+    "answer_d": "Bilateral retension kistalar",
+    "answer_e": "Follikulyar kistalar",
+    "right_answer": "c"
+  },
+  {
+    "question": "Dölün ürəyinin ən çox rast gələn şişi aşağıda qeyd edilənlərdən hansıdır?",
+    "answer_a": "Hematoma",
+    "answer_b": "Fibroma",
+    "answer_c": "Rabdomioma",
+    "answer_d": "Miksoma",
+    "answer_e": "Perikardial teratoma",
+    "right_answer": "c"
+  },
+  {
+    "question": "Hansı patologiyalarda dölün başının xarici konturları ikiləşmiş kimi vizualizasiya oluna bilər?",
+    "answer_a": "Mikrosefaliyada",
+    "answer_b": "Akraniya anomaliyasında",
+    "answer_c": "Dölün qeyri-immun hidropsu zamanı",
+    "answer_d": "Makrosefaliya və ventrikulomeqaliya hallarında",
+    "answer_e": "Anensefaliyada",
+    "right_answer": "c"
+  },
+  {
+    "question": "Endometriyanın hiperplaziyası menstrual tsiklin hansı fazasında USM ilə daha dəqiq vizualizasiya olunur?",
+    "answer_a": "Erkən proliferativ fazasında",
+    "answer_b": "Erkən sekretor fazada",
+    "answer_c": "Sekretor fazada",
+    "answer_d": "Desretor fazada / Deskvamasiya zamanı",
+    "answer_e": "Ovulyasiya zamanı",
+    "right_answer": "a"
+  },
+  {
+    "question": "Ovulyasiyanın exoqrafik əlamətləri hansıdır?",
+    "answer_a": "Uşaqlığın ölçülərinin kiçilməsi",
+    "answer_b": "10mm diametrində yetişmiş follikul",
+    "answer_c": "Duqlas boşluğunda sərbəst maye aşkarlanması",
+    "answer_d": "Qalınlaşmış endometrium",
+    "answer_e": "Yumurtalığın böyüməsi",
+    "right_answer": "c"
+  },
+  {
+    "question": "Prenatal USM zamanı hansı serebral strukturun seçilməməsi lissensefaliya üçün diaqnostik kriteri sayılır?",
+    "answer_a": "Serebral hemisferlərin qırışlarının",
+    "answer_b": "Talamusun",
+    "answer_c": "Döyənəkli cismin",
+    "answer_d": "Beyinciyin",
+    "answer_e": "Serebral falksın",
+    "right_answer": "a"
+  },
+  {
+    "question": "Fetal USM zamanı ənsə nahiyədə ensefalosele, polidaktiliya və böyrəklərin kistoz-displaziyası - qeyd olunan triada kompleksi hansı xəstəliklərdə aşkarlanır?",
+    "answer_a": "Dandy-Walker malformasiyasında",
+    "answer_b": "Tuberoz skleroz zamanı",
+    "answer_c": "Mekkel-Qruber sindromunda",
+    "answer_d": "Arnold-Chiari malformasiyasında",
+    "answer_e": "Potter anomaliyası zamanı",
+    "right_answer": "c"
+  },
+  {
+    "question": "Timomeqaliyada rentgenoqrafiya müayinəsi zamanı optimal proyeksiya hansıdır?",
+    "answer_a": "Döş qəfəsi - yan",
+    "answer_b": "Döş qəfəsi - üfüqi arxası üstə",
+    "answer_c": "Boyun nahiyəsi - üfüqi ön",
+    "answer_d": "Döş qəfəsi - şaquli ön",
+    "answer_e": "Boyun nahiyəsi - şaquli ön",
+    "right_answer": "d"
+  },
+  {
+    "question": "TORCH sindromu kompleksini yaradan səbəblər hansılardır?",
+    "answer_a": "Hamiləlik zamanı infeksiyalar",
+    "answer_b": "Hamiləlik zamanı hipoalimentasiya və yaxud ananın şəkərli diabeti",
+    "answer_c": "Vaxtından tez doğuş faktı",
+    "answer_d": "Hamiləlik zamanı ananın nikotin ilə digər ekzogen intoksikasiyası",
+    "answer_e": "Genetik faktor (xromosom aberrasiyaları)",
+    "right_answer": "a"
+  },
+  {
+    "question": "Uşaqlarda ən xarakterik qaraciyər tumoru hansıdır?",
+    "answer_a": "Hepatik hemangioma",
+    "answer_b": "Hepatik limfoma",
+    "answer_c": "Kavernoz hemangioma",
+    "answer_d": "Vilms tumorunun metastazları",
+    "answer_e": "Neyroblastoma metastazları",
+    "right_answer": "a"
+  },
+  {
+    "question": "Yeni doğulmuşlarda meningosele əsasən hansı sahədə lokalizasiya olur?",
+    "answer_a": "Frontal sahələrdə",
+    "answer_b": "Temporal sahələrdə",
+    "answer_c": "Ənsə sahəsində",
+    "answer_d": "Gicgah və təpə nahiyələrdə",
+    "answer_e": "Pariyetal nahiyələrdə",
+    "right_answer": "c"
+  },
+  {
+    "question": "Öd kisəsi daşının kimyəvi tərkibi onun ultrasəs şəklinə təsir edirmi?",
+    "answer_a": "Bütün hallarda",
+    "answer_b": "Konkrement maye ilə əhatə olunmayıbsa",
+    "answer_c": "Heç vaxt",
+    "answer_d": "Daşın ölçüsü 5mm-dən böyükdürsə və konkrement maye ilə əhatə olunubsa",
+    "answer_e": "Daşın ölçüsü 5mm-dən kiçikdirsə",
+    "right_answer": "c"
+  },
+  {
+    "question": "Qalınlığı və konturları normal olan öd kisəsinin divarlarının içərisində çoxlu sayda nöqtəvari hiperexogen strukturların aşkar edilməsi hansı xəstəlik üçün xarakterikdir?",
+    "answer_a": "Öd kisəsinin xolesterozu",
+    "answer_b": "Öd daşı xəstəliyi",
+    "answer_c": "Öd kisəsinin adenomiomatozu",
+    "answer_d": "Öd kisəsinin xərçəngi",
+    "answer_e": "Xroniki xolesistit",
+    "right_answer": "a"
+  },
+  {
+    "question": "Qaraciyərin qapısı ağzında öd axarlarını topik ayırd etməkdən ötrü hansı orientirdən istifadə etmək olmaz?",
+    "answer_a": "Qaraciyər arteriyası",
+    "answer_b": "Qaraciyər arteriyasının sol paya gedən şaxəsi",
+    "answer_c": "Aşağı boş vena",
+    "answer_d": "Qapı venası",
+    "answer_e": "Qaraciyər arteriyasının sağ paya gedən şaxəsi",
+    "right_answer": "d"
+  },
+  {
+    "question": "Öd kisəsinin ən çox təsadüf olunan anomaliyaları hansılardır?",
+    "answer_a": "Öd kisəsinin sayının anomaliyaları",
+    "answer_b": "Hamısı təqribən eyni nisbətdə təsadüf edilir",
+    "answer_c": "Öd kisəsinin yerləşməsinin anomaliyaları",
+    "answer_d": "Öd kisəsinin ölçülərinin anomaliyaları",
+    "answer_e": "Öd kisəsinin formasının anomaliyaları",
+    "right_answer": "e"
+  },
+  {
+    "question": "Mədəaltı vəzin baş hissəsinin xərçənginin əsas exoqrafik əlamətləri hansılardır?",
+    "answer_a": "Hamısı düzdür",
+    "answer_b": "Qaraciyərdən xaric öd axarlarında xolestaz",
+    "answer_c": "Mədəaltı vəzin baş hissəsində aşkar edilmiş ocaqlı zədələnmə",
+    "answer_d": "Damarların sıxılması və yerdəyişməsi",
+    "answer_e": "Mədəaltı vəz axacağının genişlənməsi",
+    "right_answer": "c"
+  },
+  {
+    "question": "Mədəaltı vəzin kistoz fibrozu nəyin nəticəsidir?",
+    "answer_a": "Çox sürətli inkişaf edən iltihabi prosesin",
+    "answer_b": "Hamısı düzdür",
+    "answer_c": "Mədəaltı vəzin anadangəlmə anomaliyasının",
+    "answer_d": "Mədəaltı vəzin şiş nəticəsində zədələnməsinin",
+    "answer_e": "Uzun müddət davam edən iltihabi prosesin",
+    "right_answer": "c"
+  },
+  {
+    "question": "Dalaq infarktının sonuncu mərhələsində ultrasəs şəkil necə olmalıdır?",
+    "answer_a": "Kənarları dəqiq olan hipoexogen törəmə formasında",
+    "answer_b": "Kənarları qeyri-dəqiq hipoexogen törəmə formasında",
+    "answer_c": "Bütün cavablar doğrudur",
+    "answer_d": "Kənarları qeyri-dəqiq hiperexogen törəmə formasında",
+    "answer_e": "Kənarları dəqiq olan hiperexogen törəmə formasında",
+    "right_answer": "b"
+  },
+  {
+    "question": "Prostat vəzin adenomasında düyünlü törəmələr əksərən hansı nahiyəsində aşkar edilir?",
+    "answer_a": "Ön fibromuskulyar zonada",
+    "answer_b": "Mərkəzi zonada",
+    "answer_c": "\"Cərrahi kapsula\" boyunca",
+    "answer_d": "Periferik zonada",
+    "answer_e": "Prostat vəzin sərhəd zonasında",
+    "right_answer": "e"
+  },
+  {
+    "question": "Göbək ciyəsinin kistaları əksər hallarda hansı patologiyalar ilə birlikdə rast gəlinir?",
+    "answer_a": "Xromosom aberrasiyaları",
+    "answer_b": "Sidik-cinsiyyət sisteminin anomaliyaları ilə",
+    "answer_c": "Cift gəlişi ilə",
+    "answer_d": "Anensefaliya ilə",
+    "answer_e": "Dölyanı mayenin çoxluğu ilə",
+    "right_answer": "a"
+  },
+  {
+    "question": "Skrininq ultrasəs müayinədə dölün ürəyini tədqiq etməkdən ötrü hansı kəsikdən istifadə edilməsi mütləq sayılır?",
+    "answer_a": "Aortanın qövsü boyu alınan kəsik",
+    "answer_b": "Ürəyin dördkameralı kəsiyi",
+    "answer_c": "Ağciyər arteriyası ilə kəsişən kəsik",
+    "answer_d": "Heç biri düz deyil",
+    "answer_e": "Sol mədəciyin qısa oxu boyunca alınan kəsik",
+    "right_answer": "b"
+  },
+  {
+    "question": "Aortanın koarktasiyasının prenatal ultrasəs əlamətləri hansılardır?",
+    "answer_a": "Aortanın sağ mədəcikdən başlanması",
+    "answer_b": "Magistral damarların transpozisiyası",
+    "answer_c": "Aortanın dekstropozisiyası",
+    "answer_d": "Aortanın mənfəzinin genişlənməsi",
+    "answer_e": "Aortanın mənfəzinin daralması",
+    "right_answer": "e"
+  },
+  {
+    "question": "Hamiləliyin II yarısında dölün ağciyərlərinin exostrukturu necə olmalıdır?",
+    "answer_a": "Qeyri-həmcins",
+    "answer_b": "Həmcins",
+    "answer_c": "Kistoz",
+    "answer_d": "Hamısı düzdür",
+    "answer_e": "Solid-kistoz strukturalı",
+    "right_answer": "b"
+  },
+  {
+    "question": "Dölün prenatal diafraqma yırtıqlarının ultrasəs əlamətləri hansıdır?",
+    "answer_a": "Dölyanı mayenin normadan çox olması",
+    "answer_b": "Dekstrokardiya",
+    "answer_c": "Heç biri düzgün deyil",
+    "answer_d": "Hamısı düzdür",
+    "answer_e": "Qarın boşluğu orqanlarının döş qəfəsində vizualizasiyası",
+    "right_answer": "e"
+  },
+  {
+    "question": "Yemək borusunun atreziyasını təsdiq edən birbaşa ultrasəs əlamətlər hansılardır?",
+    "answer_a": "Belə göstərici yoxdur",
+    "answer_b": "Mədənin ölçüsünün böyüməsi",
+    "answer_c": "Dölyanı mayenin normadan çox olması",
+    "answer_d": "Mədənin exoqrafik şəklinin görünməməsi",
+    "answer_e": "Yemək borusunun keçməməzlik olan nahiyəsinin aşkar edilməsi",
+    "right_answer": "d"
+  },
+  {
+    "question": "Qastroşizisin prenatal exoqrafik göstəriciləri hansılardır?",
+    "answer_a": "Qarın boşluğu orqanlarının yırtıq kisəsinə eventrasiyası",
+    "answer_b": "Mədənin ultrasəs şəklinin görünməməsi",
+    "answer_c": "Qarın boşluğu orqanlarının yırtıq kisəsi olmadan baş verən eventrasiyası",
+    "answer_d": "Mədənin ölçülərinin kiçilməsi",
+    "answer_e": "Mədənin ölçülərinin böyüməsi",
+    "right_answer": "c"
+  },
+  {
+    "question": "Dölün iki tərəfli böyrək ageneziyasının xarakterik ultrasəs əlamətləri hansılardır?",
+    "answer_a": "Sidik kisəsinin ultrasəs şəklinin görünməməsi",
+    "answer_b": "Dölün inkişaf sürətinin simmetrik geri qalması",
+    "answer_c": "Dölyanı mayenin normadan əhəmiyyətli də az olması",
+    "answer_d": "Hamısı düzdür",
+    "answer_e": "Böyrəklərin ultrasəs şəklinin görünməməsi",
+    "right_answer": "e"
+  },
+  {
+    "question": "Kordosentez dedikdə hansı orqanın punksiyası nəzərdə tutulur?",
+    "answer_a": "Göbək ciyəsinin venası",
+    "answer_b": "Amniotik boşluğun",
+    "answer_c": "Dölün ürəyinin",
+    "answer_d": "Dölün qaraciyərinin",
+    "answer_e": "Ciftin",
+    "right_answer": "a"
+  },
+  {
+    "question": "Ultrasəs müayinədə döş giləsi hansı formada vizualizə olunur?",
+    "answer_a": "Arxasında akustik kölgə olan girdə formalı törəmə şəklində",
+    "answer_b": "Orta və ya aşağı exogenliyə malik həmcins struktura şəklində",
+    "answer_c": "Hamısı düzdür",
+    "answer_d": "Heç biri düz deyil",
+    "answer_e": "Kənarları dəqiq və hamar olan struktura şəklində",
+    "right_answer": "a"
+  },
+  {
+    "question": "Hansı exoqrafik əlamətlər süd vəzisi kistaları üçün xarakterik deyil?",
+    "answer_a": "Girdə və ya oval forma",
+    "answer_b": "Kompressiya zamanı kistanın formasının dəyişməməsi",
+    "answer_c": "Konturların dəqiq və hamar olması",
+    "answer_d": "Anexogen struktura",
+    "answer_e": "Kompressiya zamanı kistanın formasının dəyişməsi",
+    "right_answer": "b"
+  },
+  {
+    "question": "Ultrasəs müayinə zamanı süd vəzilərinin fibroadenomasının periferiyasında aşkar edilmiş hiperexogen haşiyə nəyin göstəricisi hesab oluna bilər?",
+    "answer_a": "Heç bir diaqnostik əhəmiyyəti yoxdur",
+    "answer_b": "Fibroadenomanın ölçüsünün böyük olması və fibroadenomanın varlığının uzun müddətliyini",
+    "answer_c": "Fibroadenomanın maliqnizasiyasının",
+    "answer_d": "Fibroadenomanın varlığının az müddətliyini",
+    "answer_e": "Fibroadenomanın ölçüsünün kiçik olması nəticəsində yaranmasını",
+    "right_answer": "b"
+  },
+  {
+    "question": "Qalxanabənzər vəzin paylarına hansı damarlar yaxın yerləşir?",
+    "answer_a": "Xarici vidaci vena",
+    "answer_b": "Ümumi yuxu arteriyası və aşağı qalxanabənzər arteriya",
+    "answer_c": "Ümumi yuxu arteriyası",
+    "answer_d": "Ümumi yuxu arteriyası, xarici vidaci vena",
+    "answer_e": "Xarici və daxili yuxu arteriyaları",
+    "right_answer": "d"
+  },
+  {
+    "question": "Kəskin tireoiditlər zamanı vəzin exogenliyi əksərən necə olur?",
+    "answer_a": "Heç biri düz deyil",
+    "answer_b": "Hamısı düzdür",
+    "answer_c": "Diffuz hiperexogen",
+    "answer_d": "Toxumanın exogenliyi dəyişilməmiş qala bilər",
+    "answer_e": "Diffuz hipoexogen",
+    "right_answer": "e"
+  },
+  {
+    "question": "Paraovarial kistalarla follikulyar kistaların differensial-diaqnostik göstəriciləri hansılardır?",
+    "answer_a": "Kistanın tərkibi",
+    "answer_b": "Kistanın ölçüləri",
+    "answer_c": "Kistanın kənarlarının hamar olması",
+    "answer_d": "Divardaxili hissəciklərin olması",
+    "answer_e": "İntakt yumurtalığın aşkar edilməsi",
+    "right_answer": "e"
+  },
+  {
+    "question": "Ultrasəs müayinədə uşaqlıq borularının vizualizasiyası hansı hallarda mümkündür?",
+    "answer_a": "Mümkün deyil",
+    "answer_b": "Həmişə",
+    "answer_c": "Qarın boşluğunda assit olduqda və ya boruların daxilində mayenin mövcudluğunda",
+    "answer_d": "Yumurtalığın böyük ölçülü kistoz törəməsi mövcudluğunda",
+    "answer_e": "Uşaqlıq daxili kontraseptiv olduqda",
+    "right_answer": "c"
+  },
+  {
+    "question": "Uşaqlıqdan kənar hamiləliyi birbaşa mütləq edən ultrasəs əlamət hansıdır?",
+    "answer_a": "Uşaqlığın ölçüsünün böyüməsi",
+    "answer_b": "Duqlas boşluğunda sərbəst maye",
+    "answer_c": "Uşaqlıq boşluğunda \"yalançı döl yumurtası\"",
+    "answer_d": "Endometriyanın qalınlaşması",
+    "answer_e": "Uşaqlıqdan kənarda embrionla birgə döl yumurtası",
+    "right_answer": "e"
+  },
+  {
+    "question": "Qarın boşluğundakı hematomaların tərkibinin ultrasəs təsviri nədən asılıdır?",
+    "answer_a": "Hematomanın lokalizasiyasından",
+    "answer_b": "Xəstənin qan təzyiqindən",
+    "answer_c": "Zədəni törədən alətin formasından",
+    "answer_d": "Hematomanın mövcud olduğu zamandan",
+    "answer_e": "Bədənin hərarətindən",
+    "right_answer": "d"
+  },
+  {
+    "question": "Sidik axarının bir tərəfli liqatura ilə bağlanmasının ultrasəs əlaməti hansıdır?",
+    "answer_a": "Sidik ifrazının dayanması",
+    "answer_b": "Bağlanmış axar tərəfdə böyük kasacıqlarının və ləyəninin genişlənməsi",
+    "answer_c": "Axarın bağlanan hissəsində liqaturanın təyin edilməsi",
+    "answer_d": "Sidik ifrazının ləngiməsi",
+    "answer_e": "Sidik ifrazının tezləşməsi",
+    "right_answer": "b"
+  },
+  {
+    "question": "Plevral boşluqda az miqdarda sərbəst mayeni təyin etmək üçün hansı müayinə üsulu daha effektiv sayılır?",
+    "answer_a": "Termoqrafiya",
+    "answer_b": "Lateroqrafiya",
+    "answer_c": "Rentgenoskopiya",
+    "answer_d": "Ultrasəs müayinəsi",
+    "answer_e": "Perkussiya",
+    "right_answer": "d"
+  },
+  {
+    "question": "Hansı ultrasəs əlamətlər qaraciyərin anadangəlmə kistaları üçün xarakterik deyil?",
+    "answer_a": "Girdə və ya oval forma",
+    "answer_b": "Divarların hamar olması",
+    "answer_c": "\"Yan kölgələr effekti\" simptomunun olması",
+    "answer_d": "Kistanın daxilində çoxlu sayda arakəsmələrin olması",
+    "answer_e": "Arxa divarda \"güclənmə effekti\" simptomu",
+    "right_answer": "d"
+  },
+  {
+    "question": "Qaraciyərin hematomalarının ilkin mərhələsində xarakterik ultrasəs əlamətlər hansıdır?",
+    "answer_a": "Sərhədləri qeyri-hamar olan exoneqativ sahə",
+    "answer_b": "Kistanın daxilində fibrin nəticəsində dibə çökən exosiqnalların olması",
+    "answer_c": "Sərhədləri dəqiq olan hiperexogen sahə",
+    "answer_d": "Arxasında \"exoneqativ güclənmə\" simptomu olan kista formasında",
+    "answer_e": "Kənarları hamar və dəqiq olan kista",
+    "right_answer": "c"
+  },
+  {
+    "question": "Sərhəd zonası infarktının neçə nümunəsi mövcuddur (watershed)?",
+    "answer_a": "2",
+    "answer_b": "4",
+    "answer_c": "5",
+    "answer_d": "6",
+    "answer_e": "8",
+    "right_answer": "a"
+  },
+  {
+    "question": "Baş beyində lakunar infarktlar nəyə deyilir?",
+    "answer_a": "< 15 mm-dən kiçik olan, beynin dərin hissələrində (bazal qanqlia, talamus, ağ maddə) və beyin kötüyündə olan kiçik qan dövranı pozulması sahələri",
+    "answer_b": "Genişlənmiş Virxov-Robin boşluqları",
+    "answer_c": ">20 mm-dən böyük olan subkortikal beyin qan dövranı pozulması sahələri",
+    "answer_d": "Neyrosistiserkoz",
+    "answer_e": "Xoroidal çat sistləri",
+    "right_answer": "a"
+  },
+  {
+    "question": "Anamnezdə böyrək çatışmazlığı, eklampsiya, qan təzyiqinin yüksəlməsi, təqdim olunmuş MR-tomoqramlarında əsasən pariyeto-oksipital, arxa frontal kortiko-subkortikal maddədə işemik insulta bənzər yüksək T2, FLAİR və zəif DWİ intensivlik siqnalı verən, müvafiq müalicələrə tabe olan və qısa müddətdə gedişatda müsbət dinamikası izlənən tapıntılar hansı xəstəliyə xasdır?",
+    "answer_a": "PRES",
+    "answer_b": "MS",
+    "answer_c": "MTS",
+    "answer_d": "DNET",
+    "answer_e": "PNET",
+    "right_answer": "a"
+  },
+  {
+    "question": "Bouthillier klasifikasiyasına görə daxili yuxu arteriyası (İCA) neçə seqmentə bölünür?",
+    "answer_a": "7",
+    "answer_b": "4",
+    "answer_c": "5",
+    "answer_d": "6",
+    "answer_e": "8",
+    "right_answer": "a"
+  },
+  {
+    "question": "Daşlı seqment (petrous) daxili yuxu arteriyasının neçənci seqmenti sayılır?",
+    "answer_a": "C2",
+    "answer_b": "C3",
+    "answer_c": "C4",
+    "answer_d": "C5",
+    "answer_e": "C6",
+    "right_answer": "a"
+  },
+  {
+    "question": "Boyun seqmenti (cervical) daxili yuxu arteriyasının neçənci seqmenti sayılır?",
+    "answer_a": "C1",
+    "answer_b": "C7",
+    "answer_c": "C4",
+    "answer_d": "C6",
+    "answer_e": "C2",
+    "right_answer": "a"
+  },
+  {
+    "question": "Mağara seqmenti (cavernous) daxili yuxu arteriyasının neçənci seqmenti sayılır?",
+    "answer_a": "C4",
+    "answer_b": "C3",
+    "answer_c": "C7",
+    "answer_d": "C5",
+    "answer_e": "C6",
+    "right_answer": "a"
+  },
+  {
+    "question": "Pazabənzər seqment (clinoid) daxili yuxu arteriyasının neçənci seqmenti sayılır?",
+    "answer_a": "C5",
+    "answer_b": "C3",
+    "answer_c": "C4",
+    "answer_d": "C1",
+    "answer_e": "C6",
+    "right_answer": "a"
+  },
+  {
+    "question": "Cırılmış dəlik (lacerum) daxili yuxu arteriyasının neçənci seqmenti sayılır?",
+    "answer_a": "C3",
+    "answer_b": "C2",
+    "answer_c": "C4",
+    "answer_d": "C5",
+    "answer_e": "C6",
+    "right_answer": "a"
+  },
+  {
+    "question": "Aşağıda sadalanan sırada şaxələri olmayan daxili yuxu arteriyasının seqmentlərini seçin.",
+    "answer_a": "C1, C3, C5",
+    "answer_b": "C1, C3, C7",
+    "answer_c": "C2, C4, C6",
+    "answer_d": "C5, C6, C7",
+    "answer_e": "C2, C4, C7",
+    "right_answer": "a"
+  },
+  {
+    "question": "Daxili yuxu arteriyası hansı beyin damarından çıxır?",
+    "answer_a": "Ümumi yuxu arteriyasından",
+    "answer_b": "Xarici yuxu arteriyasından",
+    "answer_c": "Onurğa arteriyasından",
+    "answer_d": "Arxa beyin arteriyasından",
+    "answer_e": "Heç biri düz deyil",
+    "right_answer": "a"
+  },
+  {
+    "question": "Beyin qan dövranı pozulmasının nəticəsi olaraq intraparenximatoz qanama ilə xəstəyə < 24 saatdan az zamanda MRT müayinəsi aparılırsa və T1 sekansında - izointensiv, T2 sekansında - parlaq intensivli ocaq görünürsə - hansı dövrə uyğun hesab edilir?",
+    "answer_a": "Hiperakut",
+    "answer_b": "Gec subakut",
+    "answer_c": "Xroniki",
+    "answer_d": "Akut",
+    "answer_e": "Erkən subakut",
+    "right_answer": "a"
+  },
+  {
+    "question": "Beyin qan dövranı pozulmasının nəticəsi olaraq intraparenximatoz qanama ilə xəstəyə 1-3 gün ərzində MRT müayinəsi aparılırsa və T1 sekansında - izointensiv, T2 sekansında - hipointensivli ocaq görünürsə - hansı dövrə uyğun hesab edilir?",
+    "answer_a": "Akut",
+    "answer_b": "Gec subakut",
+    "answer_c": "Xroniki",
+    "answer_d": "Hiperakut",
+    "answer_e": "Erkən subakut",
+    "right_answer": "a"
+  },
+  {
+    "question": "Beyin qan dövranı pozulmasının nəticəsi olaraq intraparenximatoz qanama ilə xəstəyə 3 gün - 1 həftə ərzində MRT müayinəsi aparılırsa və T1 sekansında - parlaq intensiv, T2 sekansında - hipointensivli ocaq görünürsə - hansı dövrə uyğun hesab edilir?",
+    "answer_a": "Erkən subakut",
+    "answer_b": "Gec subakut",
+    "answer_c": "Xroniki",
+    "answer_d": "Hiperakut",
+    "answer_e": "Akut",
+    "right_answer": "a"
+  },
+  {
+    "question": "Beyin qan dövranı pozulmasının nəticəsi olaraq intraparenximatoz qanama ilə xəstəyə 1 həftədən artıq zaman ərzində MRT müayinəsi aparılırsa və T1 və T2 sekanslarında - parlaq intensiv ocaq görünürsə - hansı dövrə uyğun hesab edilir?",
+    "answer_a": "Gec subakut",
+    "answer_b": "Erkən subakut",
+    "answer_c": "Xroniki",
+    "answer_d": "Hiperakut",
+    "answer_e": "Akut",
+    "right_answer": "a"
+  },
+  {
+    "question": "Beyin qan dövranı pozulmasının nəticəsi olaraq intraparenximatoz qanama ilə xəstəyə 2 həftədən artıq zaman ərzində MRT müayinəsi aparılırsa və T1 və T2 sekanslarında - hipointensiv ocaq görünürsə - hansı dövrə uyğun hesab edilir?",
+    "answer_a": "Xroniki",
+    "answer_b": "Erkən subakut",
+    "answer_c": "Gec subakut",
+    "answer_d": "Hiperakut",
+    "answer_e": "Akut",
+    "right_answer": "a"
+  },
+  {
+    "question": "MRT və KT müayinələri zamanı baş beyində aşkarlanan və \"Zebra\" işarəsi kimi qiymətləndirilən görüntü nəyə deyilir?",
+    "answer_a": "Əsasən supratentorial kraniotomiya və ya spinal cərrahi əməliyyatlarından sonrakı uzaq serebellyar qanama",
+    "answer_b": "Beyin qan dövranı pozulması üçün xarakterik qanama",
+    "answer_c": "Beyin qan dövranı pozulması üçün xarakterik işemiya",
+    "answer_d": "Posttravmatik subdural hematoma",
+    "answer_e": "Arxa aşağı beyincik arteriyasında qan dövranı pozulması nəticəsində yaranan işemiya",
+    "right_answer": "a"
+  },
+  {
+    "question": "Germinal matriks qanaması nəyə deyilir?",
+    "answer_a": "Əsasən yarımçıq yenidoğulmuşlarda peri-intraventrikulyar və kaudotalamik sahədə çoxluq təşkil etməklə izlənən qanama",
+    "answer_b": "Beyin qan dövranı pozulması, hipertenziya üçün xarakterik olan qanama",
+    "answer_c": "Posttravmatik epidural qanama",
+    "answer_d": "Posttravmatik subdural hematoma",
+    "answer_e": "TORCH",
+    "right_answer": "a"
+  },
+  {
+    "question": "Arterioloskleroz - digər sözlə?",
+    "answer_a": "Kiçik ölçülü beyin arteriyalarının sklerozu",
+    "answer_b": "Dağınıq skleroz",
+    "answer_c": "Perivaskulyar Virxov-Robin boşluqları",
+    "answer_d": "ADEM (disseminəedici kəskin ensefalomiyelit)",
+    "answer_e": "TORCH (toksoplazma, rubella, sitomeqalovirus, herpes)",
+    "right_answer": "a"
+  },
+  {
+    "question": "Aberrant daxili yuxu arteriyası altında nə başa düşürsünüz?",
+    "answer_a": "Ekstrakranial İCA (daxili yuxu arteriyası) inkişafında pozulma ilə arterial kollateral inkişaflı kongenital vaskulyar anomaliya",
+    "answer_b": "Daxili yuxu arteriyasının (İCA) C2 seqmentinin (petrous seqment) genişlənməsi",
+    "answer_c": "Persistent yuxu-onurğa-bazilyar anastomozlar",
+    "answer_d": "Daxili yuxu arteriyasının (İCA) C4 seqmentinin (cavernous seqment) anevrizması",
+    "answer_e": "Hamısı düzdür",
+    "right_answer": "a"
+  },
+  {
+    "question": "Etiologiyasında iltihab və ateroskleroz inkar olunan distal İCA (daxili yuxu arteriyası) və proksimal Villiziyev dairəsi damarlarının irəliləyən daralması və kollateral damarların əmələ gəlməsi ilə müşahidə edilən idiopatik xəstəlik hansıdır?",
+    "answer_a": "MoyaMoya",
+    "answer_b": "Orağabənzər-hüceyrəli anemiya",
+    "answer_c": "Dağınıq skleroz",
+    "answer_d": "Qırmızı qurd eşənəyi",
+    "answer_e": "Talassemiya",
+    "right_answer": "a"
+  },
+  {
+    "question": "Antifosfolipid əks-cisimləri tərəfindən yaranan hiperkoaqulyasiyanın autoimmun vəziyyəti, arteriya və venalarda trombozun yaranması, ağırlaşmış hamiləliklə nəticələnən (düşük, ölü doğulma, vaxtından öncə doğuş, ağır preeklampsiya) xəstəlik necə adlanır?",
+    "answer_a": "Antifosfolipid sindromu",
+    "answer_b": "Orağabənzər-hüceyrəli anemiya",
+    "answer_c": "Alsheymer xəstəliyi",
+    "answer_d": "Qırmızı qurd eşənəyi",
+    "answer_e": "CADASİL",
+    "right_answer": "a"
+  },
+  {
+    "question": "Anamnezində kəskin qarın ağrısı, diareya, bir çox orqanlarında tromboz ilə əlaqəli kliniki özəllikləri olan uşaqda baş beynin KT-də çoxsaylı kortikal qanamalar, ödem; MRT-də FLAİR və DWI sekanslarında giruslarda bəzən PRES-ə bənzər periferik multifokal hiperintensivliklər, T2*/SWI sekansında kortikal \"qara nöqtələr\" hansı xəstəliyi düşündürür?",
+    "answer_a": "Trombotik mikroangiopatiyalar (Hemolitik-uremik sindrom / Trombositopenik-trombotik purpura)",
+    "answer_b": "Orağabənzər-hüceyrəli anemiya",
+    "answer_c": "Antifosfolipid sindromu",
+    "answer_d": "Qırmızı qurd eşənəyi",
+    "answer_e": "CADASİL",
+    "right_answer": "a"
+  },
+  {
+    "question": "Subkortikal infarkt ilə serebral autosom-dominant arteriopatiya və leykoensefalopatiya?",
+    "answer_a": "CADASİL",
+    "answer_b": "MELAS",
+    "answer_c": "HELLP",
+    "answer_d": "TORCH",
+    "answer_e": "BEHÇET",
+    "right_answer": "a"
+  },
+  {
+    "question": "Xroniki, idiopatik, residivləşən xəstəlik, təkrarlanan və yaxşılaşan ağrılı orogenital yaralar və uveit ilə xarakterizə olunan, bir çox orqanik sistemləri zədələyən (sinir sistemi, oynaqlar) vaskulyar-iltihablı xəstəlik necə adlanır?",
+    "answer_a": "BEHÇET",
+    "answer_b": "MELAS",
+    "answer_c": "HELLP",
+    "answer_d": "TORCH",
+    "answer_e": "CADASİL",
+    "right_answer": "a"
+  },
+  {
+    "question": "Baş beyində kəskin işemik insult zamanı ən optimal müayinə üsulu tətbiqini seçin?",
+    "answer_a": "KT və MRT",
+    "answer_b": "KT və PET",
+    "answer_c": "MRT və PET",
+    "answer_d": "KT və Rentgen",
+    "answer_e": "MRT və Rentgen",
+    "right_answer": "a"
+  },
+  {
+    "question": "Baş beyində kəskin işemik insult zamanı aşağıda sadalanan hansı MR sekansları daha informativdir?",
+    "answer_a": "DWİ, FLAİR",
+    "answer_b": "T2, T1",
+    "answer_c": "T2, T2*",
+    "answer_d": "STİR, PD/FS",
+    "answer_e": "DWİ, Kontrastlı T1",
+    "right_answer": "a"
+  },
+  {
+    "question": "Baş beyində kəskin işemik insult zamanı aşağıda sadalanan hansı MR sekansları daha informativdir?",
+    "answer_a": "DWİ, FLAİR",
+    "answer_b": "T2, T1",
+    "answer_c": "T2, T2*",
+    "answer_d": "STİR, PD/FS",
+    "answer_e": "DWİ, Kontrastlı T1",
+    "right_answer": "a"
+  },
+  {
+    "question": "Baş beynin kontrastlı KT müayinəsi zamanı \"boş delta\" işarəsinin aşkarlanması nəyin əlamətidir?",
+    "answer_a": "Kontrast maddənin trombozlaşmış venoz sinus sahəsində toplanmaması",
+    "answer_b": "Kəskin işemik insult zamanı kontrastlı KT zamanı kontrast maddə tutumunun olmaması",
+    "answer_c": "3D TOF angioqrafiya zamanı magistral damarlarda qan axınının zəifləməsi",
+    "answer_d": "GRADE aşağı olan törəmələrin tərkibində kontrast maddə tutumu izlənilməməsi",
+    "answer_e": "Cavabların hamısı doğrudur",
+    "right_answer": "a"
+  },
+  {
+    "question": "Xəstə son aylarda epitutmaların artması şikayəti ilə xəstəxanaya daxil olur. Diaqnozu dəqiqləşdirmək üçün hansı instrumental müayinə metodu ilk növbədə aparılmalıdır?",
+    "answer_a": "KT",
+    "answer_b": "Rentgen",
+    "answer_c": "Kontrastlı KT",
+    "answer_d": "MRT",
+    "answer_e": "Angioqrafik rejimdə KT",
+    "right_answer": "d"
+  },
+  {
+    "question": "MRT təsvirlərinə əsaslanaraq sıradakı xəstəliklərdən hansını epilepsiyanın ən çox rast gəlinən səbəbi hesab etmək olar?",
+    "answer_a": "Mezial temporal skleroz",
+    "answer_b": "Tuberoz skleroz",
+    "answer_c": "Şturge-Veber",
+    "answer_d": "Polimikrogiriya",
+    "answer_e": "Heterotopiya",
+    "right_answer": "a"
+  },
+  {
+    "question": "Epilepsiyanın savadlı diaqnostikasında MRT müayinəsindən əlavə hansı instrumental müayinə metodunun nəticələri köməklik edir?",
+    "answer_a": "KT",
+    "answer_b": "EEQ",
+    "answer_c": "EKQ",
+    "answer_d": "REQ",
+    "answer_e": "TKD",
+    "right_answer": "b"
+  },
+  {
+    "question": "Aşağıda qeyd olunanlar arasında epilepsiyanın diaqnostikasında istifadə olunan düzgün MRT protokolunu seçin:",
+    "answer_a": "T2, T1, T2*, FLAİR, DWİ, MR-spektroskopiya, MR-perfuziya",
+    "answer_b": "T2, FLAİR, MR + kontrast, MR-angioqrafiya, MR-miyeloqrafiya",
+    "answer_c": "T2*, T2-FS, PD-FS, STİR",
+    "answer_d": "T2, 3D-TOF-rejim, MR + kontrast, STİR",
+    "answer_e": "T2, T2-FS, FLAİR, STİR, 3D-TOF-rejim, MR + kontrast",
+    "right_answer": "a"
+  },
+  {
+    "question": "Mezial temporal skleroz xəstəliyində qlioz ocaqların klassik lokalizasiyasını qeyd edin:",
+    "answer_a": "Kortikal qatda",
+    "answer_b": "Simmetrik olaraq alın paylarının subkortikal qatında",
+    "answer_c": "Yan mədəciklərin ön buynuzları səviyyəsində beyin toxumasında",
+    "answer_d": "Adətən uni- (nadirən bi-) lateral olaraq hippokampuslarda",
+    "answer_e": "Döyənəkli cismə perpendikulyar olaraq beyin toxumasında",
+    "right_answer": "d"
+  },
+  {
+    "question": "Mezial temporal skleroz xəstəliyi zamanı MRT tapıntılarını seçin:",
+    "answer_a": "Mukoza qalınlaşması",
+    "answer_b": "Mədəcik dilatasiyası",
+    "answer_c": "Perivaskulyar skleroz",
+    "answer_d": "Mütləq qlioz, atrofiya",
+    "answer_e": "Beyin-onurğa mayesinin artması",
+    "right_answer": "d"
+  },
+  {
+    "question": "Müasir təbabətdə Mezial temporal skleroz xəstəliyinin savadlı, dəqiq və düzgün MRT tapıntıları olduğu halda realizə olunan uğurlu müalicə taktikasını seçin:",
+    "answer_a": "Anterior temporal lobektomiya (amiqdalohippokampektomiya)",
+    "answer_b": "Monoterapiya",
+    "answer_c": "Radiasion terapiya",
+    "answer_d": "Amiqdaloektomiya",
+    "answer_e": "Antiepileptik medikamentoz müalicə",
+    "right_answer": "a"
+  },
+  {
+    "question": "Mezial temporal sklerozu imitasiya edən, dəqiq və savadlı diaqnozun qoyulmasında radioloqu düşündürən aşağıdakı MRT tapıntılarından hansını qeyd edərdiniz?",
+    "answer_a": "Neyrositoma",
+    "answer_b": "Unilateral temporal pay medialında DNET",
+    "answer_c": "Ependimoma",
+    "answer_d": "Kavernoma",
+    "answer_e": "Supratentorial PNET",
+    "right_answer": "b"
+  },
+  {
+    "question": "FLAİR sekansında dərin sulkusun arxasında lokal kortiko-subkortikal hiperintensivlik, T1 sekansında boz/ağ beyin maddəsinin bulanıqlığı (bulanıq interfeys), eyni səviyyədə kortikal qalınlaşma və ötürmə əlaməti hansı xəstəliyə səciyyəvidir?",
+    "answer_a": "Fokal kortikal hiperplaziya",
+    "answer_b": "Ulegiriya",
+    "answer_c": "DNET",
+    "answer_d": "PNET",
+    "answer_e": "Heterotopiya",
+    "right_answer": "a"
+  },
+  {
+    "question": "Hansı beyin törəməsi MRT tapıntıları arasında \"popkorn topu\" görünüşünə malikdir?",
+    "answer_a": "Kavernoz angioma",
+    "answer_b": "Hemangioblastoma",
+    "answer_c": "Neyrofibroma",
+    "answer_d": "Neyrositoma",
+    "answer_e": "Astrositoma",
+    "right_answer": "a"
+  },
+  {
+    "question": "Kavernoz angioma görüntüsünün dəqiq vizualizasiyası və diaqnostikası üçün MR-tomoqrafiyanın ilkin olaraq hansı rejimlərində aparılması yüksək həssaslığa malik olmaqla yetərlidir?",
+    "answer_a": "T2, T2*(SWİ), FLAİR",
+    "answer_b": "T1, T1 + kontrast, FLAİR",
+    "answer_c": "T1, T2-FS, STİR",
+    "answer_d": "T2*(SWİ), STİR, MR-angioqrafiya",
+    "answer_e": "3D-TOF rejim, T1, T1 + kontrast",
+    "right_answer": "a"
+  },
+  {
+    "question": "Əqli qabiliyyətini tədricən itirən yaşlı xəstədə T2* (Gradient) və T2 MRT sekanslarında əsasən periferik yerləşimli multifokal \"qara nöqtələr\" (multipl periferik mikroqanamalar) hansı xəstəliyə dəlalət edir?",
+    "answer_a": "CAA (serebral amiloid angiopatiya)",
+    "answer_b": "Behçet xəstəliyi",
+    "answer_c": "CADASİL (serebral autosom-dominant arteriopatiya ilə subkortikal infarkt + leykoensefalopatiya)",
+    "answer_d": "ADEM (akut disseminəedici ensefalomiyelit)",
+    "answer_e": "Dağınıq skleroz",
+    "right_answer": "a"
+  },
+  {
+    "question": "Beyin yarımkürəsində epilepsiya tutmaları ilə müşahidə olunan beyin şişlərinin MRT tapıntıları arasında üstünlük təşkil etməklə lokalizasiyası adətən haradadır?",
+    "answer_a": "Mədəciklər mənfəzi",
+    "answer_b": "Kortiko-subkortikal yerləşmə (adətən temporal və frontal paylar)",
+    "answer_c": "Böyük ənsə dəliyi səviyyəsi",
+    "answer_d": "Beyin kötüyü",
+    "answer_e": "Pineal nahiyə",
+    "right_answer": "b"
+  },
+  {
+    "question": "Temporal pay epilepsiyası ilə əlaqəsi olan, aşağıda sadalananlar arasında özəlliklə çox rast gəlinən törəmə hansıdır?",
+    "answer_a": "Qanqlioqlioma",
+    "answer_b": "Hamartoma",
+    "answer_c": "DNET",
+    "answer_d": "PNET",
+    "answer_e": "Ksantoastrositoma",
+    "right_answer": "a"
+  },
+  {
+    "question": "MRT tapıntılarına daxil olan, əsasən korteksi və meninksləri tutan (beyin qişası), periferik yerləşimli, supratentorial, kistik və kontrastlanan mural düyünlü törəmələrdən hansı temporal pay epilepsiyasının nadir hallarda rast gəlinən səbəbidir?",
+    "answer_a": "Kavernoz angioma",
+    "answer_b": "Pleomorfik ksantoastrositoma (PXA)",
+    "answer_c": "DNET",
+    "answer_d": "Meningioma",
+    "answer_e": "Astrositoma",
+    "right_answer": "b"
+  },
+  {
+    "question": "Gənc yaşlarda epitutmalara səbəb olan, tuber cinereum (boz maddə) ilə əlaqəli, mamilyar cism (məməyəbənzər) və infundibulum arxasında olan, MRT tapıntılarına əsasən boz maddəyə görə daha hiperintensiv görünümlü, kontrastlanmayan törəmə aşağıdakı sadalananlardan hansıdır?",
+    "answer_a": "Hipotalamik hamartoma (HH)",
+    "answer_b": "Mikroadenoma",
+    "answer_c": "Makroadenoma",
+    "answer_d": "Kraniofaringioma",
+    "answer_e": "Germinoma",
+    "right_answer": "a"
+  },
+  {
+    "question": "Eyni tərəfdə ventrikulomeqaliya, hamartomatoz inkişaf ilə böyümüş beyin yarımkürəsi (anamnezdə - hemikraniya) və müqayisədə əks tərəfdə tam normal beyin yarımkürəsi olan, erkən yaşlarda epitutmalarla müşahidə olunan, tutmaların fəallığı ilə zədələnən tərəfdə atrofiya artımı izlənən MRT radioloji görüntüsü hansı nadir halda rast gəlinən xəstəlik üçün xarakterikdir?",
+    "answer_a": "Hemimeqalensefaliya",
+    "answer_b": "Serebral qliomatoz",
+    "answer_c": "Rasmussen ensefaliti",
+    "answer_d": "Tuberoskleroz",
+    "answer_e": "Tip 1 Lissensefaliya",
+    "right_answer": "a"
+  },
+  {
+    "question": "Xroniki fokal ensefalitin naməlum etiologiyalı tək tərəfli beyin infiltrasiyasının nəticəsi olaraq MRT tapıntılarında erkən kortikal şişkinlik, daha sonra kobud atrofiya ilə davamiyyəti izlənən, kiçilmiş beyin yarımkürəsi tərəfdə geniş mədəciyi olan və uşaqlarda idarə olunmayan tutma fəallığı ilə proqressə edən hemipleqiya hansı xəstəliyə xasdır?",
+    "answer_a": "Rasmussen ensefaliti",
+    "answer_b": "Şturge-Veber sindromu",
+    "answer_c": "Dyke-Davidoff-Masson",
+    "answer_d": "MELAS (mitoxondrial ensefalopatiya, laktik asidoz və strok (zərbə) bənzəri epizodlar)",
+    "answer_e": "Subakut sklerozlaşdırıcı panensefalit",
+    "right_answer": "a"
+  },
+  {
+    "question": "MRT təsvirlərinə əsaslanaraq, kalsifikasiya olunmuş subependimal düyünlər (hamartomalar), yüksək faiz yerləşimi MONRO dəliyi (15% tapıntılarda) səviyyəsində olan nəhəng hüceyrəli astrositoma (SEGA) və qeyd edilən yerləşiminə görə bəzən obstruksiyaya yol açan, kortikal ağ maddə anormallıqları ilə (tuberlər, hamartomalar) müşahidə edilən, eyni zamanda əksər orqanlarda hamartomaların olması, o cümlədən, böyrəyin angiolipoması, kardiak rabdomioma ilə xarakterizə olunan, epitutmalara səbəb olan genetik xəstəlik hansıdır?",
+    "answer_a": "Tuberoskleroz kompleks",
+    "answer_b": "(S)TORCH (toksoplazma, rubella, sitomeqalovirus və herpes)",
+    "answer_c": "Teylor tipli kortikal displaziya (FCD tip 2)",
+    "answer_d": "Şturge-Veber sindromu",
+    "answer_e": "Meninqoangiomatoz",
+    "right_answer": "a"
+  },
+  {
+    "question": "MRT tapıntılarına daxil olan, kortikal qatda yoğun ilanvari kontrast maddə artımı (leptomeningeal genişlənmə), kortiko-subkortikal \"tramvay izi\" kalsifikasiyaları, əsasən oksipital paylarda (tək tərəfli - 80%, iki tərəfli - 20%) pial angiomatoz, bilateral damar kələflərində genişlənmə (choroid plexus), üz dərisindəki venoz angiomalar (\"şərab ləkəsi\") və eyni tərəfdə T1 + kontrast rejimində gözün damar qişasında yarım-ay şəklində kontrast maddə tutumu izlənən, venoz okkluziya və işemiya səbəbindən kalsium çöküntüsünə və atrofiyaya gətirib çıxaran və epitutmalara səbəb olan xəstəlik hansıdır?",
+    "answer_a": "Şturge-Veber sindromu",
+    "answer_b": "Polimikrogiriya",
+    "answer_c": "Ulegiriya",
+    "answer_d": "Tuberoskleroz",
+    "answer_e": "Von Hippel-Lindau",
+    "right_answer": "a"
+  },
+  {
+    "question": "MRT təsvirlərinə əsaslanaraq çoxsaylı kiçik beyin qırışları, presilvian bölgələrə əyilmə (bilateral olanda əsasən simptomatikdir), kiçik düzgün olmayan giruslar (MRT-də korteks normal və ya qalın olur), əqli çatışmazlıq və tutmalar ilə özünü göstərən xəstəlik hansıdır?",
+    "answer_a": "Polimikrogiriya",
+    "answer_b": "Hemimeqalensefaliya",
+    "answer_c": "Paxigiriya",
+    "answer_d": "Kongenital sitomeqalovirus",
+    "answer_e": "Lissensefaliya",
+    "right_answer": "a"
+  },
+  {
+    "question": "MRT sekanslarında boz maddə ilə izointensiv ektopik düyünlər, periventrikulyar, ventrikulyar divarlar və subkortikal qatlar qonşuluğunda boz maddə düyünlü ocaqları görünən (döyənəkli cism və ya bazal qanqlialarda heç vaxt izlənilməyən), epitutmalara səbəb olan xəstəlik hansıdır?",
+    "answer_a": "Heterotopiya",
+    "answer_b": "Polimikrogiriya",
+    "answer_c": "Şizensefaliya",
+    "answer_d": "Ulegiriya",
+    "answer_e": "Tuberoskleroz",
+    "right_answer": "a"
+  },
+  {
+    "question": "MRT təsvirlərində yan mədəciyi subaraxnoidal sahə ilə birləşdirən, bağlı və açıq dodaqlı yarıq, tutmalar və yarıq dərinliyindən asılı olaraq hemiparezə səbəb olan xəstəlik necə adlanır?",
+    "answer_a": "Şizensefaliya",
+    "answer_b": "Lissensefaliya",
+    "answer_c": "Mikrogiriya",
+    "answer_d": "Heterotopiya",
+    "answer_e": "Neyrofibromatoz Tip 1",
+    "right_answer": "a"
+  },
+  {
+    "question": "Xəstədə Markiafava-Mikeli xəstəliyi var. Qarında kəskin ağrılar olduğu zaman radioloji olaraq əsasən hansı görüntünü qiymətləndirə bilərik?",
+    "answer_a": "Dalaq infarktı",
+    "answer_b": "12 barmaq bağırsaq perforasiyası",
+    "answer_c": "Kəskin Mekkel divertikuliti",
+    "answer_d": "Sağ böyrək infarktı",
+    "answer_e": "Sol böyrək infarktı",
+    "right_answer": "a"
+  },
+  {
+    "question": "Aşağıdakı hansı xəstəlik müvafiq müalicə aparılmadığı halda aorta anevrizmasının laylanması və ölüm ilə nəticələnə bilər?",
+    "answer_a": "Mallori-Veyss sindromu",
+    "answer_b": "Budd-Chiari sindromu",
+    "answer_c": "Marfan sindromu",
+    "answer_d": "Anqelman sindromu",
+    "answer_e": "Foster-Kennedi sindromu",
+    "right_answer": "c"
+  },
+  {
+    "question": "Xəstə pnevmoniya diaqnozu ilə hospitalizasiya olunub. Bağırsağında Clostridium difficile bakteriyası aşkarlanıb. Radioloji görüntüyə əsaslanaraq qarında kəskin ağrılar hansı xəstəliyin olmasını düşündürər?",
+    "answer_a": "Psevdomembranoz kolit",
+    "answer_b": "Qranulematoz kolit (Kron xəstəliyi)",
+    "answer_c": "Ulserativ kolit",
+    "answer_d": "İşemik kolit",
+    "answer_e": "Neytropenik enterokolit",
+    "right_answer": "a"
+  },
+  {
+    "question": "Nazik bağırsaq keçməzliyi şübhəsi olan xəstələrin diaqnozunun dəyərləndirilməsində uğurla seçilən müayinə metodu?",
+    "answer_a": "MRT",
+    "answer_b": "İcmal rentgenoqramm",
+    "answer_c": "Ultrasonoqrafiya",
+    "answer_d": "KT",
+    "answer_e": "Doppler rejimində ultrasonoqrafiya",
+    "right_answer": "d"
+  },
+  {
+    "question": "Nazik bağırsaqda qapalı halqalı keçməzliyin KT təqdimatı nədən asılıdır? 1. Qapalı halqanı əmələ gətirən bağırsaq seqmentinin uzunluğu 2. Bağırsağın mənfəz genişliyindən 3. Kontrast maddənin toplanmasından 4. Halqanın görüntülənmə müstəvisinə görə oriyentasiyası (\"U\" və ya \"C\" şəkilli bağırsaq görüntüsü) 5. Sərbəst mayenin olmasından.",
+    "answer_a": "1,4",
+    "answer_b": "2,4",
+    "answer_c": "1,5",
+    "answer_d": "2,3",
+    "answer_e": "3,5",
+    "right_answer": "a"
+  },
+  {
+    "question": "Nazik bağırsaq keçməzliyində radioloqa differensiasiyada kömək edən vasitə olaraq üstünlüklə rast gəlinən tapıntı.",
+    "answer_a": "Nazik bağırsağın nəcis əlaməti (\"Small Bowel Feces Sign\")",
+    "answer_b": "Çökən bağırsaq (kollapsa uğrayan)",
+    "answer_c": "Yapışmış bağırsaq (adheziya)",
+    "answer_d": "Kontrast toplamayan seqmentar bağırsaq",
+    "answer_e": "Köpmüş bağırsaq",
+    "right_answer": "a"
+  },
+  {
+    "question": "Ledd lentləri (\"Ladd bands\") ən çox hansı halda rast gəlinir?",
+    "answer_a": "Bağırsaq malrotasiyası",
+    "answer_b": "Bağırsağın duplikasion sisti",
+    "answer_c": "Nazik bağırsaq divertikulu",
+    "answer_d": "Mekkel divertikulu",
+    "answer_e": "Mezenterik adenit və enterit",
+    "right_answer": "a"
+  },
+  {
+    "question": "İşemik qapalı halqalı keçməzlikdəki əsas radioloji tapıntılar: 1. Bağırsaq divarının qalınlaşması 2. Öd kisəsinin divarının qalınlaşması 3. Mezenterik ödem 4. Bağırsaqların dolaşması 5. Assit 6. Adheziya",
+    "answer_a": "1,3,5",
+    "answer_b": "2,4,6",
+    "answer_c": "1,4,6",
+    "answer_d": "2,3,6",
+    "answer_e": "2,3,4",
+    "right_answer": "a"
+  },
+  {
+    "question": "Yoğun bağırsaq burulmasının (volvulus) üstünlüklə yayılmış lokalizasiyası?",
+    "answer_a": "Siqmoideum",
+    "answer_b": "Caecum",
+    "answer_c": "Rectum",
+    "answer_d": "Colon transversum",
+    "answer_e": "Colon ascendens",
+    "right_answer": ""
+  },
+  {
+    "question": "Pnevmobiliya, nazik bağırsaq keçməzliyi, öd daşı keçməzliyi (əsasən sağ qalça nahiyəsində) hansı triad üçün xarakterikdir?",
+    "answer_a": "Rigler triadası",
+    "answer_b": "Mondor triadası",
+    "answer_c": "Bek triadası",
+    "answer_d": "Virxov triadası",
+    "answer_e": "Fallo triadası",
+    "right_answer": "a"
+  },
+  {
+    "question": "Kəskin qarın xəstəlikləri sırasına hansı xəstəlik aid deyil?",
+    "answer_a": "Appendisit",
+    "answer_b": "Divertikulit",
+    "answer_c": "Öd kisəsinin empiyeması",
+    "answer_d": "Budd-Chiari sindromu",
+    "answer_e": "Yumurtalığın apopleksiyası",
+    "right_answer": "d"
+  },
+  {
+    "question": "Radioloji görüntüyə əsaslanaraq sıradakı xəstəliklərdən hansıları təcili cərrahi müdaxilə tələb etmir? 1) Uşaqlıqdan kənar hamiləlik 2) Takayasu xəstəliyi 3) Fleqmonoz appendisit 4) Kəskin pankreatit 5) Mekkel divertikulu iltihabı 6) Pannikulit Veber-Krisçena",
+    "answer_a": "2,4,6",
+    "answer_b": "1,2,4",
+    "answer_c": "1,2,3",
+    "answer_d": "3,4,6",
+    "answer_e": "1,2,5",
+    "right_answer": "a"
+  },
+  {
+    "question": "Hansı müayinə metodu qısa zaman itkisi ilə hemoperitoneumun diaqnostikasında daha effektivdir?",
+    "answer_a": "KT",
+    "answer_b": "USM",
+    "answer_c": "MRT",
+    "answer_d": "Doppler sonoqrafiyası",
+    "answer_e": "İcmal rentgenoqramm",
+    "right_answer": "b"
+  },
+  {
+    "question": "Qarın boşluğunda kəskin ağrılar zamanı hansı halda icmal rentgenoqramm məqsədə uyğundur?",
+    "answer_a": "Pnevmoperitoneum",
+    "answer_b": "Hemoperitoneum",
+    "answer_c": "Divertikul iltihabı",
+    "answer_d": "Pelvioperitonit",
+    "answer_e": "Yırtığın burulması",
+    "right_answer": "a"
+  },
+  {
+    "question": "Appendisitin hansı radioloji görüntüsü appendektomiyaya əks göstəricidir?",
+    "answer_a": "Mənfəz qalınlığının 10 mm-dən yuxarı olması",
+    "answer_b": "İltihablaşmış appendiks ətrafı piy toxumasının hipervaskulyarizasiyası",
+    "answer_c": "USM datçikinin təzyiqi ilə genişlənmiş, iltihablaşmış ilgəyin sıxılmaması və lokal olaraq ağrı simptomunun olması",
+    "answer_d": "Kobud periappendikulyar infiltratın olması",
+    "answer_e": "İltihablaşmış ilgək mənfəzində tıxanmış nəcis daşı",
+    "right_answer": "d"
+  },
+  {
+    "question": "Appendiks mənfəzinin radioloji görüntülərə əsaslanaraq normal ölçüləri adətən neçə mm təşkil edir?",
+    "answer_a": "< 6 mm",
+    "answer_b": "10 mm",
+    "answer_c": "13 mm",
+    "answer_d": "< 10 mm",
+    "answer_e": "> 9 mm",
+    "right_answer": "a"
+  },
+  {
+    "question": "Xəstənin vəziyyətini nəzərə alaraq divertikulitin ağırlaşması, abses, törəmə və ya perforasiyanı istisna etmək üçün hansı müayinə metodunun aparılması məqsədəuyğundur?",
+    "answer_a": "KT",
+    "answer_b": "Kontrastlı MRT",
+    "answer_c": "PET",
+    "answer_d": "USM",
+    "answer_e": "Rentgenoqramm",
+    "right_answer": "a"
+  },
+  {
+    "question": "Pankreatit, hepatit, sağ tərəfli ürək çatışmazlığı hansı anatomik strukturun radioloji görüntü olaraq divarının qalınlaşmasına və ikiləşməsinə gətirib çıxara bilər?",
+    "answer_a": "Mədənin",
+    "answer_b": "Onikibarmaq bağırsağın",
+    "answer_c": "Appendiksin",
+    "answer_d": "Öd kisəsinin",
+    "answer_e": "Qarın aortasının",
+    "right_answer": "d"
+  },
+  {
+    "question": "Piyliyin infarktı zamanı hansı müddəanı düzgün hesab etmək olar?",
+    "answer_a": "Piylik toxumasının iltihabı hiperexogendir, boşluğu əhatə edir, sonoqrafiyanın aparılması zamanı sıxılmır (nonkompressivdir)",
+    "answer_b": "Piylik toxumasının iltihabı hipoexogendir, hava boşluqları və maye izlənilir",
+    "answer_c": "Piylik toxumasının iltihabı hiperexogendir, vaskulyarizasiya zəifdir, bağırsaqlar kəskin genişlənmişdir",
+    "answer_d": "Heç biri düzgün deyil",
+    "answer_e": "Yapışmış bağırsaqlar görüntüsü, ətraf toxumanın iltihabı, bağırsaqlarda hava olması",
+    "right_answer": "a"
+  },
+  {
+    "question": "Radioloji müayinə zamanı lokalizasiyasından asılı olaraq hansı növ bağırsaq invaginasiyasını daha rahatlıqla qiymətləndirmək mümkündür?",
+    "answer_a": "Nazik - nazik bağırsaq",
+    "answer_b": "Nazik - yoğun bağırsaq",
+    "answer_c": "Nazik - kor bağırsaq (ileosekal)",
+    "answer_d": "Yoğun - yoğun bağırsaq",
+    "answer_e": "Nazik - yoğun - kor bağırsaq",
+    "right_answer": "c"
+  },
+  {
+    "question": "İleusa əsas səbəb?",
+    "answer_a": "Obstruksiya və iflic hesab etmək olar",
+    "answer_b": "Mədənin xoralı xəstəliyi",
+    "answer_c": "Kəskin pankreatit",
+    "answer_d": "Qarın boşluğunun küt travması",
+    "answer_e": "Postcərrahi dövrdə ağırlaşma",
+    "right_answer": "a"
+  },
+  {
+    "question": "Qarındaxili sərbəst hava hansı hallarda müşahidə edilmir?",
+    "answer_a": "Mədə xorası perforasiyası",
+    "answer_b": "Yoğun bağırsaq divertikulitinin perforasiyası",
+    "answer_c": "12 barmaq bağırsaq xorasının perforasiyası",
+    "answer_d": "Appendisit",
+    "answer_e": "Düzgün cavab yoxdur",
+    "right_answer": "d"
+  },
+  {
+    "question": "Appendisitdən sonra qarnın sağ aşağı kvadrantında ağrıya səbəb olan daha çox rast gəlinən radioloji görüntü?",
+    "answer_a": "İleosekal invaginasiya",
+    "answer_b": "Boru hamiləliyi",
+    "answer_c": "Kron xəstəliyi",
+    "answer_d": "Mezenterial limfadenit",
+    "answer_e": "Piylik appendajiti",
+    "right_answer": "d"
+  },
+  {
+    "question": "Piylik appendajitinin səciyyəvi radioloji əlaməti?",
+    "answer_a": "Yoğun bağırsaq ətrafında olan piy toxumasının iltihabı və hiperdens halqa əlaməti",
+    "answer_b": "Retroperitoneal fibroz, dərialtı piy toxumasının iltihabı, sərbəst maye",
+    "answer_c": "Bağırsaqların hissəvi genişlənməsi, qarın boşluğunda nəzərə çarpan dərəcədə sərbəst maye",
+    "answer_d": "Böyük piylik sallanmalarının törəməsi, qalça arteriyasının trombozu",
+    "answer_e": "Bağırsaqla əlaqəsi olmadan ətraf piy toxumasının kəskin iltihabı, məhdudlaşmış törəməşəkilli görüntüsü",
+    "right_answer": "a"
+  },
+  {
+    "question": "Qarın aortasının anevrizmasının cırılması zamanı qarın boşluğunda mayenin toplanmasının klassik radioloji görüntüsü?",
+    "answer_a": "Kiçik çanaqda",
+    "answer_b": "Morison cibində",
+    "answer_c": "Sol tərəfli retroperitoneal toplanması",
+    "answer_d": "Lateral ciblərdə",
+    "answer_e": "Hamısı düzgündür",
+    "right_answer": "c"
+  },
+  {
+    "question": "Mezadenitə (mezenterial limfadenit) xarakterik simptomlar: 1) Mendel simptomu 2) Şetkin-Blumberq simptomu 3) Şternberq simptomu 4) Mak-Fadden simptomu 5) Klyayn simptomu 6) Sitkovski simptomu",
+    "answer_a": "3,4,5",
+    "answer_b": "1,3,4",
+    "answer_c": "1,5,6",
+    "answer_d": "1,2,3",
+    "answer_e": "2,4,6",
+    "right_answer": "a"
+  },
+  {
+    "question": "Kəskin appendisit, divertikulit, mezenterial pannikulit, piylik neoplastik prosesləri, piylik infarktı (omental infarkt) radioloji təsvirinə görə aşağıdakı xəstəlikdən hansı ilə ilk növbədə differensə olunmalıdır?",
+    "answer_a": "Appendajit",
+    "answer_b": "Dalaq infarktı",
+    "answer_c": "Ureterolitiaz",
+    "answer_d": "Böyrək infarktı",
+    "answer_e": "Yumurtalığın hemorragik sisti",
+    "right_answer": "a"
+  },
+  {
+    "question": "KT təsvirlərinə əsasən qarın aortası anevrizmasının cırılmasının əsas əlamətləri: 1) Periaortik büküm 2) Aortanın dartılması 3) Aortanın diametrinin 3 sm-dən yuxarı olması 4) Retroperitoneal hematoma 5) İ/v kontrastın ekstravazasiyası",
+    "answer_a": "1,3,5",
+    "answer_b": "1,4,5",
+    "answer_c": "2,3,5",
+    "answer_d": "3,4,5",
+    "answer_e": "1,3,4",
+    "right_answer": "b"
+  },
+  {
+    "question": "KT təsvirlərinə əsasən qarın aortası anevrizmasının cırılmasının ikinci dərəcəli əlaməti:",
+    "answer_a": "Yüksək dərəcədə aypara şəklində laylanma",
+    "answer_b": "İntimal kalsifikasiyanın fokal davamsızlığı",
+    "answer_c": "Tangensial kalsium əlaməti",
+    "answer_d": "Dartılmış aorta",
+    "answer_e": "Cavabların hamısı doğrudur",
+    "right_answer": "e"
+  },
+  {
+    "question": "Xəstədə kəmərvari ağrılar, davamlı qusma, taxikardiya, qanda və sidikdə alfa-amilazanın artması, exoqrafik olaraq öd kisəsinin divarının qalınlaşması, sol tərəfli nazik bağırsaq ilgəklərinin genişlənməsi, çanaq boşluğunda sərbəst mayenin olması daha çox hansı xəstəliyə xasdır?",
+    "answer_a": "Kəskin xolesistit",
+    "answer_b": "İleus",
+    "answer_c": "Siqmoid volvulus",
+    "answer_d": "Mədə xorasının perforasiyası",
+    "answer_e": "Kəskin pankreatitin ağırlaşması",
+    "right_answer": "e"
+  },
+  {
+    "question": "Qaraciyərin metastatik şişlərinin xarakterik ultrasəs əlamətlərinə hansılar aid deyil?",
+    "answer_a": "Kənarların qeyri-hamar olması",
+    "answer_b": "Mərkəzi hissənin hipoexogen, periferiyanın hiperexogen strukturalı olması",
+    "answer_c": "Kənarların dəqiq və hamar olması",
+    "answer_d": "Mərkəzi hissənin hiperexogen, periferiyanın hipoexogen strukturalı olması",
+    "answer_e": "Törəmənin exogenliyinin müxtəlif olması",
+    "right_answer": "c"
+  },
+  {
+    "question": "Mədəaltı vəzin baş hissəsinin xərçəngini təsdiq edən birbaşa əlamətlər hansıdır?",
+    "answer_a": "Mədəaltı vəzin diffuz böyüməsi",
+    "answer_b": "Öd kisəsinin həcminin böyüməsi",
+    "answer_c": "Ümumi öd axacağının genişlənməsi",
+    "answer_d": "Qaraciyərdə metastatik dəyişikliklər",
+    "answer_e": "Mədəaltı vəzin baş hissəsinin lokal böyüməsi, strukturunun dəyişilməsi və kənarlarının nahamar olması",
+    "right_answer": "e"
+  },
+  {
+    "question": "Hansı ultrasəs əlamət dalağın hemangiomaları üçün xarakterik deyil?",
+    "answer_a": "Törəmənin strukturunun homogen olması",
+    "answer_b": "Törəmənin strukturunun qeyri-həmcins olması",
+    "answer_c": "Törəmənin hiperexogen olması",
+    "answer_d": "Törəmənin kənarlarının hamar olması",
+    "answer_e": "Törəmənin hiperexogen və strukturunun homogen olması",
+    "right_answer": "b"
+  },
+  {
+    "question": "Kəskin fazada subdural hematoma hansı patologiya ilə MR-da eyni morfoloji görüntülü deyil?",
+    "answer_a": "Epidural hematomalar ilə",
+    "answer_b": "Dural superfisial (səthi) hemosideroz ilə",
+    "answer_c": "Dural meningitlər ilə",
+    "answer_d": "İntrakranial hipotenziya halları ilə",
+    "answer_e": "Dural metastatik proseslər ilə",
+    "right_answer": "d"
+  },
+  {
+    "question": "Alzheymer xəstəliyinin atrofiyası hansı strukturların atrofiyası ilə müşayiət olunur?",
+    "answer_a": "Əsasən hippokampların disproporsional atrofiyaları aşkar olunur",
+    "answer_b": "Əsasən pontun atrofiyası qeyd olunur",
+    "answer_c": "Əsasən beyincik atrofiyası yaranır",
+    "answer_d": "Əsasən fronto-temporal atrofiya qeyd edilir",
+    "answer_e": "Cavablarda bütün qeyd olunan dəyişikliklər doğrudur",
+    "right_answer": "a"
+  },
+  {
+    "question": "Vertebral arteriyanın şaxələri baş beynin hansı hissələrini qidalandırır?",
+    "answer_a": "Uzunsov beyni",
+    "answer_b": "Putameni",
+    "answer_c": "Beyinciyi",
+    "answer_d": "Döyənəkli cismi",
+    "answer_e": "Talamusu",
+    "right_answer": "a"
+  },
+  {
+    "question": "Bazilyar arteriya baş beynin hansı hissəsini qidalandırır?",
+    "answer_a": "Pons (Varoli körpüsünü)",
+    "answer_b": "Medulla oblongata (uzunsov beyin)",
+    "answer_c": "Talamus",
+    "answer_d": "Corpus callosum (döyənəkli cism)",
+    "answer_e": "Oksipital pay (ənsə pay)",
+    "right_answer": "a"
+  },
+  {
+    "question": "Ön xoroidal arteriya (AChA - anterior choroidal artery) neçə seqmentə bölünür?",
+    "answer_a": "2",
+    "answer_b": "5",
+    "answer_c": "4",
+    "answer_d": "3",
+    "answer_e": "6",
+    "right_answer": "a"
+  },
+  {
+    "question": "Qeyd edilən triada: hemipleqiya (bədənin bir yarısının iflici), hemianesteziya (bədənin bir yarısında dəri hissiyyatının itməsi), kontralateral hemianopsiya (korlaşma) - hansı sindrom üçün xarakterikdir?",
+    "answer_a": "Ön xoroidal arteriya sindromu",
+    "answer_b": "Sadə sensor insult sindromu",
+    "answer_c": "PRES (posterior reversible encephalopathy syndrome)",
+    "answer_d": "Marfan sindromu",
+    "answer_e": "Qarışıq sensoro-motor infarkt sindromu",
+    "right_answer": "a"
+  },
+  {
+    "question": "Vertebral arteriyanın (onurğa arteriyası) neçə seqmenti var?",
+    "answer_a": "4",
+    "answer_b": "8",
+    "answer_c": "2",
+    "answer_d": "6",
+    "answer_e": "5",
+    "right_answer": "a"
+  },
+  {
+    "question": "Vertebral arteriya öz başlanğıcını haradan götürür?",
+    "answer_a": "Körpücükaltı arteriyanın yuxarı medial divarından",
+    "answer_b": "Daxili yuxu arteriyasından",
+    "answer_c": "Xarici yuxu arteriyasından",
+    "answer_d": "Arxa beyincik arteriyasından",
+    "answer_e": "Ön beyincik arteriyasından",
+    "right_answer": "a"
+  },
+  {
+    "question": "Hansı beyin damarı tək hesab olunur (cüt olmayan)?",
+    "answer_a": "Bazilyar arteriya",
+    "answer_b": "Vertebral arteriya",
+    "answer_c": "Orta beyin arteriyası",
+    "answer_d": "Yuxu arteriyası",
+    "answer_e": "Arxa beyin arteriyası",
+    "right_answer": "a"
+  },
+  {
+    "question": "Hissəvi olaraq hippokampusları, daxili kapsulanın arxa hissələrini qidalandıran beyin damarı hansıdır?",
+    "answer_a": "Ön xoroidal arteriya (AChA)",
+    "answer_b": "Arxa aşağı beyincik arteriyası (PİCA)",
+    "answer_c": "Yuxarı beyincik arteriyası (SCA)",
+    "answer_d": "Onurğa arteriyası (VA)",
+    "answer_e": "Ön aşağı beyincik arteriyası (AİCA)",
+    "right_answer": "a"
+  },
+  {
+    "question": "Hissəvi olaraq quyruqlu nüvənin baş hissəsini, putameni, daxili və xarici solğun nüvəni, daxili kapsulanın ön hissələrini qidalandıran damar hansıdır?",
+    "answer_a": "Lentikulostriat arteriyası",
+    "answer_b": "Orta beyin arteriyası",
+    "answer_c": "Arxa beyin arteriyası",
+    "answer_d": "Ön beyin arteriyası",
+    "answer_e": "Beyincik arteriyası",
+    "right_answer": "a"
+  },
+  {
+    "question": "Heubner arteriyası hansı arteriyaya aiddir?",
+    "answer_a": "Lentikulostriat arteriya",
+    "answer_b": "Beyincik arteriya",
+    "answer_c": "Arxa beyin arteriya",
+    "answer_d": "Bazilyar arteriya",
+    "answer_e": "Vertebral arteriya",
+    "right_answer": "a"
+  },
+  {
+    "question": "Ön beyin arteriyası (ACA - anterior cerebral artery) neçə seqmentə bölünür?",
+    "answer_a": "3",
+    "answer_b": "2",
+    "answer_c": "4",
+    "answer_d": "5",
+    "answer_e": "8",
+    "right_answer": "a"
+  },
+  {
+    "question": "Ön beyin arteriyası (ACA - anterior cerebral artery) baş beynin hansı hissələrini qidalandırır?",
+    "answer_a": "Alın və təpə paylarının orta hissələrini, döyənəkli cismin, bazal qanqlia və daxili kapsulanın ön hissələrini",
+    "answer_b": "Alın payları, talamusu",
+    "answer_c": "Alın və ənsə payları",
+    "answer_d": "Gicgah və ənsə payları",
+    "answer_e": "Alın payları və beyin kötüyünü",
+    "right_answer": "a"
+  },
+  {
+    "question": "Orta beyin arteriyası (MCA - medial cerebral artery) neçə seqmentə bölünür?",
+    "answer_a": "4",
+    "answer_b": "2",
+    "answer_c": "3",
+    "answer_d": "6",
+    "answer_e": "8",
+    "right_answer": "a"
+  },
+  {
+    "question": "Arxa beyin arteriyası (PCA - posterior cerebral artery) neçə seqmentə bölünür?",
+    "answer_a": "4",
+    "answer_b": "2",
+    "answer_c": "3",
+    "answer_d": "6",
+    "answer_e": "8",
+    "right_answer": "a"
+  },
+  {
+    "question": "Talamusu hansı baş beyin damarı qidalandırır?",
+    "answer_a": "Arxa beyin arteriyasının P1 seqmenti",
+    "answer_b": "Arxa aşağı beyincik arteriyası (PİCA)",
+    "answer_c": "Ön aşağı beyincik arteriyası (AİCA)",
+    "answer_d": "Bazilyar arteriyası",
+    "answer_e": "Vertebral arteriyası",
+    "right_answer": "a"
+  },
+  {
+    "question": "Varoli körpüsündə kəskin işemik insultun olması hansı beyin damarının qan dövranı pozulmasını göstərir?",
+    "answer_a": "Bazilyar arteriyanın",
+    "answer_b": "Vertebral arteriyanın",
+    "answer_c": "Yuxarı beyincik arteriyasının",
+    "answer_d": "Arxa aşağı beyincik arteriyasının (PİCA)",
+    "answer_e": "Ön aşağı beyincik arteriyası (AİCA)",
+    "right_answer": "a"
+  },
+  {
+    "question": "Ön xoroidal arteriya əsasən hansı beyin arteriyasından qaynaqlanır?",
+    "answer_a": "Daxili yuxu arteriyasından (İCA)",
+    "answer_b": "Ön beyin arteriyasından (ACA)",
+    "answer_c": "Arxa beyin arteriyasından (PCA)",
+    "answer_d": "Ön aşağı beyincik arteriyası (AİCA)",
+    "answer_e": "Arxa aşağı beyincik arteriyasının (PİCA)",
+    "right_answer": "a"
+  },
+  {
+    "question": "Orta lentikulostriat arteriyalar hansı beyin damarının şaxələridir?",
+    "answer_a": "Ön beyin arteriyasının A1 seqmenti",
+    "answer_b": "Ön beyin arteriyasının A2 seqmenti",
+    "answer_c": "Ön beyin arteriyasının A3 seqmenti",
+    "answer_d": "Orta beyin arteriyasının M1 seqmenti",
+    "answer_e": "Orta beyin arteriyasının M2 seqmenti",
+    "right_answer": "a"
+  },
+  {
+    "question": "Lateral lentikulostriat arteriyalar hansı beyin damarının şaxələridir?",
+    "answer_a": "Orta beyin arteriyasının M1 seqmenti",
+    "answer_b": "Ön beyin arteriyasının A2 seqmenti",
+    "answer_c": "Ön beyin arteriyasının A3 seqmenti",
+    "answer_d": "",
+    "answer_e": "",
+    "right_answer": "a"
+  }
+]
