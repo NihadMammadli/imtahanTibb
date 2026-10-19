@@ -355,6 +355,14 @@ p { margin: 0; }
 .block-status.is-done { color: var(--ok); font-weight: 600; }
 .block .bar { height: 4px; margin-top: 6px; }
 .blocks--b5 .block, .blocks--all .block { padding: 16px 16px 14px; }
+.blocks--num { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.blocks--num .block:last-child { grid-column: 1 / -1; }
+@media (max-width: 339px) { .blocks--num { grid-template-columns: 1fr; } }
+.section-sub { margin-top: 2px; font-size: var(--fs-sm); color: var(--muted); }
+
+.overview-foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 12px; }
+.btn--small { min-height: 38px; padding: 0 14px; border-radius: 10px; font-size: var(--fs-sm); }
+.btn--small svg { width: 18px; height: 18px; }
 
 .settings { display: flex; flex-direction: column; gap: 16px; }
 .setting { display: flex; flex-direction: column; gap: 10px; }
@@ -642,6 +650,62 @@ dialog.sheet {
 .cell.is-nokey { background: var(--warn-soft); border-color: var(--warn); color: var(--warn); }
 .cell.is-current { outline: 2.5px solid var(--ink); outline-offset: 1px; }
 
+/* ---------- Export sheet ---------- */
+
+.export { display: flex; flex-direction: column; gap: 10px; padding-bottom: max(20px, env(safe-area-inset-bottom, 0px)); }
+.export-label {
+  margin-top: 6px;
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.export-nums {
+  margin: 0;
+  max-height: 30dvh;
+  overflow-y: auto;
+  padding: 12px 14px;
+  border-radius: var(--r-sm);
+  background: var(--surface-2);
+  color: var(--ink);
+  font-family: var(--font-mono);
+  font-size: var(--fs-sm);
+  line-height: 1.6;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  user-select: all;
+  -webkit-user-select: all;
+}
+.export-row { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); gap: 10px; }
+.export-files { display: flex; flex-direction: column; gap: 8px; }
+.file-btn {
+  display: grid;
+  grid-template-columns: 56px minmax(0, 1fr);
+  align-items: center;
+  gap: 12px;
+  min-height: 54px;
+  padding: 10px 14px;
+  border: 1.5px solid var(--line);
+  border-radius: var(--r-sm);
+  background: var(--surface);
+  color: var(--ink);
+  text-align: left;
+}
+.file-btn:hover { border-color: var(--accent); }
+.file-btn strong { font-family: var(--font-mono); font-weight: 600; color: var(--accent); }
+.file-btn span { font-size: var(--fs-sm); color: var(--muted); }
+
+/* Print-only report (PDF export). */
+#print-root { display: none; }
+@media print {
+  body > :not(#print-root) { display: none !important; }
+  body::before { display: none; }
+  body { background: #fff; min-height: 0; }
+  #print-root { display: block; }
+}
+
 /* ---------- Results ---------- */
 
 .score {
@@ -671,8 +735,12 @@ dialog.sheet {
 .tile.bad dd { color: var(--bad); }
 .tile.warn dd { color: var(--warn); }
 
-.actions { display: flex; flex-direction: column; gap: 10px; }
-@media (min-width: 560px) { .actions { flex-direction: row; } .actions .btn { flex: 1; } }
+.actions { display: grid; gap: 10px; }
+@media (min-width: 560px) {
+  .actions { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  /* With an odd number of buttons the first one spans the row. */
+  .actions > :first-child:nth-last-child(odd) { grid-column: 1 / -1; }
+}
 
 .chips-row { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 2px; scrollbar-width: none; }
 .chips-row::-webkit-scrollbar { display: none; }

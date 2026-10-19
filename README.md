@@ -5,6 +5,8 @@ Mobile-first quiz app for the 522 Şüa diaqnostikası exam questions. Plain HTM
 ## Features
 
 - **Three ways to split the questions:** 10 blocks (~52 each), 5 blocks (~104 each), or all 522 at once.
+- **Numerical questions** (sizes, times, doses, energies, segment counts): two blocks of 32 and one with all 64. The list is `NUMERIC` in `scripts/build_questions.py`.
+- **Export** from any result page, or for overall progress from the home page: wrong question numbers (copy/share), or a full report as PDF (via the print dialog), Word (.doc) or TXT.
 - **Practice mode** shows the right answer after each question. **Exam mode** shows answers and the score at the end.
 - Optional question shuffling, a question grid for jumping around, swipe and keyboard navigation (A–E / 1–5, ← →).
 - Results with a per-question review, "repeat mistakes", a global "Səhvlərim" list, and a searchable question bank. Search also matches without Azerbaijani letters (`seh` finds `səh`).
@@ -19,7 +21,7 @@ Mobile-first quiz app for the 522 Şüa diaqnostikası exam questions. Plain HTM
   python3 scripts/build_questions.py
   ```
 
-  Each entry is `{ "n": original number, "q": question, "o": { "a": …, … }, "a": right letter }`. Empty options are dropped. The 11 questions without an answer key (`"a": ""`) appear in tests but aren't scored.
+  Each entry is `{ "n": original number, "q": question, "o": { "a": …, … }, "a": right letter, "num": true if numerical }`. Empty options are dropped. The 11 questions without an answer key (`"a": ""`) appear in tests but aren't scored.
 
 ## Run locally
 

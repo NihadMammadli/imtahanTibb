@@ -1,15 +1,18 @@
 'use strict';
 
 /* ŞD Suallar — static quiz app. Data: data/questions.json
-   Each question: { n: original number, q: text, o: { a..e: option text }, a: right letter or "" } */
+   Each question: { n: original number, q: text, o: { a..e: option text }, a: right letter or "",
+   num: true for numerical questions } */
 
 const app = document.getElementById('app');
 const dlg = document.getElementById('dlg');
+const printRoot = document.getElementById('print-root');
 
 const KEYS = {
   settings: 'sd.settings.v1',
   sessions: 'sd.sessions.v1',
   stats: 'sd.stats.v1',
+  picks: 'sd.picks.v1',
   best: 'sd.best.v1',
   theme: 'sd.theme.v1',
 };
@@ -52,6 +55,7 @@ const state = {
   settings: { plan: 'b10', mode: 'practice', shuffle: false, ...store.get(KEYS.settings, {}) },
   sessions: store.get(KEYS.sessions, {}),
   stats: store.get(KEYS.stats, {}), // { [n]: 'c' | 'w' } last result per question
+  picks: store.get(KEYS.picks, {}), // { [n]: letter } last answer per question, for exports
   best: store.get(KEYS.best, {}), // { [blockKey]: { score, total, pct } }
   view: '',
   key: '',
@@ -64,8 +68,16 @@ if (!MODES[state.settings.mode]) state.settings.mode = 'practice';
 
 const saveSettings = () => store.set(KEYS.settings, state.settings);
 const saveSessions = () => store.set(KEYS.sessions, state.sessions);
-const saveStats = () => store.set(KEYS.stats, state.stats);
+const saveStats = () => {
+  store.set(KEYS.stats, state.stats);
+  store.set(KEYS.picks, state.picks);
+};
 const saveBest = () => store.set(KEYS.best, state.best);
+
+function recordResult(q, letter) {
+  state.stats[q.n] = letter === q.a ? 'c' : 'w';
+  state.picks[q.n] = letter;
+}
 
 /* ---------- Icons ---------- */
 
@@ -87,6 +99,9 @@ const ICON = {
   moon: svg('<path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/>'),
   auto: svg('<circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 1 0 18Z" fill="currentColor"/>'),
   flag: svg('<path d="M4 22V4m0 0h12l-2 4 2 4H4"/>'),
+  export: svg('<path d="M12 3v12m0 0-4-4m4 4 4-4"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/>'),
+  copy: svg('<rect x="8" y="8" width="13" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/>'),
+  share: svg('<circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/>'),
 };
 
 // Ultrasound sector with a small lesion: the app's mark.
@@ -161,6 +176,18 @@ function buildBlocks() {
         ids,
       };
     }
+  }
+
+  // Numerical questions: two halves plus one block with all of them.
+  const num = state.questions.filter((q) => q.num).map((q) => q.n);
+  const half = Math.ceil(num.length / 2);
+  const preview = (ids) => `№ ${ids.slice(0, 3).join(', ')}…`;
+  for (const [key, title, ids] of [
+    ['num-1', 'Rəqəmli 1', num.slice(0, half)],
+    ['num-2', 'Rəqəmli 2', num.slice(half)],
+    ['num-all', 'Bütün rəqəmli', num],
+  ]) {
+    if (ids.length) state.blocks[key] = { key, plan: 'num', title, range: preview(ids), ids };
   }
 }
 
@@ -263,7 +290,7 @@ function finish(key) {
     for (const n of s.ids) {
       const q = state.byNum.get(n);
       const picked = s.answers[n];
-      if (q.a && picked) state.stats[n] = picked === q.a ? 'c' : 'w';
+      if (q.a && picked) recordResult(q, picked);
     }
     saveStats();
   }
@@ -354,19 +381,25 @@ function renderHome() {
       <span class="bar" style="grid-column:1/-1"><span style="width:${pct(answeredCount(resume), resume.ids.length)}%"></span></span>
     </button>` : '';
 
-  const blocksHtml = blocksForPlan(settings.plan).map((b) => {
+  // Narrow two-column cards put the range under the title; wide ones put it on the right.
+  const blockCard = (b, narrow) => {
     const st = blockStatus(b.key);
+    const range = `<span class="block-range">${esc(b.range)}</span>`;
     return `
       <button class="block" data-act="open" data-key="${b.key}">
         <span class="block-top">
           <span class="block-title">${esc(b.title)}</span>
-          ${settings.plan === 'b10' ? '' : `<span class="block-range">${b.range}</span>`}
+          ${narrow ? '' : range}
         </span>
-        ${settings.plan === 'b10' ? `<span class="block-range">${b.range}</span>` : ''}
+        ${narrow ? range : ''}
         <span class="block-status ${st.cls}">${st.text}</span>
         <span class="bar"><span class="${st.tone}" style="width:${st.fill}%"></span></span>
       </button>`;
-  }).join('');
+  };
+  const blocksHtml = blocksForPlan(settings.plan).map((b) => blockCard(b, settings.plan === 'b10')).join('');
+  const numBlocks = blocksForPlan('num');
+  const numHtml = numBlocks.map((b) => blockCard(b, b.key !== 'num-all')).join('');
+  const numCount = state.blocks['num-all']?.ids.length || 0;
 
   app.innerHTML = `
   <div class="page">
@@ -392,11 +425,14 @@ function renderHome() {
         <span class="ok" style="width:${(o.c / state.scorable) * 100}%"></span>
         <span class="bad" style="width:${(o.w / state.scorable) * 100}%"></span>
       </div>
-      <dl class="legend">
-        <div><span class="dot ok"></span><dt>Düzgün</dt><dd>${o.c}</dd></div>
-        <div><span class="dot bad"></span><dt>Səhv</dt><dd>${o.w}</dd></div>
-        <div><span class="dot"></span><dt>Yeni</dt><dd>${o.rest}</dd></div>
-      </dl>
+      <div class="overview-foot">
+        <dl class="legend">
+          <div><span class="dot ok"></span><dt>Düzgün</dt><dd>${o.c}</dd></div>
+          <div><span class="dot bad"></span><dt>Səhv</dt><dd>${o.w}</dd></div>
+          <div><span class="dot"></span><dt>Yeni</dt><dd>${o.rest}</dd></div>
+        </dl>
+        ${o.c + o.w ? `<button class="btn btn--small" data-act="export-all">${ICON.export}İxrac</button>` : ''}
+      </div>
     </section>
 
     <section class="section" aria-labelledby="pick-title">
@@ -409,6 +445,15 @@ function renderHome() {
       </div>
       <div class="blocks blocks--${settings.plan}">${blocksHtml}</div>
     </section>
+
+    ${numCount ? `
+    <section class="section" aria-labelledby="num-title">
+      <div>
+        <h2 class="section-title" id="num-title">Rəqəmli suallar</h2>
+        <p class="section-sub">Ölçülər, vaxtlar, dozalar, enerjilər, seqment sayları · ${numCount} sual</p>
+      </div>
+      <div class="blocks blocks--num">${numHtml}</div>
+    </section>` : ''}
 
     <section class="panel settings" aria-label="Parametrlər">
       <div class="setting">
@@ -563,7 +608,7 @@ function pick(letter) {
   s.answers[n] = letter;
   s.updated = Date.now();
   if (s.mode === 'practice' && q.a) {
-    state.stats[n] = letter === q.a ? 'c' : 'w';
+    recordResult(q, letter);
     saveStats();
   }
   saveSessions();
@@ -732,6 +777,7 @@ function renderResult() {
 
     <div class="actions">
       ${retryCount ? `<button class="btn btn--primary" data-act="retry">${ICON.redo}${r.skipped ? 'Səhv və cavabsızları' : 'Səhvləri'} təkrarla (${retryCount})</button>` : ''}
+      <button class="btn" data-act="export">${ICON.export}Nəticəni ixrac et</button>
       <button class="btn" data-act="restart">Yenidən başla</button>
       <button class="btn btn--ghost" data-act="home">Ana səhifə</button>
     </div>
@@ -757,6 +803,7 @@ function browseMatches() {
   return state.questions.filter((q) => {
     if (state.browse.filter === 'mistakes' && state.stats[q.n] !== 'w') return false;
     if (state.browse.filter === 'nokey' && q.a) return false;
+    if (state.browse.filter === 'num' && !q.num) return false;
     if (!needle) return true;
     if (String(q.n) === needle) return true;
     return fold(q.q).includes(needle) || LETTERS.some((l) => q.o[l] && fold(q.o[l]).includes(needle));
@@ -770,6 +817,7 @@ function renderBrowse() {
   const filters = {
     all: { label: 'Hamısı', count: state.questions.length },
     mistakes: { label: 'Səhvlərim', count: mistakeIds().length },
+    num: { label: 'Rəqəmli', count: state.questions.filter((q) => q.num).length },
     nokey: { label: 'Açarsız', count: state.questions.length - state.scorable },
   };
 
@@ -824,6 +872,236 @@ function onSearch(value) {
     state.browse.shown = 40;
     renderBrowse();
   }, 140);
+}
+
+/* ---------- Export ---------- */
+
+const STATUS = { right: 'düzgün', wrong: 'SƏHV', skipped: 'cavabsız', nokey: 'açar yoxdur' };
+const upper = (l) => (l ? l.toUpperCase() : '—');
+const optionLine = (q, l) => (l && q.o[l] ? `${l.toUpperCase()}) ${q.o[l]}` : '—');
+const rowsWith = (rep, status) => rep.rows.filter((r) => r.status === status);
+
+function stamp(d = new Date()) {
+  const p = (x) => String(x).padStart(2, '0');
+  const day = `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
+  return { human: `${p(d.getDate())}.${p(d.getMonth() + 1)}.${d.getFullYear()} ${p(d.getHours())}:${p(d.getMinutes())}`, day };
+}
+
+function fileName(rep, ext) {
+  const slug = fold(rep.title).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  return `SD-${slug}-${stamp().day}.${ext}`;
+}
+
+function sessionReport(s) {
+  const r = score(s);
+  const rows = s.base.map((n) => {
+    const q = state.byNum.get(n);
+    const picked = s.answers[n];
+    const status = !q.a ? 'nokey' : !picked ? 'skipped' : picked === q.a ? 'right' : 'wrong';
+    return { q, picked, status };
+  });
+  return {
+    title: s.title,
+    meta: `${s.range.startsWith('Sual') ? `${s.range} · ` : ''}${s.ids.length} sual · ${MODES[s.mode].label} rejimi`,
+    headline: `${r.correct} / ${r.total} düzgün (${r.pct}%)`,
+    summary: [['Düzgün', r.correct], ['Səhv', r.wrong], ['Cavabsız', r.skipped], ['Açarsız', r.unscored]],
+    rows,
+  };
+}
+
+function overallReport() {
+  const o = overall();
+  const rows = state.questions
+    .filter((q) => q.a && state.stats[q.n])
+    .map((q) => ({ q, picked: state.picks[q.n], status: state.stats[q.n] === 'c' ? 'right' : 'wrong' }));
+  return {
+    title: 'Ümumi nəticə',
+    meta: 'Bütün testlər üzrə hər sualın son cavabı',
+    headline: `${o.c} / ${state.scorable} sual düzgün (${pct(o.c, state.scorable)}%)`,
+    summary: [['Düzgün', o.c], ['Səhv', o.w], ['Hələ cavablanmayıb', o.rest]],
+    rows,
+  };
+}
+
+function numberLines(rep) {
+  const wrong = rowsWith(rep, 'wrong').map((r) => r.q.n);
+  const skipped = rowsWith(rep, 'skipped').map((r) => r.q.n);
+  const lines = [wrong.length ? `Səhv (${wrong.length}): ${wrong.join(', ')}` : 'Səhv sual yoxdur.'];
+  if (skipped.length) lines.push(`Cavabsız (${skipped.length}): ${skipped.join(', ')}`);
+  return lines;
+}
+
+function reportText(rep) {
+  const out = [
+    `ŞD Suallar · ${rep.title}`,
+    rep.meta,
+    `Tarix: ${stamp().human}`,
+    '',
+    `Nəticə: ${rep.headline}`,
+    rep.summary.map(([k, v]) => `${k}: ${v}`).join(' · '),
+    '',
+    ...numberLines(rep),
+  ];
+  const detail = (heading, list) => {
+    if (!list.length) return;
+    out.push('', '', heading, '='.repeat(heading.length));
+    for (const { q, picked } of list) {
+      out.push('', `№ ${q.n}. ${q.q}`);
+      if (picked) out.push(`   Sizin cavab:  ${optionLine(q, picked)}`);
+      out.push(`   Düzgün cavab: ${optionLine(q, q.a)}`);
+    }
+  };
+  detail('SƏHV CAVABLAR', rowsWith(rep, 'wrong'));
+  detail('CAVABSIZ SUALLAR', rowsWith(rep, 'skipped'));
+  out.push('', '', 'BÜTÜN CAVABLAR', '==============', 'Sual   Siz  Düzgün  Nəticə');
+  for (const { q, picked, status } of rep.rows) {
+    out.push(`${String(q.n).padEnd(6)} ${upper(picked).padEnd(4)} ${upper(q.a).padEnd(7)} ${STATUS[status]}`);
+  }
+  return out.join('\n') + '\n';
+}
+
+// Simple selectors only, so Word's HTML import understands them too.
+function reportCss(scope = '') {
+  return [
+    ['', 'font-family: Arial, "Segoe UI", sans-serif; color: #111; font-size: 11pt; line-height: 1.4;'],
+    ['h1', 'font-size: 18pt; margin: 0 0 4pt;'],
+    ['h2', 'font-size: 13pt; margin: 18pt 0 6pt; padding-bottom: 2pt; border-bottom: 1px solid #999;'],
+    ['p', 'margin: 3pt 0;'],
+    ['.rp-meta', 'color: #555;'],
+    ['.rp-score', 'font-size: 15pt; font-weight: bold; margin-top: 10pt;'],
+    ['.rp-num', 'font-family: "Courier New", monospace; font-size: 11pt;'],
+    ['.rp-q', 'margin: 0 0 10pt; page-break-inside: avoid;'],
+    ['.rp-bad', 'color: #b8322a;'],
+    ['.rp-ok', 'color: #18794a;'],
+    ['table', 'border-collapse: collapse; width: 100%; font-size: 10pt;'],
+    ['th, td', 'border: 1px solid #bbb; padding: 3pt 6pt; text-align: left;'],
+    ['th', 'background: #eee;'],
+  ].map(([sel, body]) => {
+    const target = sel ? sel.split(',').map((s) => `${scope} ${s.trim()}`.trim()).join(', ') : scope || 'body';
+    return `${target} { ${body} }`;
+  }).join('\n');
+}
+
+function reportHtml(rep) {
+  const detail = (heading, list) => (list.length ? `
+    <h2>${heading} (${list.length})</h2>
+    ${list.map(({ q, picked }) => `
+      <div class="rp-q">
+        <p><b>№ ${q.n}.</b> ${esc(q.q)}</p>
+        ${picked ? `<p class="rp-bad">Sizin cavab: ${esc(optionLine(q, picked))}</p>` : ''}
+        <p class="rp-ok">Düzgün cavab: ${esc(optionLine(q, q.a))}</p>
+      </div>`).join('')}` : '');
+  return `
+    <h1>ŞD Suallar · ${esc(rep.title)}</h1>
+    <p class="rp-meta">${esc(rep.meta)} · ${stamp().human}</p>
+    <p class="rp-score">${esc(rep.headline)}</p>
+    <p>${rep.summary.map(([k, v]) => `${esc(k)}: <b>${v}</b>`).join(' · ')}</p>
+    ${numberLines(rep).map((l) => `<p class="rp-num">${esc(l)}</p>`).join('')}
+    ${detail('Səhv cavablar', rowsWith(rep, 'wrong'))}
+    ${detail('Cavabsız suallar', rowsWith(rep, 'skipped'))}
+    <h2>Bütün cavablar</h2>
+    <table>
+      <thead><tr><th>Sual</th><th>Siz</th><th>Düzgün</th><th>Nəticə</th></tr></thead>
+      <tbody>${rep.rows.map(({ q, picked, status }) => `
+        <tr><td>${q.n}</td><td>${upper(picked)}</td><td>${upper(q.a)}</td><td${status === 'wrong' ? ' class="rp-bad"' : ''}>${STATUS[status]}</td></tr>`).join('')}
+      </tbody>
+    </table>`;
+}
+
+function reportDoc(rep) {
+  return `<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40">
+<head><meta charset="utf-8"><title>ŞD Suallar · ${esc(rep.title)}</title><style>${reportCss()}</style></head>
+<body>${reportHtml(rep)}</body>
+</html>`;
+}
+
+function download(name, content, type) {
+  const url = URL.createObjectURL(new Blob(['﻿', content], { type }));
+  const a = Object.assign(document.createElement('a'), { href: url, download: name });
+  document.body.append(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 10000);
+}
+
+// The browser's print dialog offers "Save as PDF" on Android, iOS and desktop.
+function printReport(rep) {
+  printRoot.innerHTML = `<style>${reportCss('#print-root')}\n@page { margin: 14mm; }</style>${reportHtml(rep)}`;
+  const title = document.title;
+  document.title = fileName(rep, 'pdf').replace(/\.pdf$/, ''); // default PDF file name
+  window.addEventListener('afterprint', () => { document.title = title; }, { once: true });
+  window.print();
+}
+
+async function copyText(text) {
+  try {
+    await navigator.clipboard.writeText(text);
+    return true;
+  } catch {
+    const ta = Object.assign(document.createElement('textarea'), { value: text, readOnly: true });
+    ta.style.cssText = 'position:fixed;opacity:0;pointer-events:none';
+    (dlg.open ? dlg : document.body).append(ta);
+    ta.select();
+    let ok = false;
+    try { ok = document.execCommand('copy'); } catch { /* unsupported */ }
+    ta.remove();
+    return ok;
+  }
+}
+
+function openExport(rep) {
+  const nums = numberLines(rep).join('\n');
+  const shareText = `ŞD Suallar · ${rep.title} (${rep.meta})\n${nums}`;
+  openDialog(`
+    <div class="dlg-head">
+      <h2>İxrac · ${esc(rep.title)}</h2>
+      <button class="icon-btn" data-dlg="close" aria-label="Bağla">${ICON.close}</button>
+    </div>
+    <div class="dlg-body export">
+      <p class="export-label">Səhv sualların nömrələri</p>
+      <pre class="export-nums" id="export-nums">${esc(nums)}</pre>
+      <div class="export-row">
+        <button class="btn" data-x="copy">${ICON.copy}<span>Kopyala</span></button>
+        ${typeof navigator.share === 'function' ? `<button class="btn" data-x="share">${ICON.share}<span>Paylaş</span></button>` : ''}
+      </div>
+      <p class="export-label">Tam hesabat</p>
+      <div class="export-files">
+        <button class="file-btn" data-x="pdf"><strong>PDF</strong><span>Açılan pəncərədə “PDF kimi saxla” seçin</span></button>
+        <button class="file-btn" data-x="doc"><strong>Word</strong><span>.doc faylı yüklə</span></button>
+        <button class="file-btn" data-x="txt"><strong>TXT</strong><span>Sadə mətn faylı yüklə</span></button>
+      </div>
+      <p class="fine">Hesabatda nəticə, səhv və cavabsız suallar düzgün cavabları ilə, və bütün cavabların cədvəli var.</p>
+    </div>`, 'sheet');
+
+  dlg.onclick = async (e) => {
+    if (e.target.closest('[data-dlg="close"]') || e.target === dlg) return closeDialog();
+    const btn = e.target.closest('[data-x]');
+    if (!btn) return;
+    switch (btn.dataset.x) {
+      case 'copy': {
+        const ok = await copyText(shareText);
+        const label = btn.querySelector('span');
+        label.textContent = ok ? 'Kopyalandı' : 'Əl ilə kopyalayın';
+        if (!ok) getSelection().selectAllChildren(document.getElementById('export-nums'));
+        setTimeout(() => { label.textContent = 'Kopyala'; }, 2000);
+        break;
+      }
+      case 'share':
+        try { await navigator.share({ title: `ŞD Suallar · ${rep.title}`, text: shareText }); } catch { /* cancelled */ }
+        break;
+      case 'pdf':
+        closeDialog();
+        printReport(rep);
+        break;
+      case 'doc':
+        download(fileName(rep, 'doc'), reportDoc(rep), 'application/msword');
+        break;
+      case 'txt':
+        download(fileName(rep, 'txt'), reportText(rep), 'text/plain;charset=utf-8');
+        break;
+      default:
+    }
+  };
 }
 
 /* ---------- Dialogs ---------- */
@@ -894,6 +1172,7 @@ app.addEventListener('click', async (e) => {
       if (!ok) return;
       state.sessions = {};
       state.stats = {};
+      state.picks = {};
       state.best = {};
       saveSessions();
       saveStats();
@@ -905,6 +1184,8 @@ app.addEventListener('click', async (e) => {
     case 'prev': return move(-1);
     case 'next': return move(1);
     case 'nav': return openNavigator();
+    case 'export': return openExport(sessionReport(currentSession()));
+    case 'export-all': return openExport(overallReport());
     case 'retry': return retryWrong(state.key);
     case 'restart': return restart(state.key);
     case 'review':
