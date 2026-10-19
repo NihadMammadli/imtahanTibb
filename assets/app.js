@@ -244,6 +244,7 @@ function createSession(def) {
 }
 
 function openBlock(key) {
+  if (key === 'random') return startRandom();
   const s = state.sessions[key];
   if (s && s.finished) return go(`#/result/${key}`);
   if (!s) createSession(state.blocks[key]);
@@ -257,7 +258,30 @@ function startMistakes() {
   go('#/quiz/mistakes');
 }
 
+// Random test: RANDOM_PER_BLOCK questions from each of the 10 blocks, so every set covers the
+// whole bank evenly. Questions without an answer key are left out so every question is scored.
+const RANDOM_PER_BLOCK = 5;
+const RANDOM_CARD = { key: 'random', title: 'Təsadüfi 50', range: `Hər blokdan ${RANDOM_PER_BLOCK} sual` };
+
+function randomDef() {
+  const ids = blocksForPlan('b10')
+    .flatMap((b) => shuffle(b.ids.filter((n) => state.byNum.get(n).a)).slice(0, RANDOM_PER_BLOCK))
+    .sort((a, b) => a - b);
+  return { ...RANDOM_CARD, ids };
+}
+
+// Resumes an unfinished random test; otherwise draws a new set.
+function startRandom() {
+  const s = state.sessions.random;
+  if (!s || s.finished) createSession(randomDef());
+  go('#/quiz/random');
+}
+
 function restart(key) {
+  if (key === 'random') {
+    createSession(randomDef());
+    return go('#/quiz/random', true);
+  }
   const s = state.sessions[key];
   const def = state.blocks[key] || { key, title: s.title, range: s.range, ids: s.base };
   createSession(def);
@@ -358,6 +382,11 @@ function blockStatus(key) {
     const a = answeredCount(s);
     return { cls: 'is-progress', text: `${a}/${s.ids.length} cavablanıb`, fill: pct(a, s.ids.length), tone: 'acc' };
   }
+  if (key === 'random') {
+    if (!s) return { cls: '', text: 'Hər dəfə yeni sual dəsti', fill: 0, tone: 'acc' };
+    const r = score(s);
+    return { cls: 'is-done', text: `Son nəticə: ${r.pct}% · yenisi üçün toxunun`, fill: r.pct, tone: 'ok' };
+  }
   const b = state.best[key];
   if (b) return { cls: 'is-done', text: `Ən yaxşı: ${b.pct}%`, fill: b.pct, tone: 'ok' };
   return { cls: '', text: `${state.blocks[key].ids.length} sual`, fill: 0, tone: 'acc' };
@@ -444,6 +473,14 @@ function renderHome() {
           </button>`).join('')}
       </div>
       <div class="blocks blocks--${settings.plan}">${blocksHtml}</div>
+    </section>
+
+    <section class="section" aria-labelledby="rand-title">
+      <div>
+        <h2 class="section-title" id="rand-title">Təsadüfi test</h2>
+        <p class="section-sub">Hər dəfə bütün bazadan yeni 50 sual: 10 blokun hər birindən ${RANDOM_PER_BLOCK} sual.</p>
+      </div>
+      <div class="blocks">${blockCard(RANDOM_CARD, false)}</div>
     </section>
 
     ${numCount ? `
@@ -778,7 +815,7 @@ function renderResult() {
     <div class="actions">
       ${retryCount ? `<button class="btn btn--primary" data-act="retry">${ICON.redo}${r.skipped ? 'Səhv və cavabsızları' : 'Səhvləri'} təkrarla (${retryCount})</button>` : ''}
       <button class="btn" data-act="export">${ICON.export}Nəticəni ixrac et</button>
-      <button class="btn" data-act="restart">Yenidən başla</button>
+      <button class="btn" data-act="restart">${s.key === 'random' ? 'Yeni təsadüfi 50' : 'Yenidən başla'}</button>
       <button class="btn btn--ghost" data-act="home">Ana səhifə</button>
     </div>
 

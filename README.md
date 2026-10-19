@@ -5,6 +5,7 @@ Mobile-first quiz app for the 522 Şüa diaqnostikası exam questions. Plain HTM
 ## Features
 
 - **Three ways to split the questions:** 10 blocks (~52 each), 5 blocks (~104 each), or all 522 at once.
+- **Random 50**: a new set every time, 5 random questions from each of the 10 blocks (questions without an answer key are skipped). An unfinished set resumes; after finishing, tapping it draws a new one. `RANDOM_PER_BLOCK` in `assets/app.js` sets the count.
 - **Numerical questions** (sizes, times, doses, energies, segment counts): two blocks of 32 and one with all 64. The list is `NUMERIC` in `scripts/build_questions.py`.
 - **Export** from any result page, or for overall progress from the home page: wrong question numbers (copy/share), or a full report as PDF (via the print dialog), Word (.doc) or TXT.
 - **Practice mode** shows the right answer after each question. **Exam mode** shows answers and the score at the end.
