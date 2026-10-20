@@ -935,7 +935,7 @@ function sessionReport(s) {
     const q = state.byNum.get(n);
     const picked = s.answers[n];
     const status = !q.a ? 'nokey' : !picked ? 'skipped' : picked === q.a ? 'right' : 'wrong';
-    return { q, picked, status };
+    return { q, status };
   });
   return {
     title: s.title,
@@ -950,7 +950,7 @@ function overallReport() {
   const o = overall();
   const rows = state.questions
     .filter((q) => q.a && state.stats[q.n])
-    .map((q) => ({ q, picked: state.picks[q.n], status: state.stats[q.n] === 'c' ? 'right' : 'wrong' }));
+    .map((q) => ({ q, status:state.stats[q.n] === 'c' ? 'right' : 'wrong' }));
   return {
     title: 'Ümumi nəticə',
     meta: 'Bütün testlər üzrə hər sualın son cavabı',
@@ -982,17 +982,16 @@ function reportText(rep) {
   const detail = (heading, list) => {
     if (!list.length) return;
     out.push('', '', heading, '='.repeat(heading.length));
-    for (const { q, picked } of list) {
+    for (const { q } of list) {
       out.push('', `№ ${q.n}. ${q.q}`);
-      if (picked) out.push(`   Sizin cavab:  ${optionLine(q, picked)}`);
       out.push(`   Düzgün cavab: ${optionLine(q, q.a)}`);
     }
   };
   detail('SƏHV CAVABLAR', rowsWith(rep, 'wrong'));
   detail('CAVABSIZ SUALLAR', rowsWith(rep, 'skipped'));
-  out.push('', '', 'BÜTÜN CAVABLAR', '==============', 'Sual   Siz  Düzgün  Nəticə');
-  for (const { q, picked, status } of rep.rows) {
-    out.push(`${String(q.n).padEnd(6)} ${upper(picked).padEnd(4)} ${upper(q.a).padEnd(7)} ${STATUS[status]}`);
+  out.push('', '', 'BÜTÜN CAVABLAR', '==============', 'Sual   Düzgün  Nəticə');
+  for (const { q, status } of rep.rows) {
+    out.push(`${String(q.n).padEnd(6)} ${upper(q.a).padEnd(7)} ${STATUS[status]}`);
   }
   return out.join('\n') + '\n';
 }
@@ -1022,10 +1021,9 @@ function reportCss(scope = '') {
 function reportHtml(rep) {
   const detail = (heading, list) => (list.length ? `
     <h2>${heading} (${list.length})</h2>
-    ${list.map(({ q, picked }) => `
+    ${list.map(({ q }) => `
       <div class="rp-q">
         <p><b>№ ${q.n}.</b> ${esc(q.q)}</p>
-        ${picked ? `<p class="rp-bad">Sizin cavab: ${esc(optionLine(q, picked))}</p>` : ''}
         <p class="rp-ok">Düzgün cavab: ${esc(optionLine(q, q.a))}</p>
       </div>`).join('')}` : '');
   return `
@@ -1038,9 +1036,9 @@ function reportHtml(rep) {
     ${detail('Cavabsız suallar', rowsWith(rep, 'skipped'))}
     <h2>Bütün cavablar</h2>
     <table>
-      <thead><tr><th>Sual</th><th>Siz</th><th>Düzgün</th><th>Nəticə</th></tr></thead>
-      <tbody>${rep.rows.map(({ q, picked, status }) => `
-        <tr><td>${q.n}</td><td>${upper(picked)}</td><td>${upper(q.a)}</td><td${status === 'wrong' ? ' class="rp-bad"' : ''}>${STATUS[status]}</td></tr>`).join('')}
+      <thead><tr><th>Sual</th><th>Düzgün</th><th>Nəticə</th></tr></thead>
+      <tbody>${rep.rows.map(({ q, status }) => `
+        <tr><td>${q.n}</td><td>${upper(q.a)}</td><td${status === 'wrong' ? ' class="rp-bad"' : ''}>${STATUS[status]}</td></tr>`).join('')}
       </tbody>
     </table>`;
 }

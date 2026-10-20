@@ -1,5 +1,5 @@
 // Network-first: always fresh when online, cached copy when offline.
-const CACHE = 'sd-suallar-v3';
+const CACHE = 'sd-suallar-v4';
 const CORE = [
   './',
   'index.html',
