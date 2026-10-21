@@ -645,7 +645,7 @@
     "answer_c": "50°- və yuxarı",
     "answer_d": "45°- dən aşağı",
     "answer_e": "75°",
-    "right_answer": ""
+    "right_answer": "c"
   },
   {
     "question": "Qaraciyər arteriyanın qalınlığı necədir?",
@@ -672,7 +672,7 @@
     "answer_c": "Dəri, selikli qişaların və göz zülaların sarığı",
     "answer_d": "Sidiyin sapsarı rəngə boyanması",
     "answer_e": "Qanda biliribinin artması",
-    "right_answer": ""
+    "right_answer": "b"
   },
   {
     "question": "USM-si zamanı dəyişilməmiş qaraciyər parenximanın strukturu necədir?",
@@ -681,7 +681,7 @@
     "answer_c": "Çoxlu yüksək exogenli sahələr",
     "answer_d": "Xırda dənəvəli",
     "answer_e": "Orta exogenli sahələr",
-    "right_answer": ""
+    "right_answer": "d"
   },
   {
     "question": "Qaraciyər daxili ödçıxarıcı axarlara nə aid edilir?",
@@ -690,7 +690,7 @@
     "answer_c": "Ümumi qaraciyər axarçığı",
     "answer_d": "Seqmentar, subseqmentar, paylı axarlır, öd kisənin axarıcığı",
     "answer_e": "Ümumi öd axarı, öd kisənin axarıcığı",
-    "right_answer": ""
+    "right_answer": "a"
   },
   {
     "question": "Qaraciyərin USM-ə göstərişlər hansıdır?",
@@ -699,7 +699,7 @@
     "answer_c": "Ürək bulanma, qusma və s.",
     "answer_d": "Digər diaqnostik üsullarının nəticələrinin dəqiqləşdirilməsi",
     "answer_e": "Yenitörəməyə şübhə",
-    "right_answer": ""
+    "right_answer": "b"
   },
   {
     "question": "Qaraciyər USM-ə göstərişlər hansıdır?",
@@ -1059,7 +1059,7 @@
     "answer_c": "Ovulyasiyanın izlənməsi",
     "answer_d": "Döllənmənin planlaşması - daxili cinsiyyət orqanların vəziyyətinin qiymətləndirilməsi üçün",
     "answer_e": "Uşaqlıq daxili vasitələrin qoyulması üçün hazırlaşma",
-    "right_answer": ""
+    "right_answer": "a"
   },
   {
     "question": "Yumurtalıqların USM müəyyən etməyə nə imkan verir?",
@@ -1086,7 +1086,7 @@
     "answer_c": "5 dəfə",
     "answer_d": "4 dəfə",
     "answer_e": "2 dəfə",
-    "right_answer": ""
+    "right_answer": "a"
   },
   {
     "question": "Aybaşı siklin hansı günlərdə yumurtalıqların funksionallığını müəyyənləşməsi üçün USM aparılmır?",
@@ -1212,7 +1212,7 @@
     "answer_c": "Böyrəyin sisti",
     "answer_d": "Sidik kisəsinin divertikulu",
     "answer_e": "Sidik kisəsi-sidik axarı reflüksünün olması",
-    "right_answer": ""
+    "right_answer": "a"
   },
   {
     "question": "Təbii radioaktivlik ilk dəfə kim tərəfindən kəşf edilmişdir?",
@@ -1320,7 +1320,7 @@
     "answer_c": "Sol mədəciyin şöbələrindən birində qalınlaşma",
     "answer_d": "Sol mədəciyin bütün şöbələrində nazikləşmə qalınlaşma ilə əvəz olunur",
     "answer_e": "Sağ və sol mədəciklərin divarları eyni bərabər olması",
-    "right_answer": ""
+    "right_answer": "b"
   },
   {
     "question": "Kəskin miokard infarkt ocağın nahiyəsində Tc-99m MİBİ (metilen izopropilen butilo izonitril) ilə sintiqrafik görüntüsü necədir?",
@@ -2859,7 +2859,7 @@
     "answer_c": "Öd kisəsi",
     "answer_d": "",
     "answer_e": "",
-    "right_answer": ""
+    "right_answer": "c"
   },
   {
     "question": "Diafraqmanın natamam relaksasiyası adətən harada müşahidə olunur?",
@@ -4290,7 +4290,7 @@
     "answer_c": "Rectum",
     "answer_d": "Colon transversum",
     "answer_e": "Colon ascendens",
-    "right_answer": ""
+    "right_answer": "a"
   },
   {
     "question": "Pnevmobiliya, nazik bağırsaq keçməzliyi, öd daşı keçməzliyi (əsasən sağ qalça nahiyəsində) hansı triad üçün xarakterikdir?",
