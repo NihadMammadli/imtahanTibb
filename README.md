@@ -6,6 +6,7 @@ Mobile-first quiz app for the 522 Şüa diaqnostikası exam questions. Plain HTM
 
 - **Three ways to split the questions:** 10 blocks (~52 each), 5 blocks (~104 each), or all 522 at once.
 - **Random 50**: a new set every time, 5 random questions from each of the 10 blocks. An unfinished set resumes; after finishing, tapping it draws a new one. `RANDOM_PER_BLOCK` in `assets/app.js` sets the count.
+- **Sabit variantlar**: 20 fixed tests of 50 (5 from each of the 10 blocks) that never change, so scores can be compared over time. Variants 1–10 share no questions and cover 500; all 20 cover the whole bank. The sets live in `data/variants.json`.
 - **Numerical questions** (sizes, times, doses, energies, segment counts): two blocks of 32 and one with all 64. The list is `NUMERIC` in `scripts/build_questions.py`.
 - **Export** from any result page, or for overall progress from the home page: wrong question numbers (copy/share), or a full report as PDF (via the print dialog), Word (.doc) or TXT.
 - **Practice mode** shows the right answer after each question. **Exam mode** shows answers and the score at the end.
@@ -23,6 +24,7 @@ Mobile-first quiz app for the 522 Şüa diaqnostikası exam questions. Plain HTM
   ```
 
   Each entry is `{ "n": original number, "q": question, "o": { "a": …, … }, "a": right letter, "num": true if numerical }`. Empty options are dropped. Every question has an answer key.
+- `data/variants.json` holds the 20 fixed variants as lists of question numbers. `scripts/build_variants.py` drew them once and won't overwrite the file. To draw new ones, delete it and run `python3 scripts/build_variants.py` (saved best scores for the old variants won't match).
 
 ## Run locally
 

@@ -1,8 +1,8 @@
 'use strict';
 
-/* ŞD Suallar — static quiz app. Data: data/questions.json
+/* ŞD Suallar — static quiz app. Data: data/questions.json, data/variants.json
    Each question: { n: original number, q: text, o: { a..e: option text }, a: right letter or "",
-   num: true for numerical questions } */
+   num: true for numerical questions }. Each variant: a fixed list of question numbers. */
 
 const app = document.getElementById('app');
 const dlg = document.getElementById('dlg');
@@ -49,6 +49,7 @@ const LETTERS = ['a', 'b', 'c', 'd', 'e'];
 
 const state = {
   questions: [],
+  variants: [],
   byNum: new Map(),
   blocks: {},
   scorable: 0,
@@ -189,6 +190,13 @@ function buildBlocks() {
   ]) {
     if (ids.length) state.blocks[key] = { key, plan: 'num', title, range: preview(ids), ids };
   }
+
+  // Fixed variants: the same 50 questions every time (scripts/build_variants.py).
+  state.variants.forEach((list, i) => {
+    const ids = list.filter((n) => state.byNum.has(n));
+    const key = `var-${i + 1}`;
+    if (ids.length) state.blocks[key] = { key, plan: 'var', title: `Variant ${i + 1}`, range: preview(ids), ids };
+  });
 }
 
 const blocksForPlan = (plan) => Object.values(state.blocks).filter((b) => b.plan === plan);
@@ -429,6 +437,7 @@ function renderHome() {
   const numBlocks = blocksForPlan('num');
   const numHtml = numBlocks.map((b) => blockCard(b, b.key !== 'num-all')).join('');
   const numCount = state.blocks['num-all']?.ids.length || 0;
+  const varBlocks = blocksForPlan('var');
 
   app.innerHTML = `
   <div class="page">
@@ -482,6 +491,15 @@ function renderHome() {
       </div>
       <div class="blocks">${blockCard(RANDOM_CARD, false)}</div>
     </section>
+
+    ${varBlocks.length ? `
+    <section class="section" aria-labelledby="var-title">
+      <div>
+        <h2 class="section-title" id="var-title">Sabit variantlar</h2>
+        <p class="section-sub">${varBlocks.length} dəyişməz test, hər biri 50 sual (hər blokdan 5). Suallar həmişə eyni qalır.</p>
+      </div>
+      <div class="blocks blocks--var">${varBlocks.map((b) => blockCard(b, true)).join('')}</div>
+    </section>` : ''}
 
     ${numCount ? `
     <section class="section" aria-labelledby="num-title">
@@ -1284,10 +1302,13 @@ window.addEventListener('hashchange', route);
 /* ---------- Boot ---------- */
 
 async function boot() {
+  const load = async (path) => {
+    const res = await fetch(path, { cache: 'no-cache' });
+    if (!res.ok) throw new Error(`${path}: HTTP ${res.status}`);
+    return res.json();
+  };
   try {
-    const res = await fetch('data/questions.json', { cache: 'no-cache' });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    state.questions = await res.json();
+    [state.questions, state.variants] = await Promise.all([load('data/questions.json'), load('data/variants.json')]);
   } catch (err) {
     const local = location.protocol === 'file:';
     app.innerHTML = `

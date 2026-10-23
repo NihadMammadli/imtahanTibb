@@ -330,8 +330,8 @@ p { margin: 0; }
 .overview-head .mono { color: var(--muted); font-size: var(--fs-sm); }
 
 .blocks { display: grid; gap: 10px; }
-.blocks--b10 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-@media (max-width: 339px) { .blocks--b10 { grid-template-columns: 1fr; } }
+.blocks--b10, .blocks--var { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (max-width: 339px) { .blocks--b10, .blocks--var { grid-template-columns: 1fr; } }
 
 .block {
   display: flex;
