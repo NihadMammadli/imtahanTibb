@@ -1,20 +1,34 @@
 'use strict';
 
-/* ŞD Suallar — static quiz app. Data: data/questions.json, data/variants.json
-   Each question: { n: original number, q: text, o: { a..e: option text }, a: right letter or "",
-   num: true for numerical questions }. Each variant: a fixed list of question numbers. */
+/* ŞD Suallar — static quiz app with two question banks, one per tab:
+   522 sual: data/questions.json, data/variants.json
+   1001 sual: data/questions1001.json, data/variants1001.json
+   Each question: { n: number in its source, q: text, o: { a..e: option text }, a: right letter or "",
+   num: true for numerical questions; 1001 bank only: m: its number in the 522 bank if shared,
+   usm: true for ultrasound questions, dup: n of an earlier copy }.
+   Each variant: a fixed list of question numbers. */
 
 const app = document.getElementById('app');
 const dlg = document.getElementById('dlg');
 const printRoot = document.getElementById('print-root');
 
+// Settings and theme are shared; progress is kept per bank (see bankKey).
 const KEYS = {
   settings: 'sd.settings.v1',
-  sessions: 'sd.sessions.v1',
-  stats: 'sd.stats.v1',
-  picks: 'sd.picks.v1',
-  best: 'sd.best.v1',
   theme: 'sd.theme.v1',
+};
+
+// Each bank has its own sessions, stats and best scores. The 522 bank keeps the original
+// storage keys ("sd.sessions.v1", ...), so existing progress carries over.
+const BANKS = {
+  sd: {
+    id: 'sd', path: '', store: 'sd', tab: '522 sual', tabHint: 'Əsas baza',
+    data: 'data/questions.json', variants: 'data/variants.json',
+  },
+  b1001: {
+    id: 'b1001', path: '1001', store: 'sd1001', tab: '1001 sual', tabHint: 'Yeni toplu',
+    data: 'data/questions1001.json', variants: 'data/variants1001.json',
+  },
 };
 
 const store = {
@@ -47,17 +61,20 @@ const MODES = {
 
 const LETTERS = ['a', 'b', 'c', 'd', 'e'];
 
+// The fields from questions to best belong to the current bank; useBank() swaps them.
 const state = {
+  bank: 'sd',
+  banks: {}, // { [bankId]: { questions, variants, byNum, blocks, scorable, sessions, stats, picks, best } }
   questions: [],
   variants: [],
   byNum: new Map(),
   blocks: {},
   scorable: 0,
-  settings: { plan: 'b10', mode: 'practice', shuffle: false, ...store.get(KEYS.settings, {}) },
-  sessions: store.get(KEYS.sessions, {}),
-  stats: store.get(KEYS.stats, {}), // { [n]: 'c' | 'w' } last result per question
-  picks: store.get(KEYS.picks, {}), // { [n]: letter } last answer per question, for exports
-  best: store.get(KEYS.best, {}), // { [blockKey]: { score, total, pct } }
+  sessions: {},
+  stats: {}, // { [n]: 'c' | 'w' } last result per question
+  picks: {}, // { [n]: letter } last answer per question, for exports
+  best: {}, // { [blockKey]: { score, total, pct } }
+  settings: { plan: 'b10', plan1001: 'b10', mode: 'practice', shuffle: false, bank: 'sd', ...store.get(KEYS.settings, {}) },
   view: '',
   key: '',
   reviewFilter: 'wrong',
@@ -65,15 +82,34 @@ const state = {
 };
 
 if (!PLANS[state.settings.plan]) state.settings.plan = 'b10';
+if (!PLANS[state.settings.plan1001]) state.settings.plan1001 = 'b10';
 if (!MODES[state.settings.mode]) state.settings.mode = 'practice';
+if (!BANKS[state.settings.bank]) state.settings.bank = 'sd';
+
+const BANK_FIELDS = ['questions', 'variants', 'byNum', 'blocks', 'scorable', 'sessions', 'stats', 'picks', 'best'];
+const bankKey = (name, bank = state.bank) => `${BANKS[bank].store}.${name}.v1`;
+
+function useBank(id) {
+  if (id !== state.bank) {
+    state.browse = { query: '', filter: 'all', shown: 40 };
+    state.view = ''; // the next render builds its page from scratch
+  }
+  state.bank = id;
+  for (const field of BANK_FIELDS) state[field] = state.banks[id][field];
+}
+
+// After replacing one of the bank's objects on state (e.g. on reset), store it on the bank too.
+function syncBank() {
+  for (const field of BANK_FIELDS) state.banks[state.bank][field] = state[field];
+}
 
 const saveSettings = () => store.set(KEYS.settings, state.settings);
-const saveSessions = () => store.set(KEYS.sessions, state.sessions);
+const saveSessions = () => store.set(bankKey('sessions'), state.sessions);
 const saveStats = () => {
-  store.set(KEYS.stats, state.stats);
-  store.set(KEYS.picks, state.picks);
+  store.set(bankKey('stats'), state.stats);
+  store.set(bankKey('picks'), state.picks);
 };
-const saveBest = () => store.set(KEYS.best, state.best);
+const saveBest = () => store.set(bankKey('best'), state.best);
 
 function recordResult(q, letter) {
   state.stats[q.n] = letter === q.a ? 'c' : 'w';
@@ -158,45 +194,74 @@ const isOpen = () => dlg.open;
 
 /* ---------- Data ---------- */
 
-function buildBlocks() {
-  const total = state.questions.length;
-  for (const [plan, cfg] of Object.entries(PLANS)) {
-    const base = Math.floor(total / cfg.count);
-    const extra = total % cfg.count;
-    let start = 0;
-    for (let i = 0; i < cfg.count; i++) {
-      const size = base + (i < extra ? 1 : 0);
-      const ids = state.questions.slice(start, start + size).map((q) => q.n);
-      start += size;
-      const key = plan === 'all' ? 'all' : `${plan}-${i + 1}`;
-      state.blocks[key] = {
-        key,
-        plan,
-        title: plan === 'all' ? 'Bütün suallar' : `Blok ${i + 1}`,
-        range: rangeLabel(ids),
-        ids,
-      };
-    }
+// Splits ids into `count` consecutive parts whose sizes differ by at most one.
+function splitEven(ids, count) {
+  const base = Math.floor(ids.length / count);
+  const extra = ids.length % count;
+  const parts = [];
+  let start = 0;
+  for (let i = 0; i < count; i++) {
+    const size = base + (i < extra ? 1 : 0);
+    parts.push(ids.slice(start, start + size));
+    start += size;
   }
+  return parts;
+}
+
+const preview = (ids) => `№ ${ids.slice(0, 3).join(', ')}…`;
+
+function addBlock(key, plan, title, range, ids) {
+  if (ids.length) state.blocks[key] = { key, plan, title, range, ids };
+}
+
+// The 10 blok / 5 blok / Hamısı split of `ids`. Block plans and keys get `prefix`
+// (none for the 522 bank, so its saved sessions and best scores keep matching).
+function addPlanBlocks(prefix, ids, allTitle) {
+  for (const [plan, cfg] of Object.entries(PLANS)) {
+    splitEven(ids, cfg.count).forEach((part, i) => {
+      const key = plan === 'all' ? `${prefix}all` : `${prefix}${plan}-${i + 1}`;
+      addBlock(key, prefix + plan, plan === 'all' ? allTitle : `Blok ${i + 1}`, rangeLabel(part), part);
+    });
+  }
+}
+
+// `count` blocks of `ids` plus one block with all of them, all under one plan.
+// Titles name the group ("USM 1"), since they also show in the resume card and quiz header.
+function addChunkBlocks(plan, ids, count, title, allTitle) {
+  splitEven(ids, count).forEach((part, i) => addBlock(`${plan}-${i + 1}`, plan, `${title} ${i + 1}`, preview(part), part));
+  addBlock(`${plan}-all`, plan, allTitle, preview(ids), ids);
+}
+
+// Fixed variants: the same 50 questions every time (scripts/build_variants.py).
+function addVariantBlocks() {
+  state.variants.forEach((list, i) => {
+    const ids = list.filter((n) => state.byNum.has(n));
+    addBlock(`var-${i + 1}`, 'var', `Variant ${i + 1}`, preview(ids), ids);
+  });
+}
+
+function buildBlocks() {
+  state.blocks = {};
+  if (state.bank === 'b1001') {
+    // Repeats inside the 1001 set ("dup") stay in the question bank but not in the blocks.
+    const ids = (test) => state.questions.filter((q) => !q.dup && test(q)).map((q) => q.n);
+    addChunkBlocks('usmnew', ids((q) => q.usm && !q.m), 4, 'Yeni USM', 'Bütün yeni USM');
+    addPlanBlocks('new-', ids((q) => !q.m), 'Bütün yeni suallar');
+    addChunkBlocks('usm', ids((q) => q.usm), 4, 'USM', 'Bütün USM');
+    addVariantBlocks();
+    return;
+  }
+
+  addPlanBlocks('', state.questions.map((q) => q.n), 'Bütün suallar');
 
   // Numerical questions: two halves plus one block with all of them.
   const num = state.questions.filter((q) => q.num).map((q) => q.n);
   const half = Math.ceil(num.length / 2);
-  const preview = (ids) => `№ ${ids.slice(0, 3).join(', ')}…`;
-  for (const [key, title, ids] of [
-    ['num-1', 'Rəqəmli 1', num.slice(0, half)],
-    ['num-2', 'Rəqəmli 2', num.slice(half)],
-    ['num-all', 'Bütün rəqəmli', num],
-  ]) {
-    if (ids.length) state.blocks[key] = { key, plan: 'num', title, range: preview(ids), ids };
-  }
+  addBlock('num-1', 'num', 'Rəqəmli 1', preview(num.slice(0, half)), num.slice(0, half));
+  addBlock('num-2', 'num', 'Rəqəmli 2', preview(num.slice(half)), num.slice(half));
+  addBlock('num-all', 'num', 'Bütün rəqəmli', preview(num), num);
 
-  // Fixed variants: the same 50 questions every time (scripts/build_variants.py).
-  state.variants.forEach((list, i) => {
-    const ids = list.filter((n) => state.byNum.has(n));
-    const key = `var-${i + 1}`;
-    if (ids.length) state.blocks[key] = { key, plan: 'var', title: `Variant ${i + 1}`, range: preview(ids), ids };
-  });
+  addVariantBlocks();
 }
 
 const blocksForPlan = (plan) => Object.values(state.blocks).filter((b) => b.plan === plan);
@@ -254,16 +319,16 @@ function createSession(def) {
 function openBlock(key) {
   if (key === 'random') return startRandom();
   const s = state.sessions[key];
-  if (s && s.finished) return go(`#/result/${key}`);
+  if (s && s.finished) return go(href(`result/${key}`));
   if (!s) createSession(state.blocks[key]);
-  go(`#/quiz/${key}`);
+  go(href(`quiz/${key}`));
 }
 
 function startMistakes() {
   const ids = mistakeIds();
   if (!ids.length) return;
   createSession({ key: 'mistakes', title: 'Səhvlərim', range: `${ids.length} sual`, ids });
-  go('#/quiz/mistakes');
+  go(href('quiz/mistakes'));
 }
 
 // Random test: RANDOM_PER_BLOCK questions from each of the 10 blocks, so every set covers the
@@ -282,18 +347,18 @@ function randomDef() {
 function startRandom() {
   const s = state.sessions.random;
   if (!s || s.finished) createSession(randomDef());
-  go('#/quiz/random');
+  go(href('quiz/random'));
 }
 
 function restart(key) {
   if (key === 'random') {
     createSession(randomDef());
-    return go('#/quiz/random', true);
+    return go(href('quiz/random'), true);
   }
   const s = state.sessions[key];
   const def = state.blocks[key] || { key, title: s.title, range: s.range, ids: s.base };
   createSession(def);
-  go(`#/quiz/${key}`, true);
+  go(href(`quiz/${key}`), true);
 }
 
 function retryWrong(key) {
@@ -305,7 +370,7 @@ function retryWrong(key) {
   if (!ids.length) return;
   const title = key === 'retry' ? s.title : `Təkrar · ${s.title}`;
   createSession({ key: 'retry', title, range: `${ids.length} sual`, ids });
-  go('#/quiz/retry', key === 'retry');
+  go(href('quiz/retry'), key === 'retry');
 }
 
 function latestUnfinished() {
@@ -336,10 +401,13 @@ function finish(key) {
   }
   state.reviewFilter = 'wrong';
   saveSessions();
-  go(`#/result/${key}`, true);
+  go(href(`result/${key}`), true);
 }
 
 /* ---------- Routing ---------- */
+
+// Routes: "#/quiz/b10-1" in the 522 tab, "#/1001/quiz/new-b10-1" in the 1001 tab.
+const href = (path = '', bank = state.bank) => `#/${[BANKS[bank].path, path].filter(Boolean).join('/')}`;
 
 function go(hash, replace = false) {
   if (location.hash === hash) return route();
@@ -348,10 +416,19 @@ function go(hash, replace = false) {
 }
 
 function route() {
-  const [view, key] = location.hash.replace(/^#\/?/, '').split('/');
+  const parts = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean);
+  const bank = Object.values(BANKS).find((b) => b.path && b.path === parts[0]);
+  if (bank) parts.shift();
+  // No hash at all (app start): open the tab used last.
+  useBank(bank ? bank.id : location.hash ? 'sd' : state.settings.bank);
+  if (state.settings.bank !== state.bank) {
+    state.settings.bank = state.bank;
+    saveSettings();
+  }
+  const [view, key] = parts;
   closeDialog();
   if (view === 'quiz' && state.sessions[key]) {
-    if (state.sessions[key].finished) return go(`#/result/${key}`, true);
+    if (state.sessions[key].finished) return go(href(`result/${key}`), true);
     state.key = key;
     renderQuiz(true);
   } else if (view === 'result' && state.sessions[key]?.finished) {
@@ -400,6 +477,106 @@ function blockStatus(key) {
   return { cls: '', text: `${state.blocks[key].ids.length} sual`, fill: 0, tone: 'acc' };
 }
 
+// Narrow two-column cards put the range under the title; wide ones put it on the right.
+function blockCard(b, narrow) {
+  const st = blockStatus(b.key);
+  const range = `<span class="block-range">${esc(b.range)}</span>`;
+  return `
+      <button class="block" data-act="open" data-key="${b.key}">
+        <span class="block-top">
+          <span class="block-title">${esc(b.title)}</span>
+          ${narrow ? '' : range}
+        </span>
+        ${narrow ? range : ''}
+        <span class="block-status ${st.cls}">${st.text}</span>
+        <span class="bar"><span class="${st.tone}" style="width:${st.fill}%"></span></span>
+      </button>`;
+}
+
+// A home section: title, one-line description and a grid of block cards.
+function homeSection(id, title, sub, body) {
+  return `
+    <section class="section" aria-labelledby="${id}-title">
+      <div>
+        <h2 class="section-title" id="${id}-title">${title}</h2>
+        <p class="section-sub">${sub}</p>
+      </div>
+      ${body}
+    </section>`;
+}
+
+// The 10 blok / 5 blok / Hamısı switch. `act` names the setting it changes.
+function planSwitch(act, current, total, hints) {
+  return `
+      <div class="seg" role="group" aria-label="Bölgü">
+        ${Object.entries(PLANS).map(([k, p]) => `
+          <button data-act="${act}" data-plan="${k}" aria-pressed="${current === k}">
+            ${p.label}<small>${k === 'all' ? `${total} sual` : hints ? `~${Math.round(total / p.count)} sual` : p.hint}</small>
+          </button>`).join('')}
+      </div>`;
+}
+
+function sectionsSd() {
+  const { plan } = state.settings;
+  const numBlocks = blocksForPlan('num');
+  const numCount = state.blocks['num-all']?.ids.length || 0;
+  const varBlocks = blocksForPlan('var');
+
+  return `
+    <section class="section" aria-labelledby="pick-title">
+      <h2 class="section-title" id="pick-title">Test seçin</h2>
+      ${planSwitch('plan', plan, state.questions.length, false)}
+      <div class="blocks blocks--${plan}">${blocksForPlan(plan).map((b) => blockCard(b, plan === 'b10')).join('')}</div>
+    </section>
+
+    ${homeSection('rand', 'Təsadüfi test',
+      `Hər dəfə bütün bazadan yeni 50 sual: 10 blokun hər birindən ${RANDOM_PER_BLOCK} sual.`,
+      `<div class="blocks">${blockCard(RANDOM_CARD, false)}</div>`)}
+
+    ${varBlocks.length ? homeSection('var', 'Sabit variantlar',
+      `${varBlocks.length} dəyişməz test, hər biri 50 sual (hər blokdan 5). Suallar həmişə eyni qalır.`,
+      `<div class="blocks blocks--var">${varBlocks.map((b) => blockCard(b, true)).join('')}</div>`) : ''}
+
+    ${numCount ? homeSection('num', 'Rəqəmli suallar',
+      `Ölçülər, vaxtlar, dozalar, enerjilər, seqment sayları · ${numCount} sual`,
+      `<div class="blocks blocks--num">${numBlocks.map((b) => blockCard(b, b.key !== 'num-all')).join('')}</div>`) : ''}`;
+}
+
+function sections1001() {
+  const plan = state.settings.plan1001;
+  const count = (key) => state.blocks[key]?.ids.length || 0;
+  const chunks = (group) => `
+      <div class="blocks blocks--num">${blocksForPlan(group).map((b) => blockCard(b, !b.key.endsWith('-all'))).join('')}</div>`;
+  const varBlocks = blocksForPlan('var');
+
+  return `
+    ${homeSection('usmnew', 'Yeni USM sualları',
+      `522-lik bazada olmayan ultrasəs sualları · ${count('usmnew-all')} sual`, chunks('usmnew'))}
+
+    ${homeSection('new', 'Bütün yeni suallar',
+      `522-lik bazada olmayan bütün suallar · ${count('new-all')} sual`, `
+      ${planSwitch('plan1001', plan, count('new-all'), true)}
+      <div class="blocks blocks--${plan}">${blocksForPlan(`new-${plan}`).map((b) => blockCard(b, plan === 'b10')).join('')}</div>`)}
+
+    ${homeSection('usm', 'Bütün USM sualları',
+      `Topludakı bütün ultrasəs sualları, 522-lik bazada olanlar da daxil · ${count('usm-all')} sual`, chunks('usm'))}
+
+    ${varBlocks.length ? homeSection('var', 'Sabit variantlar',
+      `${varBlocks.length} dəyişməz test, hər biri bütün topludan 50 sual. Suallar həmişə eyni qalır.`,
+      `<div class="blocks blocks--var">${varBlocks.map((b) => blockCard(b, true)).join('')}</div>`) : ''}`;
+}
+
+function bankTabs() {
+  return `
+    <nav class="tabs" aria-label="Sual toplusu">
+      ${Object.values(BANKS).map((b) => `
+        <a class="tab" href="${href('', b.id)}" ${b.id === state.bank ? 'aria-current="page"' : ''}>
+          <strong>${b.tab}</strong>
+          <small>${b.tabHint}</small>
+        </a>`).join('')}
+    </nav>`;
+}
+
 function renderHome() {
   state.view = 'home';
   const { settings } = state;
@@ -408,6 +585,8 @@ function renderHome() {
   const mistakes = mistakeIds().length;
   const theme = themeState();
   const themeLabel = { system: 'Sistem', light: 'İşıqlı', dark: 'Qaranlıq' }[theme];
+  const is1001 = state.bank === 'b1001';
+  const shared = is1001 ? state.questions.filter((q) => q.m).length : 0;
 
   const resumeHtml = resume ? `
     <button class="resume" data-act="open" data-key="${esc(resume.key)}">
@@ -418,39 +597,20 @@ function renderHome() {
       <span class="bar" style="grid-column:1/-1"><span style="width:${pct(answeredCount(resume), resume.ids.length)}%"></span></span>
     </button>` : '';
 
-  // Narrow two-column cards put the range under the title; wide ones put it on the right.
-  const blockCard = (b, narrow) => {
-    const st = blockStatus(b.key);
-    const range = `<span class="block-range">${esc(b.range)}</span>`;
-    return `
-      <button class="block" data-act="open" data-key="${b.key}">
-        <span class="block-top">
-          <span class="block-title">${esc(b.title)}</span>
-          ${narrow ? '' : range}
-        </span>
-        ${narrow ? range : ''}
-        <span class="block-status ${st.cls}">${st.text}</span>
-        <span class="bar"><span class="${st.tone}" style="width:${st.fill}%"></span></span>
-      </button>`;
-  };
-  const blocksHtml = blocksForPlan(settings.plan).map((b) => blockCard(b, settings.plan === 'b10')).join('');
-  const numBlocks = blocksForPlan('num');
-  const numHtml = numBlocks.map((b) => blockCard(b, b.key !== 'num-all')).join('');
-  const numCount = state.blocks['num-all']?.ids.length || 0;
-  const varBlocks = blocksForPlan('var');
-
   app.innerHTML = `
   <div class="page">
     <header class="brand">
       ${LOGO}
       <div class="brand-text">
         <h1>ŞD Suallar</h1>
-        <p>Şüa diaqnostikası · ${state.questions.length} test sualı</p>
+        <p>Şüa diaqnostikası · ${is1001 ? '1001 sual toplusu' : `${state.questions.length} test sualı`}</p>
       </div>
       <button class="icon-btn" data-act="theme" aria-label="Rəng mövzusu: ${themeLabel}" title="Mövzu: ${themeLabel}">
         ${ICON[theme === 'system' ? 'auto' : theme === 'light' ? 'sun' : 'moon']}
       </button>
     </header>
+
+    ${bankTabs()}
 
     ${resumeHtml}
 
@@ -473,42 +633,7 @@ function renderHome() {
       </div>
     </section>
 
-    <section class="section" aria-labelledby="pick-title">
-      <h2 class="section-title" id="pick-title">Test seçin</h2>
-      <div class="seg" role="group" aria-label="Bölgü">
-        ${Object.entries(PLANS).map(([k, p]) => `
-          <button data-act="plan" data-plan="${k}" aria-pressed="${settings.plan === k}">
-            ${p.label}<small>${k === 'all' ? `${state.questions.length} sual` : p.hint}</small>
-          </button>`).join('')}
-      </div>
-      <div class="blocks blocks--${settings.plan}">${blocksHtml}</div>
-    </section>
-
-    <section class="section" aria-labelledby="rand-title">
-      <div>
-        <h2 class="section-title" id="rand-title">Təsadüfi test</h2>
-        <p class="section-sub">Hər dəfə bütün bazadan yeni 50 sual: 10 blokun hər birindən ${RANDOM_PER_BLOCK} sual.</p>
-      </div>
-      <div class="blocks">${blockCard(RANDOM_CARD, false)}</div>
-    </section>
-
-    ${varBlocks.length ? `
-    <section class="section" aria-labelledby="var-title">
-      <div>
-        <h2 class="section-title" id="var-title">Sabit variantlar</h2>
-        <p class="section-sub">${varBlocks.length} dəyişməz test, hər biri 50 sual (hər blokdan 5). Suallar həmişə eyni qalır.</p>
-      </div>
-      <div class="blocks blocks--var">${varBlocks.map((b) => blockCard(b, true)).join('')}</div>
-    </section>` : ''}
-
-    ${numCount ? `
-    <section class="section" aria-labelledby="num-title">
-      <div>
-        <h2 class="section-title" id="num-title">Rəqəmli suallar</h2>
-        <p class="section-sub">Ölçülər, vaxtlar, dozalar, enerjilər, seqment sayları · ${numCount} sual</p>
-      </div>
-      <div class="blocks blocks--num">${numHtml}</div>
-    </section>` : ''}
+    ${is1001 ? sections1001() : sectionsSd()}
 
     <section class="panel settings" aria-label="Parametrlər">
       <div class="setting">
@@ -537,7 +662,7 @@ function renderHome() {
         <strong>Səhvlərim</strong>
         <span>${mistakes ? `${mistakes} sual təkrar üçün` : 'Hələ səhv yoxdur'}</span>
       </button>
-      <a class="tool" href="#/browse">
+      <a class="tool" href="${href('browse')}">
         ${ICON.book}
         <strong>Sual bazası</strong>
         <span>Bütün suallar cavabları ilə, axtarış</span>
@@ -545,8 +670,9 @@ function renderHome() {
     </section>
 
     <footer class="foot">
-      <p>${state.questions.length - state.scorable} sualın düzgün cavabı mənbədə qeyd olunmayıb. Bu suallar testlərdə göstərilir, amma nəticəyə daxil edilmir.</p>
-      <p>Nəticələr yalnız bu cihazda, brauzerdə saxlanılır.</p>
+      ${is1001 ? `<p>522-lik bazada da olan ${shared} sual oradakı mətn və cavabla göstərilir. Topluda təkrarlanan suallar bloklara bir dəfə daxil edilib.</p>` : ''}
+      ${state.questions.length > state.scorable ? `<p>${state.questions.length - state.scorable} sualın düzgün cavabı mənbədə qeyd olunmayıb. Bu suallar testlərdə göstərilir, amma nəticəyə daxil edilmir.</p>` : ''}
+      <p>Nəticələr yalnız bu cihazda, brauzerdə saxlanılır. Hər toplunun nəticələri ayrıdır.</p>
       <button class="btn btn--ghost btn--danger" data-act="reset">Nəticələri sıfırla</button>
     </footer>
   </div>`;
@@ -771,6 +897,7 @@ function reviewCard(q, picked, needle = '') {
       <div class="q-meta">
         <span class="q-num">SUAL № ${q.n}</span>
         <span class="spacer"></span>
+        ${q.m ? `<span class="chip" title="522-lik bazada da var">522: № ${q.m}</span>` : ''}
         ${q.a ? '' : '<span class="chip chip--warn">Cavab açarı yoxdur</span>'}
       </div>
       <p class="q-text">${highlight(q.q, needle)}</p>
@@ -859,6 +986,8 @@ function browseMatches() {
     if (state.browse.filter === 'mistakes' && state.stats[q.n] !== 'w') return false;
     if (state.browse.filter === 'nokey' && q.a) return false;
     if (state.browse.filter === 'num' && !q.num) return false;
+    if (state.browse.filter === 'new' && q.m) return false;
+    if (state.browse.filter === 'usm' && !q.usm) return false;
     if (!needle) return true;
     if (String(q.n) === needle) return true;
     return fold(q.q).includes(needle) || LETTERS.some((l) => q.o[l] && fold(q.o[l]).includes(needle));
@@ -869,12 +998,16 @@ function renderBrowse() {
   const first = state.view !== 'browse';
   state.view = 'browse';
   if (first) state.browse.shown = 40;
+  const count = (test) => state.questions.filter(test).length;
   const filters = {
     all: { label: 'Hamısı', count: state.questions.length },
     mistakes: { label: 'Səhvlərim', count: mistakeIds().length },
-    num: { label: 'Rəqəmli', count: state.questions.filter((q) => q.num).length },
+    ...(state.bank === 'b1001'
+      ? { new: { label: 'Yeni', count: count((q) => !q.m) }, usm: { label: 'USM', count: count((q) => q.usm) } }
+      : { num: { label: 'Rəqəmli', count: count((q) => q.num) } }),
     nokey: { label: 'Açarsız', count: state.questions.length - state.scorable },
   };
+  if (!filters[state.browse.filter]) state.browse.filter = 'all';
 
   if (first) {
     app.innerHTML = `
@@ -882,7 +1015,7 @@ function renderBrowse() {
       <div class="topbar-inner">
         <button class="icon-btn" data-act="home" aria-label="Ana səhifə">${ICON.back}</button>
         <div class="topbar-title">
-          <strong>Sual bazası</strong>
+          <strong>Sual bazası${state.bank === 'b1001' ? ' · 1001' : ''}</strong>
           <span>${state.questions.length} sual · düzgün cavablar yaşıl</span>
         </div>
       </div>
@@ -947,6 +1080,9 @@ function fileName(rep, ext) {
   return `SD-${slug}-${stamp().day}.${ext}`;
 }
 
+// "1001 · " in front of report titles from the 1001 tab, so exports from both tabs are told apart.
+const bankPrefix = () => (state.bank === 'sd' ? '' : `${BANKS[state.bank].path} · `);
+
 function sessionReport(s) {
   const r = score(s);
   const rows = s.base.map((n) => {
@@ -956,7 +1092,7 @@ function sessionReport(s) {
     return { q, status };
   });
   return {
-    title: s.title,
+    title: bankPrefix() + s.title,
     meta: `${s.range.startsWith('Sual') ? `${s.range} · ` : ''}${s.ids.length} sual · ${MODES[s.mode].label} rejimi`,
     headline: `${r.correct} / ${r.total} düzgün (${r.pct}%)`,
     summary: [['Düzgün', r.correct], ['Səhv', r.wrong], ['Cavabsız', r.skipped], ['Açarsız', r.unscored]],
@@ -970,7 +1106,7 @@ function overallReport() {
     .filter((q) => q.a && state.stats[q.n])
     .map((q) => ({ q, status:state.stats[q.n] === 'c' ? 'right' : 'wrong' }));
   return {
-    title: 'Ümumi nəticə',
+    title: `${bankPrefix()}Ümumi nəticə`,
     meta: 'Bütün testlər üzrə hər sualın son cavabı',
     headline: `${o.c} / ${state.scorable} sual düzgün (${pct(o.c, state.scorable)}%)`,
     summary: [['Düzgün', o.c], ['Səhv', o.w], ['Hələ cavablanmayıb', o.rest]],
@@ -1206,7 +1342,8 @@ app.addEventListener('click', async (e) => {
   switch (act) {
     case 'open': return openBlock(el.dataset.key);
     case 'plan':
-      state.settings.plan = el.dataset.plan;
+    case 'plan1001':
+      state.settings[act] = el.dataset.plan;
       saveSettings();
       return renderHome();
     case 'mode':
@@ -1218,7 +1355,7 @@ app.addEventListener('click', async (e) => {
     case 'reset': {
       const ok = await confirmDialog({
         title: 'Nəticələri sıfırlamaq?',
-        body: 'Bütün testlərin irəliləyişi, ən yaxşı nəticələr və səhvlər siyahısı silinəcək.',
+        body: `“${BANKS[state.bank].tab}” toplusunun bütün testlərinin irəliləyişi, ən yaxşı nəticələri və səhvlər siyahısı silinəcək. O biri toplunun nəticələri qalır.`,
         ok: 'Sıfırla',
         danger: true,
       });
@@ -1227,12 +1364,13 @@ app.addEventListener('click', async (e) => {
       state.stats = {};
       state.picks = {};
       state.best = {};
+      syncBank();
       saveSessions();
       saveStats();
       saveBest();
       return renderHome();
     }
-    case 'home': return go('#/', true);
+    case 'home': return go(href(), true);
     case 'pick': return pick(el.dataset.letter);
     case 'prev': return move(-1);
     case 'next': return move(1);
@@ -1307,8 +1445,10 @@ async function boot() {
     if (!res.ok) throw new Error(`${path}: HTTP ${res.status}`);
     return res.json();
   };
+  const banks = Object.values(BANKS);
+  let files;
   try {
-    [state.questions, state.variants] = await Promise.all([load('data/questions.json'), load('data/variants.json')]);
+    files = await Promise.all(banks.flatMap((b) => [load(b.data), load(b.variants)]));
   } catch (err) {
     const local = location.protocol === 'file:';
     app.innerHTML = `
@@ -1324,15 +1464,29 @@ async function boot() {
     return;
   }
 
-  for (const q of state.questions) state.byNum.set(q.n, q);
-  state.scorable = state.questions.filter((q) => q.a).length;
-  buildBlocks();
+  banks.forEach((b, i) => {
+    const questions = files[i * 2];
+    state.banks[b.id] = {
+      questions,
+      variants: files[i * 2 + 1],
+      byNum: new Map(questions.map((q) => [q.n, q])),
+      blocks: {},
+      scorable: questions.filter((q) => q.a).length,
+      sessions: store.get(bankKey('sessions', b.id), {}),
+      stats: store.get(bankKey('stats', b.id), {}),
+      picks: store.get(bankKey('picks', b.id), {}),
+      best: store.get(bankKey('best', b.id), {}),
+    };
+    useBank(b.id);
+    buildBlocks();
+    syncBank();
 
-  // Drop saved sessions that point at questions that no longer exist.
-  for (const [key, s] of Object.entries(state.sessions)) {
-    if (!s?.ids?.length || !s.ids.every((n) => state.byNum.has(n))) delete state.sessions[key];
-  }
-  saveSessions();
+    // Drop saved sessions that point at questions that no longer exist.
+    for (const [key, s] of Object.entries(state.sessions)) {
+      if (!s?.ids?.length || !s.ids.every((n) => state.byNum.has(n))) delete state.sessions[key];
+    }
+    saveSessions();
+  });
 
   route();
 }

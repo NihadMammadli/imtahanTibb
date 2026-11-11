@@ -1,5 +1,5 @@
 // Network-first: always fresh when online, cached copy when offline.
-const CACHE = 'sd-suallar-v6';
+const CACHE = 'sd-suallar-v7';
 const CORE = [
   './',
   'index.html',
@@ -7,6 +7,8 @@ const CORE = [
   'assets/app.js',
   'data/questions.json',
   'data/variants.json',
+  'data/questions1001.json',
+  'data/variants1001.json',
   'manifest.webmanifest',
   'icons/favicon.svg',
   'icons/icon-192.png',

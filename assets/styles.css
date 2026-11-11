@@ -282,6 +282,38 @@ p { margin: 0; }
 
 /* ---------- Home ---------- */
 
+/* Top-level switch between the question banks (522 / 1001). */
+.tabs {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 4px;
+  padding: 4px;
+  border-radius: var(--r);
+  background: var(--surface-2);
+}
+.tab {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-height: 58px;
+  padding: 10px 14px;
+  border-radius: var(--r-sm);
+  color: var(--muted);
+  text-decoration: none;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+.tab strong { font-family: var(--font-display); font-size: var(--fs-lg); font-weight: 700; line-height: 1.1; }
+.tab small {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.tab:hover { color: var(--ink); }
+.tab[aria-current="page"] { background: var(--surface); color: var(--ink); box-shadow: var(--shadow); }
+.tab[aria-current="page"] small { color: var(--accent); }
+
 .brand { display: flex; align-items: center; gap: 14px; }
 .brand-mark { flex: none; width: 52px; height: 52px; color: var(--accent); }
 .brand-text { flex: 1; min-width: 0; }
@@ -357,6 +389,8 @@ p { margin: 0; }
 .blocks--b5 .block, .blocks--all .block { padding: 16px 16px 14px; }
 .blocks--num { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .blocks--num .block:last-child { grid-column: 1 / -1; }
+/* An odd number of variants: the last one spans the row. */
+.blocks--var .block:last-child:nth-child(odd) { grid-column: 1 / -1; }
 @media (max-width: 339px) { .blocks--num { grid-template-columns: 1fr; } }
 .section-sub { margin-top: 2px; font-size: var(--fs-sm); color: var(--muted); }
 

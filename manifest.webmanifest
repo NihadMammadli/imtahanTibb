@@ -1,7 +1,7 @@
 {
   "name": "ŞD Suallar",
   "short_name": "ŞD Suallar",
-  "description": "Şüa diaqnostikası üzrə 522 test sualı",
+  "description": "Şüa diaqnostikası üzrə test sualları: 522 sual və 1001 sual toplusu",
   "lang": "az",
   "start_url": "./",
   "scope": "./",
